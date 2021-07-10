@@ -4,6 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Eric Deng',
+  titleDelimiter: '-',
   tagline: 'Front End Engineer',
   url: 'https://gcdeng.com/',
   baseUrl: '/',
