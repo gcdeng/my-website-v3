@@ -7,14 +7,29 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #ef7c23;
+  --ifm-color-primary-dark: #e66e11;
+  --ifm-color-primary-darker: #d96810;
+  --ifm-color-primary-darkest: #b3550d;
+  --ifm-color-primary-light: #f18b3d;
+  --ifm-color-primary-lighter: #f29349;
+  --ifm-color-primary-lightest: #f5aa70;
+
+  --ifm-footer-background-color: #fff;
   --ifm-code-font-size: 95%;
+}
+html[data-theme='dark'] {
+  --ifm-color-primary: #f5a982;
+  --ifm-color-primary-dark: #f2915f;
+  --ifm-color-primary-darker: #f1854e;
+  --ifm-color-primary-darkest: #ed611a;
+  --ifm-color-primary-light: #f8c1a5;
+  --ifm-color-primary-lighter: #f9cdb6;
+  --ifm-color-primary-lightest: #fdf1ea;
+
+  --ifm-background-color: #282c35;
+  --ifm-navbar-background-color: #282c35;
+  --ifm-footer-background-color: #282c35;
 }
 
 .docusaurus-highlight-code-line {

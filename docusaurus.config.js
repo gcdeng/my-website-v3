@@ -35,7 +35,6 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
       links: [],
       copyright: `Copyright © ${new Date().getFullYear()} Eric Deng. Built with Docusaurus.`,
     },
