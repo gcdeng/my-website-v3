@@ -56,7 +56,7 @@ module.exports = {
           routeBasePath: '/',
           showReadingTime: true,
           blogTitle: "Eric Deng's Blog",
-          blogDescription: "Eric Deng's Blog",
+          blogDescription: 'Personal blog by Eric Deng',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
