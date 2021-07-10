@@ -17,7 +17,7 @@ module.exports = {
       title: 'Eric Deng',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         { to: '/about', label: 'About', position: 'left' },
