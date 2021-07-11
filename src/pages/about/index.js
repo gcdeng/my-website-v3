@@ -9,7 +9,6 @@ const About = () => {
   return (
     <Layout title="Hello">
       <div className="container margin-vert--lg">
-        <h1>About Eric Deng</h1>
         <img src={ericDengImgUrl} className={styles.avatar}></img>
         <div className={styles.icons}>
           <a href="https://github.com/gcdeng" target="_blank">

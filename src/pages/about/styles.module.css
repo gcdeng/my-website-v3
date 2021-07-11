@@ -5,6 +5,7 @@
   margin: auto;
   object-fit: cover;
   margin-bottom: var(--ifm-paragraph-margin-bottom);
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
 }
 
 .icon {
