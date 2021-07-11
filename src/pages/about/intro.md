@@ -2,7 +2,7 @@
 title: Intro
 ---
 
-Eric 鄧國欽 Web Frontend Engineer @ HTC Vive
+Eric 鄧國欽 Web Frontend Engineer @ HTC VIVE
 
 熟悉網站前端開發，主要使用 React.js 及 Vue.js Tech Stacks，也樂於研究新技術，重視設計細節及使用體驗，興趣是透過網站應用程式解決生活中的難題，平時喜歡健身，跑步 ，聽 Podcast。
 
