@@ -27,7 +27,6 @@ const About = () => {
         </div>
         <div className={styles.intro}>
           <Intro />
-          <a href="mailto:ericdenggc@gmail.com">ericdenggc@gmail.com</a>
         </div>
       </div>
     </Layout>
