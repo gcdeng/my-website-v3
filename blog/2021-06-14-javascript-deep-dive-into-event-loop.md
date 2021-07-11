@@ -4,8 +4,8 @@ title: '[Javascript] 深入了解事件迴圈(Event Loop)，Macrotask跟Microtas
 author: Eric Deng
 author_url: /about
 author_image_url: /img/ericdeng.jpg
-tags: [Javascript, Event Loop, Macrotask, Microtask]
-keywords: [Javascript, Event Loop, Macrotask, Microtask]
+tags: [javascript, event loop, macrotask, microtask]
+keywords: [javascript, event loop, macrotask, microtask]
 ---
 
 雖然 Javascript 是一個單一執行緒(Single Thread)的程式語言，同一時間只能執行一項任務，但因為底層**事件迴圈(Event Loop)**這個機制讓他有能力以非同步的方式同時處理多項任務，這篇文章將會深入解釋事件迴圈，幫助開發者更清楚自己寫出的程式碼是如何在底層運作。

@@ -4,8 +4,8 @@ title: '[Javascript] Mutable vs Immutable Objects'
 author: Eric Deng
 author_url: /about
 author_image_url: /img/ericdeng.jpg
-tags: [Javascript, Mutable, Immutable]
-keywords: [Javascript, Mutable, Immutable]
+tags: [javascript, mutable, immutable]
+keywords: [javascript, mutable, immutable]
 ---
 
 介紹 JavaScript 的重要觀念 **_Mutable 及 Immutable Objects_**，並以範例解釋他們的差別。
