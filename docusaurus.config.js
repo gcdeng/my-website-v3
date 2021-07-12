@@ -14,7 +14,6 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
     navbar: {
       title: 'Eric Deng',
@@ -69,7 +68,7 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        sitemap: { changefreq: 'weekly', priority: 0.5, trailingSlash: false },
+        sitemap: { changefreq: 'weekly', priority: 0.5 },
       },
     ],
   ],
