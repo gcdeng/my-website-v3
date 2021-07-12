@@ -18,7 +18,7 @@ ericdenggc@gmail.com
 
 ## Technologies
 
-### Familiar
+### Familiar with
 
 - HTML5, CSS3, JavaScript(ES6+)
 - Jamstack
@@ -35,7 +35,7 @@ ericdenggc@gmail.com
 - 與 UX 設計師合作，改善使用者體驗，規劃互動流程
 - 與 PM 合作，討論產品需求，提供技術建議，評估開發時間及成本效益
 
-### Experienced
+### Experience with
 
 - 後端技術: Node.js, Express.js, MongoDB
 - 前端效能優化: Chrome Developer Tools (Performance profiling, Lighthouse), Cache, Code splitting, Dynamic import, Tree shaking, Lazy loading
@@ -46,7 +46,7 @@ ericdenggc@gmail.com
 - Scrum 開發流程及 Jira 專案管理工具
 - POC 開發經驗，獨立快速建立 MVP
 
-### Learning
+### Learning recently
 
 - Design Pattern
 - PWA
