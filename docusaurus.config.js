@@ -14,6 +14,7 @@ module.exports = {
   organizationName: 'gcdeng', // Usually your GitHub org/user name.
   projectName: 'my-website-v3', // Usually your repo name.
   themeConfig: {
+    plugins: ['@docusaurus/plugin-google-gtag'],
     navbar: {
       title: 'Eric Deng',
       logo: {
@@ -42,6 +43,11 @@ module.exports = {
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+    },
+    gtag: {
+      trackingID: 'G-YZ68LNP0FW',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
     },
   },
   presets: [
