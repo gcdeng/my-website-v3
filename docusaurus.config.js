@@ -13,8 +13,8 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'gcdeng', // Usually your GitHub org/user name.
   projectName: 'my-website-v3', // Usually your repo name.
+  plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
-    plugins: ['@docusaurus/plugin-google-gtag'],
     navbar: {
       title: 'Eric Deng',
       logo: {
@@ -68,6 +68,7 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: { changefreq: 'weekly', priority: 0.5, trailingSlash: false },
       },
     ],
   ],
