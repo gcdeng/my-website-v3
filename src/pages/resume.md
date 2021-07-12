@@ -4,7 +4,7 @@ title: Resume
 
 # Resume
 
-**鄧國欽 Eric**  
+**Eric 鄧國欽**  
 ericdenggc@gmail.com  
 台北 Taipei
 
