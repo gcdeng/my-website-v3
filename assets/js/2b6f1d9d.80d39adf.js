@@ -1,0 +1,1 @@
+(self.webpackChunkgcdeng_github_io=self.webpackChunkgcdeng_github_io||[]).push([[200],{3964:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"immutable","name":"immutable","count":1,"permalink":"/tags/immutable"}')}}]);

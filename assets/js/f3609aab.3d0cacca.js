@@ -1,0 +1,1 @@
+(self.webpackChunkgcdeng_github_io=self.webpackChunkgcdeng_github_io||[]).push([[257],{46:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"macrotask","name":"macrotask","count":1,"permalink":"/tags/macrotask"}')}}]);
