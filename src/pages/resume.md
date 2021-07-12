@@ -87,26 +87,22 @@ QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟�
 - 開發精靈視窗元件，以分步驟的方式進行表單設定，每個步驟之間需做資料傳遞及驗證
 - 將統計資料或系統資訊透過資料視覺化套件繪製成互動式圖表
 - 使用 Node.js/Express/MongoDB 開發 RESTful API Server
-- <a
-  href="https://docs.google.com/presentation/d/10lN6AFiTiYfh6v56BiuUtV3Y4icSARR6MQCgXFemtac/edit?usp=sharing"
-  target="_blank">QNAP Seminar - Introduction to React Native </a>
-- <a
-  href="https://docs.google.com/presentation/d/1IuLVkctT1rceK7m3CB-_qN4SYNer4QSc9K32uuAsrOk/edit?usp=sharing"
-  target="_blank">Web Frontend Framework Survey 2018</a> 評估 Vue, React, Angular，決定產品要使用的框架
+- [QNAP Seminar - Introduction to React Native](https://docs.google.com/presentation/d/10lN6AFiTiYfh6v56BiuUtV3Y4icSARR6MQCgXFemtac/edit?usp=sharing)
+- [Web Frontend Framework Survey 2018](https://docs.google.com/presentation/d/1IuLVkctT1rceK7m3CB-_qN4SYNer4QSc9K32uuAsrOk/edit?usp=sharing) 評估 Vue, React, Angular，決定產品要使用的框架
 
 #### Products
 
-- _<a href="https://www.qnap.com/solution/qvr-face/zh-tw/" target="_blank">QVR Face</a>_  
+- _[QVR Face](https://www.qnap.com/solution/qvr-face/zh-tw/)_  
   加入團隊後第一個接手的專案，初期使用 Ext.js 及原生的 JavaScript 為主，陸續導入 Vue.js, Gulp, Babel, ESLint, PostCSS 等構建工具，重構元件架構，改善頁面載入速度。  
   產品主要功能包含分析即時影像串流中的人臉，辨識已註冊的個人檔案或陌生人以及人物特徵（性別、年齡、表情），自訂觸發條件發出事件通知，應用場景如門禁系統、會員識別系統、出勤管理等。  
   Ext.js, jQuery, Vue.js, SVG, Canvas, D3.js, ECharts, Socket.io, i18n, Gulp, Babel, ESLint, PostCSS, autoprefixer, minifier
 
-- _<a href="https://www.qnap.com/zh-tw/software/qvr-human" target="_blank">QVR Human</a>_  
+- _[QVR Human](https://www.qnap.com/zh-tw/software/qvr-human)_  
   使用 Vue.js 開發的 SPA，此產品的前端開發主要負責人，從零開始建置一直到完成專案， 評估框架及套件的選用，討論 UI/UX 設計規格制定，規劃所有要開發的元件後評估工時，分配工作給其他前端工程師一起合作開發，撰寫 API 文件提供後端工程師參考與討論，串接後端 API 完成需求功能。  
   產品主要功能包含辨識即時影像串流中經過特定區域的人流，提供統計資料圖表，應用場景如百貨零售賣場，分析顧客行走路線、櫃位人流量。  
   Vue.js, Vuex, Vue Router, Vue CLI, Vue-i18n, SCSS, Element UI, ECharts, Canvas, Fabric.js, Socket.io, Axios, Webpack, Babel, ESLint, Prettier
 
-- _<a href="https://www.qnap.com/zh-tw/software/qvr-pro" target="_blank">QVR Smart Search</a>_  
+- _[QVR Smart Search](https://www.qnap.com/zh-tw/software/qvr-pro)_  
   使用 Vue.js 開發的 SPA，單獨負責所有前端功能，參與規劃、設計、開發、串接 API，使用 Vuex 管理複雜且需要即時更新的 UI 元件狀態。  
   產品主要功能為串接多個監控產品，提供影像辨識功能。需顯示串接產品的狀態，包含安裝進度、產品資訊、認證授權、錯誤訊息等。  
   Vue.js, Vuex, Vue Router, Vue CLI, Vue-i18n, SCSS, Element UI, Axios, Webpack, Babel, ESLint, Prettier
