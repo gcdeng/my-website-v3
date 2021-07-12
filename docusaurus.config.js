@@ -6,13 +6,14 @@ module.exports = {
   title: 'Eric Deng',
   titleDelimiter: '-',
   tagline: 'Front End Engineer',
-  url: 'https://gcdeng.com/',
+  url: 'https://gcdeng.github.io',
   baseUrl: '/',
+  projectName: 'gcdeng.github.io', // Usually your repo name.
+  organizationName: 'gcdeng', // Usually your GitHub org/user name.
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'gcdeng', // Usually your GitHub org/user name.
-  projectName: 'my-website-v3', // Usually your repo name.
   plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
     navbar: {
