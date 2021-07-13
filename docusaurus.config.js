@@ -6,7 +6,7 @@ module.exports = {
   title: 'Eric Deng',
   titleDelimiter: '-',
   tagline: 'Front End Engineer',
-  url: 'https://gcdeng.github.io',
+  url: 'https://gcdeng.com',
   baseUrl: '/',
   projectName: 'gcdeng.github.io', // Usually your repo name.
   organizationName: 'gcdeng', // Usually your GitHub org/user name.
