@@ -2,21 +2,21 @@
 <rss version="2.0">
     <channel>
         <title>Eric Deng Blog</title>
-        <link>https://gcdeng.github.io/</link>
+        <link>https://gcdeng.com/</link>
         <description>Eric Deng Blog</description>
         <lastBuildDate>Mon, 14 Jun 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[[Javascript] 深入了解事件迴圈(Event Loop)，Macrotask跟Microtask是什麼？]]></title>
-            <link>https://gcdeng.github.io/javascript-deep-dive-into-event-loop</link>
+            <link>https://gcdeng.com/javascript-deep-dive-into-event-loop</link>
             <guid>javascript-deep-dive-into-event-loop</guid>
             <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[雖然 Javascript 是一個單一執行緒(Single Thread)的程式語言，同一時間只能執行一項任務，但因為底層事件迴圈(Event Loop)這個機制讓他有能力以非同步的方式同時處理多項任務，這篇文章將會深入解釋事件迴圈，幫助開發者更清楚自己寫出的程式碼是如何在底層運作。]]></description>
         </item>
         <item>
             <title><![CDATA[[Javascript] Mutable vs Immutable Objects]]></title>
-            <link>https://gcdeng.github.io/javascript-mutable-vs-immutable-objects</link>
+            <link>https://gcdeng.com/javascript-mutable-vs-immutable-objects</link>
             <guid>javascript-mutable-vs-immutable-objects</guid>
             <pubDate>Sun, 22 Nov 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[介紹 JavaScript 的重要觀念 Mutable 及 Immutable Objects，並以範例解釋他們的差別。]]></description>
