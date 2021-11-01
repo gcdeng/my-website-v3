@@ -4,9 +4,16 @@
         <title>Eric Deng Blog</title>
         <link>https://gcdeng.com/</link>
         <description>Eric Deng Blog</description>
-        <lastBuildDate>Mon, 14 Jun 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[防禦CSRF攻擊的五種方法]]></title>
+            <link>https://gcdeng.com/five-ways-to-defend-against-CSRF-attacks</link>
+            <guid>five-ways-to-defend-against-CSRF-attacks</guid>
+            <pubDate>Tue, 02 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[What is CSRF?]]></description>
+        </item>
         <item>
             <title><![CDATA[[Javascript] 深入了解事件迴圈(Event Loop)，Macrotask跟Microtask是什麼？]]></title>
             <link>https://gcdeng.com/javascript-deep-dive-into-event-loop</link>
