@@ -4,13 +4,13 @@ title: '防禦CSRF攻擊的五種方法'
 author: Eric Deng
 author_url: /about
 author_image_url: /img/ericdeng.jpg
-tags: [javascript, CSRF, web, security]
-keywords: [javascript, CSRF, web, security]
+tags: [CSRF, cookie, security]
+keywords: [CSRF, cookie, security]
 ---
 
 ## What is CSRF?
 
-cross site request forgery 跨站請求偽造，也被稱為 one-click attack 或 session riding，通常縮寫為 CSRF 或 XSRF
+Cross Site Request Forgery 跨站請求偽造，也被稱為 one-click attack 或 session riding，通常縮寫為 CSRF 或 XSRF
 
 假設兩個網站：
 
@@ -39,7 +39,7 @@ cross site request forgery 跨站請求偽造，也被稱為 one-click attack �
 
 5. 使用者(你各位)養成登出網站的好習慣
 
-## reference
+## Reference
 
 [CSRF 攻擊原理](https://medium.com/@Tommmmm/csrf-%E6%94%BB%E6%93%8A%E5%8E%9F%E7%90%86-d0f2a51810ca)
 
