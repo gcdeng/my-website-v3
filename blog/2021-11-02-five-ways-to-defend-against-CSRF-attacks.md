@@ -8,6 +8,8 @@ tags: [CSRF, cookie, security]
 keywords: [CSRF, cookie, security]
 ---
 
+![charles-deluvio-pjAH2Ax4uWk-unsplash.jpg](./2021-11-02-five-ways-to-defend-against-CSRF-attacks-assets/charles-deluvio-pjAH2Ax4uWk-unsplash.jpg)
+
 ## What is CSRF?
 
 Cross Site Request Forgery 跨站請求偽造，也被稱為 one-click attack 或 session riding，通常縮寫為 CSRF 或 XSRF。
