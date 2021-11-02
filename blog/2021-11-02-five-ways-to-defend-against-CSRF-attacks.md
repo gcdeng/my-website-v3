@@ -40,7 +40,7 @@ Cross Site Request Forgery 跨站請求偽造，也被稱為 one-click attack �
 
    CSRF token 就像是一次性使用的密碼來讓請求多一層保護，所以特別需要注意取得 CSRF token 的 api 不能接受跨網域的請求，不能讓駭客有機會取得 CSRF token 否則一樣有風險。
 
-   這個方法也是最有效的方法，實作上可以使用套件達成，例如 nodejs 的[csurf](http://expressjs.com/en/resources/middleware/csurf.html)。
+   這個也是最有效的方法，實作上可以使用套件達成，例如 nodejs 的[csurf](http://expressjs.com/en/resources/middleware/csurf.html)。
 
 5. Double submit cookie: 前端隨機產生一個 CSRF token，同時放進 cookie 以及每個 request header，server 檢查兩邊的 token 是相同的才接受請求，因為瀏覽器的設計駭客無法將偽造的 token 放進你的 domain 的 cookie，此時跨 domain 請求所帶的 cookie 中一定沒有正確的`csrftoken`。
 
