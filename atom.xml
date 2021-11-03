@@ -8,7 +8,7 @@
     <subtitle>Eric Deng Blog</subtitle>
     <icon>https://gcdeng.com/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[防禦CSRF攻擊的五種方法]]></title>
+        <title type="html"><![CDATA[[資安系列]防禦CSRF攻擊的五種方法]]></title>
         <id>five-ways-to-defend-against-CSRF-attacks</id>
         <link href="https://gcdeng.com/five-ways-to-defend-against-CSRF-attacks"/>
         <updated>2021-11-02T00:00:00.000Z</updated>
