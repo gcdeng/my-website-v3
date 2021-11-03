@@ -1,6 +1,6 @@
 ---
 slug: five-ways-to-defend-against-CSRF-attacks
-title: '[資安系列]防禦CSRF攻擊的五種方法'
+title: '[資安系列] 防禦CSRF攻擊的五種方法'
 author: Eric Deng
 author_url: /about
 author_image_url: /img/ericdeng.jpg
