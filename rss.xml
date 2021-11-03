@@ -8,7 +8,7 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[[資安系列]防禦CSRF攻擊的五種方法]]></title>
+            <title><![CDATA[[資安系列] 防禦CSRF攻擊的五種方法]]></title>
             <link>https://gcdeng.com/five-ways-to-defend-against-CSRF-attacks</link>
             <guid>five-ways-to-defend-against-CSRF-attacks</guid>
             <pubDate>Tue, 02 Nov 2021 00:00:00 GMT</pubDate>
