@@ -4,9 +4,16 @@
         <title>Eric Deng Blog</title>
         <link>https://gcdeng.com/</link>
         <description>Eric Deng Blog</description>
-        <lastBuildDate>Tue, 02 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[[前端優化系列] 使用async, defer屬性加速網頁載入時間]]></title>
+            <link>https://gcdeng.com/script-tag-async-defer-attributes</link>
+            <guid>script-tag-async-defer-attributes</guid>
+            <pubDate>Thu, 04 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[瀏覽器在解析 HTML 時如果遇到...就會暫停解析直接開始執行，如果是外部資源``會等待下載並執行完成之後才開始繼續解析 HTML 建立 DOM，這樣當遇到內容很多的 script 時將會延長頁面渲染的時間，也會讓使用者更慢看到網頁內容影響使用體驗。]]></description>
+        </item>
         <item>
             <title><![CDATA[[資安系列] 防禦CSRF攻擊的五種方法]]></title>
             <link>https://gcdeng.com/five-ways-to-defend-against-CSRF-attacks</link>

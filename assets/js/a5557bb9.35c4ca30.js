@@ -1,0 +1,1 @@
+(self.webpackChunkgcdeng_github_io=self.webpackChunkgcdeng_github_io||[]).push([[991],{5618:function(e){"use strict";e.exports=JSON.parse('{"permalink":"/","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Personal blog by Eric Deng","blogTitle":"Eric Deng\'s Blog"}')}}]);
