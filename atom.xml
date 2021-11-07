@@ -8,7 +8,7 @@
     <subtitle>Eric Deng Blog</subtitle>
     <icon>https://gcdeng.com/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[CSR SPA的SEO救星 - Prerender.io 原理介紹與使用教學]]></title>
+        <title type="html"><![CDATA[Prerender.io如何幫助CSR的SEO - 原理介紹與使用教學]]></title>
         <id>solve-seo-problems-with-prerenderio</id>
         <link href="https://gcdeng.com/solve-seo-problems-with-prerenderio"/>
         <updated>2021-11-07T00:00:00.000Z</updated>
