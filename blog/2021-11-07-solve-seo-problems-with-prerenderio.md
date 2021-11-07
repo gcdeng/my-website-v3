@@ -1,6 +1,6 @@
 ---
 slug: solve-seo-problems-with-prerenderio
-title: 'CSR SPA的SEO救星 - Prerender.io 原理介紹與使用教學'
+title: 'Prerender.io如何幫助CSR的SEO - 原理介紹與使用教學'
 author: Eric Deng
 author_url: /about
 author_image_url: /img/ericdeng.jpg
