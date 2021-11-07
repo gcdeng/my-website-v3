@@ -125,7 +125,7 @@ app.use(
 curl -A Googlebot https://www.example.com/
 ```
 
-你的 server 收到請求後，middleware 判斷是爬蟲後會打 GET `http://localhost:3000/https://www.example.com/` ，請求 Prerender Node Server 渲染 HTML，之後就可以收到一個完整渲染好沒有 script tag 的靜態 HTML。
+你的 server 收到請求後，middleware 如果判斷是爬蟲就會去打 GET `http://localhost:3000/https://www.example.com/` ，請求 Prerender Node Server 渲染 HTML，之後就可以收到一個完整渲染好沒有 script tag 的靜態 HTML。
 
 ### 在 Stage 環境測試
 
