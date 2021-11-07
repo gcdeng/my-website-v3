@@ -137,7 +137,7 @@ app.use(require('prerender-node').set('prerenderToken', 'YOUR_TOKEN'));
 
 通常 Stage server 不會對外公開，需要先設定白名單允許[Prerender.io 的 IP](https://docs.prerender.io/article/22-ip-addresses)，讓他們的 cloud service 可以打進 Stage server 請求頁面資料，再照著一樣的方法帶著爬蟲的 user-agent 去打你的 service，middleware 會去 GET `https://service.prerender.io/https://www.example.com/` ，之後就可以看到 stage 環境下的 prerendered HTML，在官網的 Dashboard 上也可以看到爬蟲請求紀錄以及被 cache 的頁面。
 
-### Prerender.io 的優缺點
+## Prerender.io 的優缺點
 
 優點
 
