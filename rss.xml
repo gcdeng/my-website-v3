@@ -4,9 +4,16 @@
         <title>Eric Deng Blog</title>
         <link>https://gcdeng.com/</link>
         <description>Eric Deng Blog</description>
-        <lastBuildDate>Thu, 04 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[CSR SPA的SEO救星 - Prerender.io 原理介紹與使用教學]]></title>
+            <link>https://gcdeng.com/solve-seo-problems-with-prerenderio</link>
+            <guid>solve-seo-problems-with-prerenderio</guid>
+            <pubDate>Sun, 07 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Client-Side Rendering (CSR) Single Page Application (SPA) 最常遇到的問題就是 SEO，解決這個問題的方法有很多種，其中一種獲得 Google 推薦的方法是 Prerender.io，這篇文章將會介紹它的運作原理以及如何開始導入使用。]]></description>
+        </item>
         <item>
             <title><![CDATA[[前端優化系列] 使用async, defer屬性加速網頁載入時間]]></title>
             <link>https://gcdeng.com/script-tag-async-defer-attributes</link>
