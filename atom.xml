@@ -12,7 +12,7 @@
         <id>solve-seo-problems-with-prerenderio</id>
         <link href="https://gcdeng.com/solve-seo-problems-with-prerenderio"/>
         <updated>2021-11-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Client-Side Rendering (CSR) Single Page Application (SPA) 最常遇到的問題就是 SEO，解決這個問題的方法有很多種，其中一種獲得 Google 推薦的方法是 Prerender.io，這篇文章將會介紹它的運作原理以及如何開始導入使用。]]></summary>
+        <summary type="html"><![CDATA[Client-Side Rendering (CSR) Single Page Application (SPA) 最常遇到的問題就是 SEO，解決這個問題的方法有很多種，其中一種獲得 Google 推薦的方法是Prerender.io，這篇文章將會介紹它的運作原理以及如何開始導入使用。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[[前端優化系列] 使用async, defer屬性加速網頁載入時間]]></title>
