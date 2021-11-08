@@ -8,11 +8,11 @@ tags: [seo, prerender, csr, ssr, ssg, prerender.io, frontend, web]
 keywords: [seo, prerender, csr, ssr, ssg, prerender.io, frontend, web]
 ---
 
-Client-Side Rendering (CSR) Single Page Application (SPA) 最常遇到的問題就是 SEO，解決這個問題的方法有很多種，其中一種獲得 Google 推薦的方法是 Prerender.io，這篇文章將會介紹它的運作原理以及如何開始導入使用。
+Client-Side Rendering (CSR) Single Page Application (SPA) 最常遇到的問題就是 SEO，解決這個問題的方法有很多種，其中一種獲得 Google 推薦的方法是**Prerender.io**，這篇文章將會介紹它的運作原理以及如何開始導入使用。
 
 ## 開始之前，先聊聊 CSR 的 SEO 問題
 
-Client-Side Rendering (CSR) 是過去幾年流行的前端開發方式，瀏覽器會收到一個 body 裡只有根元件以及引入打包好的 JS 的 HTML，解析 HTML 後開始下載及執行 JS 將內容渲染進根元件中，大部分的運算資源會集中在瀏覽器上，而最大的問題是做 SEO 的爬蟲並不會等待 AJAX 跟 JS 渲染好內容才開始蒐集資料，他只會看到 HTML 中一個空空的根元件，沒有資料可以給他做 Index，雖然 Google Search 後來也有[新的爬蟲機制](https://developers.google.com/search/docs/advanced/javascript/javascript-seo-basics)解決這個問題，但爬蟲也有[資源預算](https://prerender.io/crawl-budget-seo/)(Crawl Budget)限制，CSR 需要花費大量爬蟲運算資源，導致 Index 會需要很多時間甚至有些頁面也無法做 Index，於是開始有人提出很多事先渲染(pre-rendering)好靜態 HTML 再送給 client 的解法，以下列舉幾種：
+Client-Side Rendering (CSR) 是過去幾年流行的前端開發方式，瀏覽器會收到一個 body 裡只有根元件以及引入打包好的 JS 的 HTML，解析 HTML 後開始下載及執行 JS 將內容渲染進根元件中，大部分的運算資源會集中在瀏覽器上，而最大的問題是搜尋引擎做 SEO 的爬蟲並不會等待 AJAX 跟 JS 渲染好內容才開始蒐集資料，他只會看到 HTML 中一個空空的根元件，沒有資料可以給他做 Index，雖然 Google Search 後來也有[新的爬蟲機制](https://developers.google.com/search/docs/advanced/javascript/javascript-seo-basics)解決這個問題，但爬蟲也有[資源預算](https://prerender.io/crawl-budget-seo/)(Crawl Budget)限制，CSR 需要花費大量爬蟲運算資源，導致 Index 會需要很多時間甚至有些頁面也無法做 Index，另外一個問題是社交媒體例如 FB, Twitter 需要的[open graph meta tag](https://ahrefs.com/blog/open-graph-meta-tags/)如果是 CSR 動態產生的話一開始也會拿不到，於是開始有人提出很多事先渲染(pre-rendering)好靜態 HTML 再送給 client 的解法，以下列舉幾種：
 
 1. Pre-build 或稱 Static Site Generator (SSG)，是在 build-time 準備好每個路由(Route)需要的資料並建立出完整的靜態 HTML，server 收到請求時直接回傳已經建立好的 HTML，常見的工具包含[react-snap](https://github.com/stereobooster/react-snap)，[Eleventy](https://www.11ty.dev/)，這個方法的優點包含可以在 CDN cache HTML 縮短請求回傳時間以及[First Contentful Paint (FCP)](https://web.dev/fcp/)時間，缺點則是因為是在 build-time 產生 HTML，每次有內容變動都要重 build，對於內容變動頻率高的網站會很麻煩，也會延長 build 的時間。
 2. Server-Side Rendering (SSR)，相對於 SSG 來說它則是在 run-time 建立好 HTML，當 server 收到某個路由的請求後開始準備需要的資料並建立好 HTML 回傳給 client，解決了 SSG 的問題同時繼承其優點，但也有它本身的的問題，就是會提升開發複雜度，以及現有的 CSR 專案難以轉換成 SSR 架構，常見的工具框架包含 React 的[Next.js](https://nextjs.org/)，Vue 的[Nuxt.js](https://nuxtjs.org/)。（不過這類框架還是有很多很香的特色）
@@ -20,9 +20,9 @@ Client-Side Rendering (CSR) 是過去幾年流行的前端開發方式，瀏覽�
 
 ## Prerender.io 運作原理 - Dynamic Rendering
 
-![prerenderio.svg](./2021-11-07-solve-seo-problems-with-prerenderio-assets/prerenderio.svg)
+![Screen Shot 2021-11-08 at 11.11.38 AM.png](./2021-11-07-solve-seo-problems-with-prerenderio-assets/prerenderio.png)
 
-[Prerender.io](https://prerender.io/)運作流程是當前端的 web server 收到請求時去辨識這個請求是從瀏覽器還是從爬蟲發出的，如果是瀏覽器就依照原本的 CSR 機制，如果是爬蟲才需要做 prerender，會委託 Prerender.io cloud service 幫我們渲染出靜態 HTML 再回傳給 web server 然後再回給爬蟲，這樣的渲染方式稱為[Dynamic Rendering](https://developers.google.com/search/docs/advanced/javascript/dynamic-rendering)。
+[Prerender.io](https://prerender.io/)運作流程是當前端的 web server 收到請求時透過 Prerender-node Middleware 去辨識這個請求是從瀏覽器還是從爬蟲發出的，如果是瀏覽器就依照原本的 CSR 機制，如果是爬蟲才需要做 prerender，會委託 Prerender.io cloud service 幫我們渲染出靜態 HTML 再回傳給 web server 然後再回給爬蟲，這樣的渲染方式稱為[Dynamic Rendering](https://developers.google.com/search/docs/advanced/javascript/dynamic-rendering)。
 
 ### 辨識爬蟲的方法
 
@@ -87,7 +87,7 @@ prerender.plainResponse = function (response, callback) {
 
 ## 如何開始使用
 
-### 在 Dev 環境測試
+### 在 Dev 環境
 
 先在 local 跑一台[Prerender Node Server](https://github.com/prerender/prerender)，假設開起來的 URL 是 `http://localhost:3000`
 
@@ -98,7 +98,7 @@ npm install
 node server.js
 ```
 
-官方有提供多種語言的 open source server [middleware](https://docs.prerender.io/article/12-middlewares)已經幫我們做好上述的 Dynamic Rendering，可以把它安裝進我們的前端 web server 中，如果你的 server 是 Node.js 的話可以用[prerender-node](https://github.com/prerender/prerender-node)
+官方有提供多種語言的 open source server [middleware](https://docs.prerender.io/article/12-middlewares)，可以把它安裝進我們的前端 web server 中，如果你的 server 是 Node.js 的話可以用[prerender-node](https://github.com/prerender/prerender-node)
 
 ```bash
 npm install prerender-node --save
@@ -127,7 +127,7 @@ curl -A Googlebot https://www.example.com/
 
 你的 server 收到請求後，middleware 如果判斷是爬蟲就會去打 GET `http://localhost:3000/https://www.example.com/` ，請求 Prerender Node Server 渲染 HTML，之後就可以收到一個完整渲染好沒有 script tag 的靜態 HTML。
 
-### 在 Stage 環境測試
+### 在 Stage 環境
 
 在[Prerender.io](https://prerender.io/)官網註冊新帳號拿到 token，middleware 中會讀取環境變數 `process.env.PRERENDER_TOKEN` 可以把他設定為你的 token，或是直接設定以下的 `prerenderToken`。
 
@@ -135,7 +135,9 @@ curl -A Googlebot https://www.example.com/
 app.use(require('prerender-node').set('prerenderToken', 'YOUR_TOKEN'));
 ```
 
-通常 Stage server 不會對外公開，需要先設定白名單允許[Prerender.io 的 IP](https://docs.prerender.io/article/22-ip-addresses)，讓他們的 cloud service 可以打進 Stage server 請求頁面資料，再照著一樣的方法帶著爬蟲的 user-agent 去打你的 service，middleware 會去 GET `https://service.prerender.io/https://www.example.com/` ，之後就可以看到 stage 環境下的 prerendered HTML，在官網的 Dashboard 上也可以看到爬蟲請求紀錄以及被 cache 的頁面。
+通常 Stage server 不會對外公開，需要先設定白名單允許[Prerender.io 的 IP](https://docs.prerender.io/article/22-ip-addresses)，讓他們的 cloud service 可以打進 Stage server 請求頁面資料，再照著一樣的方法帶著爬蟲的 user-agent 去打你的 service，middleware 會去 GET `https://service.prerender.io/https://www.example.com/` ，請求 cloud service 渲染 HTML，之後就可以看到 stage 環境下的 prerendered HTML，在官網的 Dashboard 上也可以看到爬蟲請求紀錄以及被 cache 的頁面。
+
+Stage 跟 Production 也可以考慮不用他們的 cloud service，而是內部維護[Prerender Node Server](https://github.com/prerender/prerender)，在 middleware 設定好 prerenderServiceUrl 打到自己的 Prerender Node Server。
 
 ## Prerender.io 的優缺點
 
@@ -148,7 +150,7 @@ app.use(require('prerender-node').set('prerenderToken', 'YOUR_TOKEN'));
 
 缺點
 
-- [額外雲端服務成本](https://prerender.io/pricing/)或是自己維運 Prerender Node Server 成本，不過這項對於任何 SSR 方式或多或少都會有。
+- [額外雲端服務成本](https://prerender.io/pricing/)或是自己維運[Prerender Node Server](https://github.com/prerender/prerender)成本，不過這項對於任何 SSR 方式或多或少都會有。
 
 ## 總結
 
