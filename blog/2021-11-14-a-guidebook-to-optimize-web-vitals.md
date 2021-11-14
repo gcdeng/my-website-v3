@@ -79,7 +79,7 @@ keywords: [performance, web vitals]
 
 如果需要更詳細的使用行為資料可以使用 [web-vitals](https://github.com/GoogleChrome/web-vitals) javascript library，在自己的專案中實作 Real User Monitoring，來觀察使用者實際操作細節，驗證在產品環境中效能問題是否有改善。
 
-> 這篇文章不會太詳細解釋每個測量工具計算指標分數的公式，如果有興趣可以到各指標標題提供的超連結研究。
+> 這篇文章不會太詳細解釋每個測量工具計算指標分數的公式，如果有興趣可以參考各指標的標題超連結。
 
 ### 如何將測量工具導入產品開發流程中
 
