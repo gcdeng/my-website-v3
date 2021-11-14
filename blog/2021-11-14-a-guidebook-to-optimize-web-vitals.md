@@ -8,7 +8,7 @@ tags: [performance, web vitals]
 keywords: [performance, web vitals]
 ---
 
-這篇文章介紹了 Web Vitals、測量方式以及優化方法，其中優化方法會隨著自己的實務經驗及研究持續更新，期望未來可以成為優化效能的懶人包，在開發功能時作為提醒自己會影響效能的注意事項，要優化網站時也方便回來找實作的方向。
+這篇文章介紹了 Web Vitals、測量方式以及優化方法，其中優化方法會隨著自己的實務經驗及研究持續更新，希望可以成為優化效能用的懶人包，在開發功能時作為提醒自己會影響效能的注意事項，要優化網站時也方便回來找實作的方向。
 
 ![kate-stone-matheson-uy5t-CJuIK4-unsplash.jpg](./2021-11-14-a-guidebook-to-optimize-web-vitals-assets/kate-stone-matheson-uy5t-CJuIK4-unsplash.jpg)Photo by Kate Stone Matheson on Unsplash
 
@@ -126,7 +126,7 @@ keywords: [performance, web vitals]
   - 在真正需要執行之前預先下載好資源，要用時可以直接開始執行，使用 Resource Hints `preload`, `prefetch`，例如 prefetch 分頁的下一頁會用到的資源
   - 預先與資源服務器建立連線，要用時可以更快下載到資源，使用 Resource Hints `dns-prefetch`, `preconnect`，例如[早一點與 third-party 建立連線](https://web.dev/optimize-lcp/#establish-third-party-connections-early)
   - 減少 HTTP request 數量
-  - 加速後端伺服器回應速度，優化 DB query
+  - 加速後端伺服器回應速度，例如優化 DB query
 - 減少資源體積，更快取得及執行資源內容
   - 減少 server remote API response data 體積，例如不拿多餘用不到的資料
   - dynamic import，在需要用到時才載入 module
@@ -212,9 +212,9 @@ keywords: [performance, web vitals]
 - 避免在現有內容上方插入動態載入的內容，導致推擠到其他元件的排版，可以先預留好需要的空間([CSS aspect ratio boxes](https://css-tricks.com/aspect-ratio-boxes/))，或是將受影響的排版移到可視範圍之外
 - 避免突然移動或蓋板的內容，例如廣告突然跳出來
 - [防止 FOIT (flash of invisible text) 文字突然出現、FOUT (flash of unstyled text) 字體突然改變](https://web.dev/optimize-cls/#web-fonts-causing-foutfoit)
-  - 使用`<link rel=preload>` 提早下載字體，@font-face 加上 `font-display: optional` ，[參考](https://web.dev/preload-optional-fonts/)
+  - 使用`<link rel=preload>` 提早下載字體，@font-face 加上 `font-display: optional` [[參考](https://web.dev/preload-optional-fonts/)]
   - google fonts url 加上`&display=swap`
-- 盡量使用`transform`做動畫
+- [盡量使用`transform`做動畫](https://web.dev/optimize-cls/#animations)，瀏覽器運算成本較低
 
 在實作視覺穩定性的改善通常會需要使用到[Chrome DevTools Performance panel](https://developer.chrome.com/docs/devtools/evaluate-performance/)，去分析每個 frame 細部的狀況來找到 root cause，[參考詳細如何 debug](https://web.dev/debug-layout-shifts/)。
 
