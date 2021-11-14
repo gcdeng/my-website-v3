@@ -4,9 +4,16 @@
         <title>Eric Deng Blog</title>
         <link>https://gcdeng.com/</link>
         <description>Eric Deng Blog</description>
-        <lastBuildDate>Sun, 07 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[[前端優化系列]Web Vitals優化方法懶人包]]></title>
+            <link>https://gcdeng.com/a-guidebook-to-optimize-web-vitals</link>
+            <guid>a-guidebook-to-optimize-web-vitals</guid>
+            <pubDate>Sun, 14 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[這篇文章介紹了 Web Vitals、測量方式以及優化方法，其中優化方法會隨著自己的實務經驗及研究持續更新，期望未來可以成為優化效能的懶人包，在開發功能時作為提醒自己會影響效能的注意事項，要優化網站時也方便回來找實作的方向。]]></description>
+        </item>
         <item>
             <title><![CDATA[Prerender.io如何幫助CSR的SEO - 原理介紹與使用教學]]></title>
             <link>https://gcdeng.com/solve-seo-problems-with-prerenderio</link>

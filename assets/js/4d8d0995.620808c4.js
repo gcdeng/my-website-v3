@@ -1,1 +1,0 @@
-(self.webpackChunkgcdeng_github_io=self.webpackChunkgcdeng_github_io||[]).push([[180],{1884:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"performance","name":"performance","count":1,"permalink":"/tags/performance"}')}}]);
