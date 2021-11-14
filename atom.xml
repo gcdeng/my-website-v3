@@ -12,7 +12,7 @@
         <id>a-guidebook-to-optimize-web-vitals</id>
         <link href="https://gcdeng.com/a-guidebook-to-optimize-web-vitals"/>
         <updated>2021-11-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[這篇文章介紹了 Web Vitals、測量方式以及優化方法，其中優化方法會隨著自己的實務經驗及研究持續更新，期望未來可以成為優化效能的懶人包，在開發功能時作為提醒自己會影響效能的注意事項，要優化網站時也方便回來找實作的方向。]]></summary>
+        <summary type="html"><![CDATA[這篇文章介紹了 Web Vitals、測量方式以及優化方法，其中優化方法會隨著自己的實務經驗及研究持續更新，希望可以成為優化效能用的懶人包，在開發功能時作為提醒自己會影響效能的注意事項，要優化網站時也方便回來找實作的方向。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Prerender.io如何幫助CSR的SEO - 原理介紹與使用教學]]></title>
