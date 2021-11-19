@@ -1,14 +1,14 @@
 ---
 slug: solve-seo-problems-with-prerenderio
 title: 'Prerender.io如何幫助CSR的SEO - 原理介紹與使用教學'
-author: Eric Deng
-author_url: /about
-author_image_url: /img/ericdeng.jpg
+authors: ericdeng
 tags: [seo, prerender, csr, ssr, ssg, prerender.io, frontend, web]
 keywords: [seo, prerender, csr, ssr, ssg, prerender.io, frontend, web]
 ---
 
 Client-Side Rendering (CSR) Single Page Application (SPA) 最常遇到的問題就是 SEO，解決這個問題的方法有很多種，其中一種獲得 Google 推薦的方法是**Prerender.io**，這篇文章將會介紹它的運作原理以及如何開始導入使用。
+
+<!--truncate-->
 
 ## 開始之前，先聊聊 CSR 的 SEO 問題
 

@@ -1,9 +1,7 @@
 ---
 slug: a-guidebook-to-optimize-web-vitals
 title: '[前端優化系列]Web Vitals優化方法懶人包'
-author: Eric Deng
-author_url: /about
-author_image_url: /img/ericdeng.jpg
+authors: ericdeng
 tags: [performance, web vitals]
 keywords: [performance, web vitals]
 ---
@@ -11,6 +9,8 @@ keywords: [performance, web vitals]
 這篇文章介紹了 Web Vitals、測量方式以及優化方法，其中優化方法會隨著自己的實務經驗及研究持續更新，希望可以成為優化效能用的懶人包，在開發功能時作為提醒自己會影響效能的注意事項，要優化網站時也方便回來找實作的方向。
 
 ![kate-stone-matheson-uy5t-CJuIK4-unsplash.jpg](./2021-11-14-a-guidebook-to-optimize-web-vitals-assets/kate-stone-matheson-uy5t-CJuIK4-unsplash.jpg)Photo by Kate Stone Matheson on Unsplash
+
+<!--truncate-->
 
 ## 目錄
 

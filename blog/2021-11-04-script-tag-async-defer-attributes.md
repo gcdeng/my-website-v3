@@ -1,9 +1,7 @@
 ---
 slug: script-tag-async-defer-attributes
 title: '[前端優化系列] 使用async, defer屬性加速網頁載入時間'
-author: Eric Deng
-author_url: /about
-author_image_url: /img/ericdeng.jpg
+authors: ericdeng
 tags: [performance, frontend, web]
 keywords: [performance, frontend, web]
 ---
@@ -13,6 +11,8 @@ keywords: [performance, frontend, web]
 `async`, `defer` 正是為了解決上述問題而生的兩個 script tag 屬性，這篇文章會介紹他們的共同點與相異點，以及各自適用的情境。
 
 ![script-async-defer.png](./2021-11-04-script-tag-async-defer-attributes-assets/script-async-defer.png)
+
+<!--truncate-->
 
 時序圖 (來源：Speed up Google Maps(and everything else) with async & defer)
 

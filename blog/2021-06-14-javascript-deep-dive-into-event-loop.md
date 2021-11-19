@@ -1,9 +1,7 @@
 ---
 slug: javascript-deep-dive-into-event-loop
 title: '[Javascript] 深入了解事件迴圈(Event Loop)，Macrotask跟Microtask是什麼？'
-author: Eric Deng
-author_url: /about
-author_image_url: /img/ericdeng.jpg
+authors: ericdeng
 tags: [javascript, event loop, macrotask, microtask]
 keywords: [javascript, event loop, macrotask, microtask]
 ---

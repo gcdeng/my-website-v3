@@ -1,9 +1,7 @@
 ---
 slug: javascript-mutable-vs-immutable-objects
 title: '[Javascript] Mutable vs Immutable Objects'
-author: Eric Deng
-author_url: /about
-author_image_url: /img/ericdeng.jpg
+authors: ericdeng
 tags: [javascript, mutable, immutable]
 keywords: [javascript, mutable, immutable]
 ---
