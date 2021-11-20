@@ -1,1 +1,0 @@
-(self.webpackChunkgcdeng_github_io=self.webpackChunkgcdeng_github_io||[]).push([[551],{1256:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"event-loop","name":"event loop","count":1,"permalink":"/tags/event-loop"}')}}]);

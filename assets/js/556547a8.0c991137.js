@@ -1,1 +1,0 @@
-(self.webpackChunkgcdeng_github_io=self.webpackChunkgcdeng_github_io||[]).push([[984],{9716:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/tags","slug":"ssg","name":"ssg","count":1,"permalink":"/tags/ssg"}')}}]);

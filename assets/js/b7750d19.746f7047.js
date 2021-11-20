@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgcdeng_github_io=self.webpackChunkgcdeng_github_io||[]).push([[9456],{5289:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/microtask","name":"microtask","count":1,"permalink":"/blog/tags/microtask"}')}}]);

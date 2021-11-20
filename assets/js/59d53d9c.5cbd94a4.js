@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgcdeng_github_io=self.webpackChunkgcdeng_github_io||[]).push([[3497],{7490:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/event-loop","name":"event loop","count":1,"permalink":"/blog/tags/event-loop"}')}}]);

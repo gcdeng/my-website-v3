@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgcdeng_github_io=self.webpackChunkgcdeng_github_io||[]).push([[3499],{9164:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/macrotask","name":"macrotask","count":1,"permalink":"/blog/tags/macrotask"}')}}]);

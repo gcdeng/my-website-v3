@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgcdeng_github_io=self.webpackChunkgcdeng_github_io||[]).push([[9116],{3417:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/performance","name":"performance","count":2,"permalink":"/blog/tags/performance"}')}}]);

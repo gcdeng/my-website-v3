@@ -1,1 +1,0 @@
-(self.webpackChunkgcdeng_github_io=self.webpackChunkgcdeng_github_io||[]).push([[932],{1249:function(n){"use strict";n.exports=JSON.parse('{"allTagsPath":"/tags","slug":"frontend","name":"frontend","count":2,"permalink":"/tags/frontend"}')}}]);

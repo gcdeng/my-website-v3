@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgcdeng_github_io=self.webpackChunkgcdeng_github_io||[]).push([[4292],{5257:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/web-vitals","name":"web vitals","count":1,"permalink":"/blog/tags/web-vitals"}')}}]);

@@ -1,1 +1,0 @@
-(self.webpackChunkgcdeng_github_io=self.webpackChunkgcdeng_github_io||[]).push([[513],{1595:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/tags","slug":"microtask","name":"microtask","count":1,"permalink":"/tags/microtask"}')}}]);
