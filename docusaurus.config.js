@@ -8,6 +8,7 @@ module.exports = {
   baseUrl: '/',
   projectName: 'gcdeng.github.io', // Usually your repo name.
   organizationName: 'gcdeng', // Usually your GitHub org/user name.
+  deploymentBranch: 'master',
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
