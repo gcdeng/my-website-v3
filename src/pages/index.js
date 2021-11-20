@@ -3,13 +3,17 @@ import Layout from '@theme/Layout';
 import ericDengImgUrl from '@site/static/img/ericdeng.jpg';
 import Intro from './intro.md';
 import { FiGithub, FiLinkedin, FiFacebook, FiTwitter } from 'react-icons/fi';
-import styles from './styles.module.css';
+import styles from './index.module.css';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 const About = () => {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title="About" description={`About ${siteConfig.title}`}>
+    <Layout
+      title=""
+      description={`About ${siteConfig.title}`}
+      image={ericDengImgUrl}
+    >
       <div className="container margin-vert--lg">
         <img src={ericDengImgUrl} className={styles.avatar}></img>
         <div className={styles.icons}>
