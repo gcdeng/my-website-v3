@@ -12,34 +12,38 @@ ericdenggc@gmail.com
 
 正在尋找更有挑戰的工作機會
 
-- 有機會參與高流量的大型專案開發
-- 可嘗試 PWA, React Native, SSR, SEO, GraphQL, Testing 相關技術
-- 期待加入樂於分享，可以互相學習成長的團隊
+- 參與複雜度高有挑戰性的大型專案開發
+- 有機會嘗試後端開發, Smart Contract Development, Web3 Dapp, JAMStack, Web Vitals Optimization, PWA 或研究各種有趣的新技術
+- 期待加入樂於分享，能互相學習成長的團隊
+- 重視程式碼品質
 
 ## Technologies
 
 ### Familiar with
 
 - HTML5, CSS3, JavaScript(ES6+)
-- Jamstack
-- React.js Tech Stacks: Redux, React Router, CRA, Next.js
-- Vue.js Tech Stacks: Vuex, Vue Router, Vue CLI, Vue-i18n, Nuxt.js, vue-devtools
-- Component Library: Bootstrap, Element UI, Chakra UI
-- CSS 相關技術: BEM, SASS/SCSS, CSS Modules, RWD, Flexbox, Grid Layout
-- 前端構建工具: Webpack, Gulp, Babel, ESLint, Prettier, PostCSS, cssnano, Autoprefixer, UglifyJS
-- 多國語系 i18n
-- 版本控制: Git
-- 習慣 VSCode 及 Linux 開發環境
-- 與後端工程師合作，制定及串接 RESTful API (Axios), WebSocket, Socket.io
-- 與 UI 設計師合作，溝通技術可行性，能仔細依照設計細節完成切版
-- 與 UX 設計師合作，改善使用者體驗，規劃互動流程
+- React.js Tech Stacks: Hook, Context, Redux, React Router, CRA, Next.js, React Intl, next-i18next
+- Blockchain Tech Stacks: Web3.js, Metamask, Infura, Moralis
+- Pre-rendering: Prerender.io, SSR, SSG, ISR
+- Data Fetching: Axios, SWR, React Apollo GraphQL Client
+- Component Library: Chakra UI, Element UI, Bootstrap
+- CSS: RWD, SASS/SCSS, CSS Modules, Flexbox, Grid Layout
+- Frontend Building Tools: Webpack, Storybook, Bit.dev, ESLint, Babel, Prettier, Gulp, PostCSS, cssnano, Autoprefixer, UglifyJS
+- i18n: React Intl, next-i18next, Vue-i18n
+- Git version control
+- 與後端工程師合作，制定及串接 RESTful API, GraphQL, WebSocket, Socket.io
+- 與 UI 設計師合作，溝通技術可行性，能依照 Figma 設計細節完成 UI
+- 與 UX 設計師合作，討論使用者體驗，規劃互動流程
 - 與 PM 合作，討論產品需求，提供技術建議，評估開發時間及成本效益
 
 ### Experience with
 
-- 後端技術: Node.js, Express.js, MongoDB
 - 前端效能優化: Chrome Developer Tools (Performance profiling, Lighthouse), Cache, Code splitting, Dynamic import, Tree shaking, Lazy loading
-- React Native
+- Frontend Logging: Sentry
+- CMS: Magento
+- Docker, Azure Pipeline, AWS ECR
+- Vue.js Tech Stacks: Vuex, Vue Router, Vue CLI, Vue-i18n, Nuxt.js, vue-devtools
+- Backend Development: Node.js, Express.js, MongoDB
 - 資料視覺化工具: D3.js, ECharts
 - 繪圖工具: SVG, SVG.js, Canvas, Fabric.js
 - 特效類工具: GSAP
@@ -48,25 +52,33 @@ ericdenggc@gmail.com
 
 ### Learning recently
 
-- Design Pattern
-- PWA
+- Ethereum Smart Contract Development: Solidity, Truffle
 
 ## Employment History
 
-### HTC VIVE | Senior Frontend Engineer
+### Senior Frontend Engineer at HTC VIVE
 
 _2021/01 - Present_
 
-Tech Stacks:  
-React.js, React Hook, React Context, Redux, Next.js (SSR & SSG), Webpack, GraphQL, ChakraUI, Storybook, Bit.dev, Magento, Magento PWA Studio, Prerender.io
+#### Products
 
-### QNAP | Frontend Engineer
+- NFT Marketplace
+
+#### Tech Stacks
+
+React.js, React Hook, React Context, React Router, Redux, Next.js (SSR & SSG), ChakraUI, Webpack, ESLint, Axios, SWR, GraphQL, React Apollo Client, Storybook, Bit.dev, Magento, Magento PWA Studio, Prerender.io, Sentry, GA, GTM, CookiePro for cookie consent
+
+#### Blockchain related tech stacks
+
+Web3.js, Metamask, Infura, Moralis
+
+### Frontend Engineer at QNAP
 
 _2017/12 - 2021/01_
 
 QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟體研發、硬體設計及自有生產線，目前專注於提供儲存、網通及智慧視訊監控解決方案。
 
-我所在的團隊負責開發智慧影像分析應用，包含人臉辨識、人流偵測等，產品是執行於 NAS 上的容器化網站應用程式。我的主要工作是開發及維護網站前端功能，使用的技術是 Vue.js，需與 UI/UX 設計師、後端工程師、網站可靠性工程師、品質保證工程師、機器學習工程師及產品經理合作。
+我所在的團隊負責開發影像分析應用，包含人臉辨識、人流偵測等，產品是執行於 NAS 上的容器化網站應用程式。我的主要工作是開發及維護網站前端功能，使用的技術是 Vue.js，需與 UI/UX 設計師、後端工程師、DevOps、QA、機器學習工程師及 PM 合作。
 
 #### Rewarding jobs
 
@@ -75,40 +87,49 @@ QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟�
 - 研究新技術、評估開源套件並應用於產品中
 - 大資料量頁面的效能優化，成功提高頁面速度 50％
   - 降低 JS, CSS 檔案大小
-  - 惰性載入
+  - lazy loading
   - 評估套件可否移除或更換
   - 使用 devtool 分析渲染效能
 - 部署及開發環境建置
 - 動態切換多國語言
 - 串接即時的資料以及 UI 狀態更新(Long polling, Websocket)
 - 串接影像串流，同時於影像畫面上畫出特定圖形、文字、圖片
-- 開發繪圖工具，使用者可在影像縮圖上繪製線段、矩形、多邊形等圖形
+- 開發繪圖工具，使用者可在影像縮圖上繪製線段、矩形、多邊形等圖形，並將座標透過 API 送給後端以設定分析區域。
 - 開發表單設定介面，各種表單元件、欄位驗證、照片上傳功能(從本地、NAS、Webcam、影像串流畫面截圖)
 - 開發精靈視窗元件，以分步驟的方式進行表單設定，每個步驟之間需做資料傳遞及驗證
-- 將統計資料或系統資訊透過資料視覺化套件繪製成互動式圖表
+- 將統計資料或系統資訊透過資料視覺化套件 D3.js, ECharts 繪製成互動式圖表
 - 使用 Node.js/Express/MongoDB 開發 RESTful API Server
 - [QNAP Seminar - Introduction to React Native](https://docs.google.com/presentation/d/10lN6AFiTiYfh6v56BiuUtV3Y4icSARR6MQCgXFemtac/edit?usp=sharing)
 - [Web Frontend Framework Survey 2018](https://docs.google.com/presentation/d/1IuLVkctT1rceK7m3CB-_qN4SYNer4QSc9K32uuAsrOk/edit?usp=sharing) 評估 Vue, React, Angular，決定產品要使用的框架
 
 #### Products
 
-- _[QVR Face](https://www.qnap.com/solution/qvr-face/zh-tw/)_  
-  加入團隊後第一個接手的專案，初期使用 Ext.js 及原生的 JavaScript 為主，陸續導入 Vue.js, Gulp, Babel, ESLint, PostCSS 等構建工具，重構元件架構，改善頁面載入速度。  
-  產品主要功能包含分析即時影像串流中的人臉，辨識已註冊的個人檔案或陌生人以及人物特徵（性別、年齡、表情），自訂觸發條件發出事件通知，應用場景如門禁系統、會員識別系統、出勤管理等。  
-  Ext.js, jQuery, Vue.js, SVG, Canvas, D3.js, ECharts, Socket.io, i18n, Gulp, Babel, ESLint, PostCSS, autoprefixer, minifier
-
 - _[QVR Human](https://www.qnap.com/zh-tw/software/qvr-human)_  
-  使用 Vue.js 開發的 SPA，此產品的前端開發主要負責人，從零開始建置一直到完成專案， 評估框架及套件的選用，討論 UI/UX 設計規格制定，規劃所有要開發的元件後評估工時，分配工作給其他前端工程師一起合作開發，撰寫 API 文件提供後端工程師參考與討論，串接後端 API 完成需求功能。  
-  產品主要功能包含辨識即時影像串流中經過特定區域的人流，提供統計資料圖表，應用場景如百貨零售賣場，分析顧客行走路線、櫃位人流量。  
+  使用 Vue.js 開發的 SPA，此產品的前端開發主要負責人，從零開始建置一直到完成專案， 評估框架及套件的選用，討論 UI/UX 設計規格制定，規劃所有要開發的元件後評估工時，分配工作給其他前端工程師一起合作開發，撰寫 API 文件提供後端工程師參考與討論，串接後端 API 完成需求功能。
+
+  產品主要功能包含辨識即時影像串流中經過特定區域的人流，提供統計資料圖表，應用場景如百貨零售賣場，分析顧客行走路線、櫃位人流量。
+
   Vue.js, Vuex, Vue Router, Vue CLI, Vue-i18n, SCSS, Element UI, ECharts, Canvas, Fabric.js, Socket.io, Axios, Webpack, Babel, ESLint, Prettier
 
 - _[QVR Smart Search](https://www.qnap.com/zh-tw/software/qvr-pro)_  
-  使用 Vue.js 開發的 SPA，單獨負責所有前端功能，參與規劃、設計、開發、串接 API，使用 Vuex 管理複雜且需要即時更新的 UI 元件狀態。  
-  產品主要功能為串接多個監控產品，提供影像辨識功能。需顯示串接產品的狀態，包含安裝進度、產品資訊、認證授權、錯誤訊息等。  
+  使用 Vue.js 開發的 SPA，單獨負責所有前端功能，參與規劃、設計、開發、串接 API，使用 Vuex 管理複雜且需要即時更新的 UI 元件狀態。
+
+  產品主要功能為串接多個監控產品，提供影像辨識功能。需顯示串接產品的狀態，包含安裝進度、產品資訊、認證授權、錯誤訊息等，使用 Vuex 管理複雜且需要即時更新的 UI 元件狀態。
+
   Vue.js, Vuex, Vue Router, Vue CLI, Vue-i18n, SCSS, Element UI, Axios, Webpack, Babel, ESLint, Prettier
+
+- _[QVR Face](https://www.qnap.com/solution/qvr-face/zh-tw/)_  
+  初期使用 Ext.js 及原生的 JavaScript 為主，陸續導入 Vue.js, Gulp, Babel, ESLint, PostCSS 等構建工具，重構元件架構，改善頁面載入速度。
+
+  產品主要功能包含分析即時影像串流中的人臉，辨識已註冊的個人檔案或陌生人以及人物特徵（性別、年齡、表情），自訂觸發條件發出事件通知，應用場景如門禁系統、會員識別系統、出勤管理等。
+
+  Ext.js, jQuery, Vue.js, SVG, Canvas, D3.js, ECharts, Socket.io, i18n, Gulp, Babel, ESLint, PostCSS, autoprefixer, minifier
 
 - _三項 POC 專案_  
   包含前端(Vue.js)及後端(Node.js)開發。
+  - QVR Face 用戶檔案統一管理系統
+  - Smart office 智慧辦公室影像分析應用
+  - Tagging tool (full stack)
 
 ## Personal Projects
 
