@@ -4,12 +4,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Eric Deng',
-  titleDelimiter: '-',
-  tagline: 'Front End Engineer',
   url: 'https://gcdeng.com',
   baseUrl: '/',
   projectName: 'gcdeng.github.io', // Usually your repo name.
   organizationName: 'gcdeng', // Usually your GitHub org/user name.
+  deploymentBranch: 'master',
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -18,12 +17,13 @@ module.exports = {
     navbar: {
       title: 'Eric Deng',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'logo',
         src: 'img/logo.png',
       },
       items: [
-        { to: '/about', label: 'About', position: 'left' },
-        { to: '/resume', label: 'Resume', position: 'left' },
+        { to: 'blog', label: 'Blog', position: 'left' },
+        { to: 'series', label: 'Series', position: 'left' },
+        { to: 'resume', label: 'Resume', position: 'left' },
         {
           href: 'https://github.com/gcdeng',
           label: 'GitHub',
@@ -54,16 +54,16 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
-        docs: false,
-        // docs: {
-        //   sidebarPath: require.resolve('./sidebars.js'),
-        // },
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: 'series',
+        },
         blog: {
-          path: './blog',
-          routeBasePath: '/',
           showReadingTime: true,
-          blogTitle: "Eric Deng's Blog",
+          blogTitle: 'Blog',
           blogDescription: 'Personal blog by Eric Deng',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
