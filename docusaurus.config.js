@@ -25,6 +25,11 @@ module.exports = {
         { to: 'series', label: 'Series', position: 'left' },
         { to: 'resume', label: 'Resume', position: 'left' },
         {
+          href: 'https://medium.com/@gcdeng',
+          label: 'Medium',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/gcdeng',
           label: 'GitHub',
           position: 'right',
