@@ -10,8 +10,6 @@ ericdenggc@gmail.com
 
 ## Objective
 
-正在尋找更有挑戰的工作機會
-
 - 參與複雜度高有挑戰性的大型專案開發
 - 有機會嘗試後端開發, Smart Contract Development, Web3 Dapp, JAMStack, Web Vitals Optimization, PWA 或研究各種有趣的新技術
 - 期待加入樂於分享，能互相學習成長的團隊
