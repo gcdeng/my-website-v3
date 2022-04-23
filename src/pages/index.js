@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import ericDengImgUrl from '@site/static/img/ericdeng.jpg';
-import Intro from './intro.md';
+import Intro from './intro.mdx';
 import { FiGithub, FiLinkedin, FiFacebook, FiTwitter } from 'react-icons/fi';
 import styles from './index.module.css';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
