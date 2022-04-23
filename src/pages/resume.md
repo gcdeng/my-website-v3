@@ -1,8 +1,14 @@
 ---
 title: Resume
+description: Eric Deng's Resume
 ---
 
 import AboutMe from './\_about-me.mdx';
+import ericDengImgUrl from '@site/static/img/ericdeng.jpg';
+
+<head>
+  <meta property="og:image" content={ericDengImgUrl} />
+</head>
 
 # Resume
 
