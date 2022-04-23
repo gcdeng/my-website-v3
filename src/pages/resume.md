@@ -16,9 +16,8 @@ ericdenggc@gmail.com
 ## Objective
 
 - 參與有挑戰性的大型專案開發
-- 有機會嘗試後端開發, Smart Contract Development, Web3 Dapp, JAMStack, Web Vitals Optimization, PWA, Typescript 或研究各種有趣的新技術
-- 期待加入樂於分享，能互相學習成長的團隊
-- 重視程式碼品質
+- 有機會接觸後端開發, Smart Contract Development, Web3 Dapp, JAMStack, PWA, Typescript 或研究各種有趣的新技術
+- 期待加入樂於分享，能互相學習一起成長的團隊
 
 ## Technologies
 
@@ -36,14 +35,12 @@ ericdenggc@gmail.com
   - Semantic HTML
   - Metadata, Open Graph
   - Pre-rendering: SSR, SSG, ISR, Prerender.io
-  - Web Vitals
 - Performance Optimization
+  - Web Vitals
   - Chrome Developer Tools (Performance profiling, Lighthouse)
   - React DevTools
   - Cache strategies
-  - Code splitting
   - Dynamic import
-  - Tree shaking
   - Lazy loading
 - Blockchain: Web3.js, Metamask, WalletConnect, Infura, Moralis
 - Frontend Logging: Sentry
@@ -77,29 +74,30 @@ _2021/01 - Present_
 
 #### Rewarding jobs
 
-1. direct purchase NFT & Blind Box with credit card or cryptocurrency (Ethereum, Matic)
-2. connect [MetaMask](https://metamask.io/) & [WalletConnect](https://walletconnect.com/) by using [Web3.js](https://web3js.readthedocs.io/en/v1.7.0/) to interact with smart contract
-3. timed auction & reserved auction
-4. allow user withdraw NFT to specific wallet address
-5. build internal React component library with storybook and Bit.dev
-6. support multi-currency stores, include TWD, USD, JPY
-7. support multilingual, include English, Japanese & Traditional Chinese
-8. API & GraphQL integration with [Magento](https://business.adobe.com/products/magento/magento-commerce.html) backend service
-9. OAuth integration with [HTC account](https://account.htcvive.com/)
-10. integrate Google 2FA
-11. setup CI pipeline with Azure DevOps
-12. optimize SEO
-    - setup robots.txt, sitemap.xml and google search console
-    - integrate [Prerender.io](http://Prerender.io) for web crawlers
-    - handle open graph metadata for social media
-13. integrate [Sentry](https://docs.sentry.io/platforms/javascript/guides/react/) service for frontend logging, issue tracking
-14. integrate [CookiePro](https://www.cookiepro.com/) for cookie consent
-15. integrate GTM
-16. integrate GA
+1. Direct purchase NFT & Blind Box with credit card or cryptocurrency (Ethereum, Matic)
+2. Connect [MetaMask](https://metamask.io/) & [WalletConnect](https://walletconnect.com/) by using [Web3.js](https://web3js.readthedocs.io/en/v1.7.0/) to interact with smart contract
+3. Timed auction & reserved auction
+4. Withdraw NFT to specific wallet address
+5. Sharable user profile & asset page
+6. Build internal React component library with [storybook](https://storybook.js.org/) and [Bit.dev](https://bit.dev/)
+7. Support multi-currency stores, include TWD, USD, JPY
+8. Support multilingual, include English, Japanese & Traditional Chinese
+9. API & GraphQL integration with [Magento](https://business.adobe.com/products/magento/magento-commerce.html) backend service
+10. OAuth integration with [HTC account](https://account.htcvive.com/)
+11. Setup CI pipeline with Azure DevOps
+12. Optimize SEO
+    - Setup robots.txt, sitemap.xml and google search console
+    - Integrate [Prerender.io](http://Prerender.io) for web crawlers
+    - Handle open graph metadata for social media
+13. Integrate Google 2FA
+14. Integrate [Sentry](https://docs.sentry.io/platforms/javascript/guides/react/) service for frontend logging, issue tracking
+15. Integrate [CookiePro](https://www.cookiepro.com/) for cookie consent
+16. Integrate GTM
+17. Integrate GA
 
 #### Frontend Tech Stack
 
-React.js, React Hook, React Context, React Router, Redux, Magento PWA Studio, Next.js, ChakraUI, Webpack, ESLint, Storybook, Bit.dev, Prerender.io, Sentry, GA, GTM, CookiePro
+React.js, React Hook, React Context, React Router, Redux, [Magento PWA Studio](https://developer.adobe.com/commerce/pwa-studio/), Next.js, [ChakraUI](https://chakra-ui.com/), Webpack, ESLint, [Storybook](https://storybook.js.org/), [Bit.dev](https://bit.dev/), [Prerender.io](https://prerender.io/), [Sentry](https://sentry.io/welcome/), GA, GTM, [CookiePro](https://www.cookiepro.com/)
 
 #### Backend API Integration
 
@@ -107,7 +105,7 @@ React.js, React Hook, React Context, React Router, Redux, Magento PWA Studio, Ne
 
 #### Blockchain Smart Contract Integration
 
-Web3.js, Metamask, WalletConnect, Infura, Moralis
+[Web3.js](https://web3js.readthedocs.io/en/v1.7.3/), [Metamask](https://metamask.io/), [WalletConnect](https://walletconnect.com/), [Infura](https://infura.io/), [Moralis](https://moralis.io/)
 
 ### Frontend Engineer at QNAP
 
