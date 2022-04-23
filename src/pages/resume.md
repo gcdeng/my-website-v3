@@ -76,7 +76,7 @@ _2021/01 - Present_
 
 - [VIVE BYTES](https://bytes.vive.com/) - NFT marketplace focusing on Anime, Cartoon, and Games (ACG) themed NFTs.
 - [VIVE Arts NFT](https://nft.vivearts.com/) - NFT marketplace focusing on Arts and Collectibles.
-- [VIVEPORT](https://www.viveport.com/) - VR app store. Revamp Frontend, maintain issues and related legacy microservices.
+- [VIVEPORT](https://www.viveport.com/) - VR app store. Revamp Frontend and maintain issues from related legacy microservices.
 
 #### Rewarding jobs
 
@@ -85,21 +85,23 @@ _2021/01 - Present_
 3. Timed auction & reserved auction
 4. Withdraw NFT to specific wallet address
 5. Sharable user profile & asset page
-6. Build internal React component library with [storybook](https://storybook.js.org/) and [Bit.dev](https://bit.dev/)
-7. Support multi-currency stores, include TWD, USD, JPY
-8. Support multilingual, include English, Japanese & Traditional Chinese
-9. API & GraphQL integration with [Magento](https://business.adobe.com/products/magento/magento-commerce.html) backend service
-10. OAuth integration with [HTC account](https://account.htcvive.com/)
-11. Setup CI pipeline with Azure DevOps
-12. Optimize SEO
-    - Setup robots.txt, sitemap.xml and google search console
-    - Integrate [Prerender.io](http://Prerender.io) for web crawlers
+6. Redeem product with redeem code purchased from ibon
+7. Implement all pages and components common in E-commerce, like account settings, user activities, checkout, payment and so on
+8. Support multi-currency stores, include TWD, USD, JPY
+9. Support multilingual, include English, Japanese & Traditional Chinese
+10. API & GraphQL integration with [Magento](https://business.adobe.com/products/magento/magento-commerce.html) CMS backend service
+11. Build internal React component library with [storybook](https://storybook.js.org/) and [Bit.dev](https://bit.dev/)
+12. OAuth integration with [HTC account](https://account.htcvive.com/)
+13. Setup CI pipeline with Azure DevOps
+14. Optimize SEO
+    - Setup robots.txt, sitemap.xml and Google search console
+    - Integrate [Prerender.io](https://prerender.io/) for web crawlers
     - Handle open graph metadata for social media
-13. Integrate Google 2FA
-14. Integrate [Sentry](https://docs.sentry.io/platforms/javascript/guides/react/) service for frontend logging, issue tracking
-15. Integrate [CookiePro](https://www.cookiepro.com/) for cookie consent
-16. Integrate GTM
-17. Integrate GA
+15. Integrate Google 2FA
+16. Integrate [Sentry](https://sentry.io/welcome/) service for frontend logging, issue tracking
+17. Integrate [CookiePro](https://www.cookiepro.com/) for cookie consent
+18. Integrate GTM
+19. Integrate GA
 
 #### Frontend Tech Stack
 
