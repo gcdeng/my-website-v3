@@ -2,51 +2,62 @@
 title: Resume
 ---
 
+import AboutMe from './\_about-me.mdx';
+
 # Resume
 
+## About me
+
 **Eric 鄧國欽**  
-ericdenggc@gmail.com  
-台北 Taipei
+ericdenggc@gmail.com
+
+<AboutMe />
 
 ## Objective
 
-- 參與複雜度高有挑戰性的大型專案開發
-- 有機會嘗試後端開發, Smart Contract Development, Web3 Dapp, JAMStack, Web Vitals Optimization, PWA 或研究各種有趣的新技術
+- 參與有挑戰性的大型專案開發
+- 有機會嘗試後端開發, Smart Contract Development, Web3 Dapp, JAMStack, Web Vitals Optimization, PWA, Typescript 或研究各種有趣的新技術
 - 期待加入樂於分享，能互相學習成長的團隊
 - 重視程式碼品質
 
 ## Technologies
 
-### Familiar with
-
 - HTML5, CSS3, JavaScript(ES6+)
-- React.js Tech Stacks: Hook, Context, Redux, React Router, CRA, Next.js, React Intl, next-i18next
-- Blockchain Tech Stacks: Web3.js, Metamask, Infura, Moralis
-- Pre-rendering: Prerender.io, SSR, SSG, ISR
-- Data Fetching: Axios, SWR, React Apollo GraphQL Client
+- React.js Tech stack: Hook, Context, Redux, React Router, CRA, Next.js, React Intl, next-i18next
+- Vue.js Tech Stack: Vuex, Vue Router, Vue CLI, Vue-i18n, Nuxt.js, vue-devtools
+- CSS: SASS/SCSS, CSS Modules, Flexbox, Grid Layout
 - Component Library: Chakra UI, Element UI, Bootstrap
-- CSS: RWD, SASS/SCSS, CSS Modules, Flexbox, Grid Layout
+- Responsive Web Design
+- Data Fetching: Axios, SWR, React Apollo GraphQL Client, WebSocket, Socket.io
 - Frontend Building Tools: Webpack, Storybook, Bit.dev, ESLint, Babel, Prettier, Gulp, PostCSS, cssnano, Autoprefixer, UglifyJS
-- i18n: React Intl, next-i18next, Vue-i18n
-- Git version control
-- 與後端工程師合作，制定及串接 RESTful API, GraphQL, WebSocket, Socket.io
-- 與 UI 設計師合作，溝通技術可行性，能依照 Figma 設計細節完成 UI
+- SEO Optimization
+  - robots.txt, sitemap.xml
+  - Google Search Console
+  - Semantic HTML
+  - Metadata, Open Graph
+  - Pre-rendering: SSR, SSG, ISR, Prerender.io
+  - Web Vitals
+- Performance Optimization
+  - Chrome Developer Tools (Performance profiling, Lighthouse)
+  - React DevTools
+  - Cache strategies
+  - Code splitting
+  - Dynamic import
+  - Tree shaking
+  - Lazy loading
+- Blockchain: Web3.js, Metamask, WalletConnect, Infura, Moralis
+- Frontend Logging: Sentry
+- Build CI process with Docker, Azure Pipeline, AWS
+- Visualization: D3.js, ECharts, SVG, SVG.js, Canvas, Fabric.js
+- Animation: GSAP
+- Version control: Git
+- CMS: Magento
+- Backend Development: Node.js, Express.js, MongoDB
+- POC 開發經驗，獨立研究，快速建立 MVP
+- 與後端工程師合作，共同制定及串接 API Spec
+- 與 UI 設計師合作，溝通技術可行性，使用 Figma 依照設計規格完成 UI
 - 與 UX 設計師合作，討論使用者體驗，規劃互動流程
 - 與 PM 合作，討論產品需求，提供技術建議，評估開發時間及成本效益
-
-### Experience with
-
-- 前端效能優化: Chrome Developer Tools (Performance profiling, Lighthouse), Cache, Code splitting, Dynamic import, Tree shaking, Lazy loading
-- Frontend Logging: Sentry
-- CMS: Magento
-- Docker, Azure Pipeline, AWS ECR
-- Vue.js Tech Stacks: Vuex, Vue Router, Vue CLI, Vue-i18n, Nuxt.js, vue-devtools
-- Backend Development: Node.js, Express.js, MongoDB
-- 資料視覺化工具: D3.js, ECharts
-- 繪圖工具: SVG, SVG.js, Canvas, Fabric.js
-- 特效類工具: GSAP
-- Scrum 開發流程及 Jira 專案管理工具
-- POC 開發經驗，獨立快速建立 MVP
 
 ### Learning recently
 
@@ -60,15 +71,43 @@ _2021/01 - Present_
 
 #### Products
 
-- NFT Marketplace
+- [VIVE BYTES](https://bytes.vive.com/) - NFT marketplace focusing on Anime, Cartoon, and Games (ACG) themed NFTs.
+- [VIVE Arts NFT](https://nft.vivearts.com/) - NFT marketplace focusing on Arts and Collectibles.
+- [VIVEPORT](https://www.viveport.com/) - VR app store. Revamp Frontend, maintain issues and related legacy microservices.
 
-#### Tech Stacks
+#### Rewarding jobs
 
-React.js, React Hook, React Context, React Router, Redux, Next.js (SSR & SSG), ChakraUI, Webpack, ESLint, Axios, SWR, GraphQL, React Apollo Client, Storybook, Bit.dev, Magento, Magento PWA Studio, Prerender.io, Sentry, GA, GTM, CookiePro for cookie consent
+1. direct purchase NFT & Blind Box with credit card or cryptocurrency (Ethereum, Matic)
+2. connect [MetaMask](https://metamask.io/) & [WalletConnect](https://walletconnect.com/) by using [Web3.js](https://web3js.readthedocs.io/en/v1.7.0/) to interact with smart contract
+3. timed auction & reserved auction
+4. allow user withdraw NFT to specific wallet address
+5. build internal React component library with storybook and Bit.dev
+6. support multi-currency stores, include TWD, USD, JPY
+7. support multilingual, include English, Japanese & Traditional Chinese
+8. API & GraphQL integration with [Magento](https://business.adobe.com/products/magento/magento-commerce.html) backend service
+9. OAuth integration with [HTC account](https://account.htcvive.com/)
+10. integrate Google 2FA
+11. setup CI pipeline with Azure DevOps
+12. optimize SEO
+    - setup robots.txt, sitemap.xml and google search console
+    - integrate [Prerender.io](http://Prerender.io) for web crawlers
+    - handle open graph metadata for social media
+13. integrate [Sentry](https://docs.sentry.io/platforms/javascript/guides/react/) service for frontend logging, issue tracking
+14. integrate [CookiePro](https://www.cookiepro.com/) for cookie consent
+15. integrate GTM
+16. integrate GA
 
-#### Blockchain related tech stacks
+#### Frontend Tech Stack
 
-Web3.js, Metamask, Infura, Moralis
+React.js, React Hook, React Context, React Router, Redux, Magento PWA Studio, Next.js, ChakraUI, Webpack, ESLint, Storybook, Bit.dev, Prerender.io, Sentry, GA, GTM, CookiePro
+
+#### Backend API Integration
+
+[Magento](https://business.adobe.com/products/magento/magento-commerce.html), Payment gateway service, Axios, [SWR](https://swr.vercel.app/), GraphQL, [React Apollo Client](https://www.apollographql.com/docs/react/)
+
+#### Blockchain Smart Contract Integration
+
+Web3.js, Metamask, WalletConnect, Infura, Moralis
 
 ### Frontend Engineer at QNAP
 
@@ -131,7 +170,11 @@ QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟�
 
 ## Personal Projects
 
-### Muxic (開發中)
+### [crypto-trading-bot-dca](https://github.com/gcdeng/crypto-trading-bot-dca)
+
+A cryptocurrency trading bot to help you implement dollar-cost averaging (DCA) investment strategy automatically in FTX Pro exchange.
+
+### Muxic
 
 整合 KKbox、Spotify 及 Youtube 的音樂服務網站。因為喜歡音樂，為了發現更多好音樂而獨立開發的專案。設計風格**復刻**Spotify，專案名稱寓意電子學中的多工器(Multiplexer)，一個可從多個輸入訊號中選擇其中一個輸出的電子元件，以其縮寫 MUX 改寫 Music 而成。
 
