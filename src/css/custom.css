@@ -28,9 +28,9 @@ html[data-theme='dark'] {
   --ifm-color-primary-lighter: #f9cdb6;
   --ifm-color-primary-lightest: #fdf1ea;
 
-  --ifm-background-color: #282c35;
-  --ifm-navbar-background-color: #282c35;
-  --ifm-footer-background-color: #282c35;
+  --ifm-background-color: #121212;
+  --ifm-navbar-background-color: #121212;
+  --ifm-footer-background-color: #121212;
 }
 
 .docusaurus-highlight-code-line {
