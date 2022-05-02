@@ -1,14 +1,16 @@
 ---
 slug: react-hooks
 title: React Hooks 總整理筆記
-description: 學習 React Hooks 同時整理的一些筆記
+description: 學習 React Hooks 時整理的一些筆記，內容涵蓋所有常見的Hook使用教學及開發上可以注意可能踩雷的地方。更新到React 18新增的Hooks。
 image: /img/2022-05-02-react-hooks/lautaro-andreani-xkBaqlcqeb4-unsplash.jpg
 authors: ericdeng
 tags: [react.js]
 keywords: [react, react-hooks, 教學, 筆記]
 ---
 
-學習 React Hooks 同時整理的一些筆記
+學習 React Hooks 時整理的一些筆記，內容涵蓋所有常見的 Hook 使用教學及開發上可以注意可能踩雷的地方。
+
+更新到 React 18 新增的 Hooks。
 
 ![lautaro-andreani-xkBaqlcqeb4-unsplash.jpg](/img/2022-05-02-react-hooks/lautaro-andreani-xkBaqlcqeb4-unsplash.jpg)
 
