@@ -17,7 +17,7 @@ keywords: [react, react-hooks, 教學, 筆記]
 ## React Hook 使用規則
 
 1. 只能在 React function component 或是自定義的 hook 中使用，不能在一般的 JavaScript function 中使用。
-2. 只能在 React function component**最上層**直接呼叫，不能再條件式、迴圈或巢狀函式內呼叫 hook，React 使用這個規則來保證每次 render 時呼叫 hook 的順序都是一樣的。
+2. 只能在 React function component **最上層**直接呼叫，不能在條件式、迴圈或巢狀函式內呼叫 hook，React 使用這個規則來保證每次 render 時呼叫 hook 的順序都是一樣的。
 
 ## useState
 
