@@ -4,9 +4,288 @@
         <title>Eric Deng Blog</title>
         <link>https://gcdeng.com/blog</link>
         <description>Eric Deng Blog</description>
-        <lastBuildDate>Sun, 14 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 May 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[React Hooks 總整理筆記]]></title>
+            <link>https://gcdeng.com/blog/react-hooks</link>
+            <guid>react-hooks</guid>
+            <pubDate>Mon, 02 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[學習 React Hooks 同時整理的一些筆記]]></description>
+            <content:encoded><![CDATA[<p>學習 React Hooks 同時整理的一些筆記</p><p><img src="/img/2022-05-02-react-hooks/lautaro-andreani-xkBaqlcqeb4-unsplash.jpg" alt="lautaro-andreani-xkBaqlcqeb4-unsplash.jpg"/></p><h2>React Hook 使用規則</h2><ol><li>只能在 React function component 或是自定義的 hook 中使用，不能在一般的 JavaScript function 中使用。</li><li>只能在 React function component <strong>最上層</strong>直接呼叫，不能在條件式、迴圈或巢狀函式內呼叫 hook，React 使用這個規則來保證每次 render 時呼叫 hook 的順序都是一樣的。</li></ol><h2>useState</h2><pre><code class="language-jsx">const [state, setState] = useState(initialState);
+</code></pre><p>useState 會回傳當前的 state 以及另一個用來更新 state 的 setState function。</p><p>如果是第一次 render，state 的值會是 initialState，如果是在後續的 render，initialState 不會被使用，state 會是最近一次更新的 state 值。</p><pre><code class="language-jsx">setState(newState);
+</code></pre><p>setState function 接收新的 state value，呼叫之後會將 re-render task 加入 queue 中，將在下一次 batch re-render 時更新元件的狀態。</p><blockquote><p><strong>Note</strong><br/>
+<!-- -->React guarantees that <code>setState</code> function identity is stable and won’t change on re-renders. This is why it’s safe to omit from the <code>useEffect</code> or <code>useCallback</code> dependency list.</p><p><code>setState</code> 的記憶體位置(reference identity)不會因為 re-render 而改變，所以傳遞給其他子元件也不會造成子元件 re-render。</p></blockquote><h3>Functional updates</h3><p>如果要計算新的 state 需要依賴先前的 state ，你可以透過傳遞一個 function 到  <code>setState</code> 來更新。該 function 會接收前一個 state，可以把更新邏輯寫在 function 內然後回傳下一個狀態。如果 function 回傳的 state 沒有變，將不會觸發 re-render。</p><pre><code class="language-jsx">function Counter({ initialCount }) {
+  const [count, setCount] = useState(initialCount);
+  return (
+    &lt;&gt;
+      Count: {count}
+      &lt;button onClick={() =&gt; setCount(initialCount)}&gt;Reset&lt;/button&gt;
+      &lt;button onClick={() =&gt; setCount((prevCount) =&gt; prevCount - 1)}&gt;-&lt;/button&gt;
+      &lt;button onClick={() =&gt; setCount((prevCount) =&gt; prevCount + 1)}&gt;+&lt;/button&gt;
+    &lt;/&gt;
+  );
+}
+</code></pre><p>也可以結合 object spread 語法來更新 object state</p><pre><code class="language-jsx">const [state, setState] = useState({count: 4, name: &#x27;blue&#x27;});
+setState(prevState =&gt; {...prevSate, count: prevSate.count + 1};
+console.log(state); // {count: 5, name: &#x27;blue&#x27;}
+</code></pre><h3>惰性初始 state</h3><p>如果初始 state 需要複雜的邏輯運算，你可以傳入一個 init function 給 useState，init function 只會在初始 render 時被調用。</p><pre><code class="language-jsx">const [state, setState] = useState(() =&gt; {
+  const initialState = someExpensiveComputation(props);
+  return initialState;
+});
+</code></pre><h3>Batching of state updates</h3><p>React 不會在每次 setState 後就馬上同步地執行 re-render，而是將多個 setState 累積加入到 queue 中，再一次 re-render 更新多個 state，藉由批次處理 state updates 就只要 re-render 一次來改善效能。</p><p>在 React 18 之前只會 batch 更新 React event handler 裡面的 setState，如果是在 setTimeout 或是 promise 之類的原生 event handler 裡面的 setState 是不會被 batch update。</p><pre><code class="language-jsx">// Before React 18 only React events were batched
+
+function handleClick() {
+  setCount((c) =&gt; c + 1);
+  setFlag((f) =&gt; !f);
+  // React will only re-render once at the end (that&#x27;s batching!)
+}
+
+setTimeout(() =&gt; {
+  setCount((c) =&gt; c + 1);
+  setFlag((f) =&gt; !f);
+  // React will render twice, once for each state update (no batching)
+}, 1000);
+</code></pre><p><strong>在 React 18 之後全部的 event handler</strong>裡面的 setState 都會自動被 batch update 了。</p><pre><code class="language-jsx">// After React 18 updates inside of timeouts, promises,
+// native event handlers or any other event are batched.
+
+function handleClick() {
+  setCount((c) =&gt; c + 1);
+  setFlag((f) =&gt; !f);
+  // React will only re-render once at the end (that&#x27;s batching!)
+}
+
+setTimeout(() =&gt; {
+  setCount((c) =&gt; c + 1);
+  setFlag((f) =&gt; !f);
+  // React will only re-render once at the end (that&#x27;s batching!)
+}, 1000);
+</code></pre><p>如果你不想要 batch update 還是可以用 flushSync 讓 state 可以獨立同步的被更新做 re-render。</p><pre><code class="language-jsx">import { flushSync } from &#x27;react-dom&#x27;;
+
+function handleClick() {
+  flushSync(() =&gt; {
+    setCounter((c) =&gt; c + 1);
+  });
+  // React has updated the DOM by now
+  flushSync(() =&gt; {
+    setFlag((f) =&gt; !f);
+  });
+  // React has updated the DOM by now
+}
+</code></pre><h2>useEffect</h2><pre><code class="language-jsx">useEffect(didUpdate);
+</code></pre><p>function component body 內 (render 的期間) 不能直接執行會產生 side effect 的行為，例如 data fetching, timers, subscriptions，這些行為應該寫在 useEffect。</p><h3>Effect function</h3><p>useEffect 傳入的第一個參數是一個 effect function，任何有 side effect 的行為都應該要寫在這個 effect function 內，<strong>effect function 會在 component render 完成(paint)之後才執行</strong>，effect function 只能回傳一個 clean-up function 或是什麼都不回傳(包含<code>undefined</code>)。</p><h3>Cleaning up an effect</h3><pre><code class="language-jsx">useEffect(() =&gt; {
+  const subscription = props.source.subscribe();
+  return () =&gt; {
+    // Clean up the subscription
+    subscription.unsubscribe();
+  };
+});
+</code></pre><p>在 component 離開螢幕之前需要清除 effect 所建立的資源，像是 subscription 或 Timer ID，以避免 memory leaks。這些要清除的 effect 可以寫在 effect function 回傳的 clean-up function 內，<strong>clean-up function 會在元件被移除前(unmount)被調用。</strong></p><p>component 通常都會 render 很多次，在每次 render 執行下一個 effect 之前，上一個 effect 的 clean-up function 會先被執行清除已建立的資源。</p><h3>Timing of effects</h3><p>effect function 執行的時機點會在<strong>layout 和 paint 之後</strong>，也就是畫面都已經渲染好，user 已經看到畫面之後。也因為這樣執行 effect function 時才不會 block 住瀏覽器更新畫面，適用於很多常見的 side effect，例如 data fetching、設定 subscription 和 event handler，不阻礙瀏覽器更新畫面的工作。</p><p>但有些 effect 需要發生在 paint 之前，例如使用者可見的 DOM 改變，避免 user 先看到初始值又突然一閃變成 side effect 改變的值，這時可以選擇使用 <code>useLayoutEffect</code> ，他跟 useEffect 的差別只在於他執行的時機點是在 paint 之前，但是使用時需要注意他會 blocking 瀏覽器渲染畫面，不能執行運算時間太長的工作，否則會延後 user 看到畫面的時間。</p><h3>Conditionally firing an effect</h3><p>如果 useEffect 只有傳入一個 function 參數，預設會是在<strong>每次 render 完成之後</strong>調用 effect function。</p><p>如果在第二個參數中傳入 dependency array，可以讓 useEffect<strong>只在 dependency array 中的值改變之後</strong>才執行 effect function。</p><pre><code class="language-jsx">useEffect(() =&gt; {
+  // 偵測到 props.source 改變之後才執行這個function
+  const subscription = props.source.subscribe();
+  return () =&gt; {
+    subscription.unsubscribe();
+  };
+}, [props.source]);
+</code></pre><p>所有在該 component 中會隨時間而變的值（例如 props 和 state）以及在該 effect function 所使用到的值都應該寫在 dependency array 裡，否則 effect function 會用到上一次 render 的舊值。</p><p>如果只想要在 mount 時執行一次 effect function，unmount 時執行一次 clean-up function，可以只帶一個空的 dependency array(<code>[]</code>)。</p><blockquote><p>建議使用  <a href="https://www.npmjs.com/package/eslint-plugin-react-hooks#installation">eslint-plugin-react-hooks</a> 中的  <a href="https://github.com/facebook/react/issues/14920">exhaustive-deps</a> 規則。它會在依賴錯誤時發出警告並提出修正建議。</p></blockquote><h3>總結常見的四個使用情境</h3><ol><li>不帶 dependency array，在每次 render 完成之後都執行 effect function</li><li>帶空的 dependency array，只會執行一次 effect function，時機點是在初次 render 完成之後</li><li>將 effect function 內會用到的 dependency state/props 放進 dependency array 中，如果 dependency 有變化才執行 effect function</li><li>return clean-up function，在 unmount 時清除 effect 中使用到的資源</li></ol><p><img src="/img/2022-05-02-react-hooks/use-effect.png" alt="[https://medium.com/hannah-lin/react-hook-筆記-從最基本的-hook-開始-usestate-useeffect-fee6582d8725](https://medium.com/hannah-lin/react-hook-%E7%AD%86%E8%A8%98-%E5%BE%9E%E6%9C%80%E5%9F%BA%E6%9C%AC%E7%9A%84-hook-%E9%96%8B%E5%A7%8B-usestate-useeffect-fee6582d8725)"/></p><p><a href="https://medium.com/hannah-lin/react-hook-%E7%AD%86%E8%A8%98-%E5%BE%9E%E6%9C%80%E5%9F%BA%E6%9C%AC%E7%9A%84-hook-%E9%96%8B%E5%A7%8B-usestate-useeffect-fee6582d8725">https://medium.com/hannah-lin/react-hook-筆記-從最基本的-hook-開始-usestate-useeffect-fee6582d8725</a></p><h2>useContext</h2><pre><code class="language-jsx">const value = useContext(MyContext);
+</code></pre><p>接收一個 context object 參數（<a href="https://reactjs.org/docs/context.html#reactcreatecontext">React.createContext</a>  的回傳值）並回傳該 context 目前的值。</p><p><code>useContext</code>取得的值取決於距離 component 最近的  <code>&lt;MyContext.Provider&gt;</code>  的  <code>value</code> prop。</p><p>呼叫  <code>useContext</code> 的 component 總是會在 context value 更新時 re-render。如果 re-render component 的操作很昂貴，你可以透過 <code>useMemo</code> 或其他 <a href="https://github.com/facebook/react/issues/15156#issuecomment-474590693">memoization 來最佳化</a>。</p><p>Example:</p><pre><code class="language-jsx">const themes = {
+  light: {
+    foreground: &#x27;#000000&#x27;,
+    background: &#x27;#eeeeee&#x27;,
+  },
+  dark: {
+    foreground: &#x27;#ffffff&#x27;,
+    background: &#x27;#222222&#x27;,
+  },
+};
+
+const ThemeContext = React.createContext(themes.light);
+
+function App() {
+  return (
+    &lt;ThemeContext.Provider value={themes.dark}&gt;
+      &lt;Toolbar /&gt;
+    &lt;/ThemeContext.Provider&gt;
+  );
+}
+
+function Toolbar(props) {
+  return (
+    &lt;div&gt;
+      &lt;ThemedButton /&gt;
+    &lt;/div&gt;
+  );
+}
+
+function ThemedButton() {
+  const theme = useContext(ThemeContext);
+  return (
+    &lt;button style={{ background: theme.background, color: theme.foreground }}&gt;
+      I am styled by theme context!
+    &lt;/button&gt;
+  );
+}
+</code></pre><h3><code>React.createContext</code></h3><pre><code class="language-jsx">const MyContext = React.createContext(defaultValue);
+</code></pre><h3><code>Context.Provider</code></h3><pre><code class="language-jsx">&lt;MyContext.Provider value={/* some value */}&gt;
+</code></pre><p>每一個 context object 都有一個 Provider React component，提供子元件訂閱 context 的改變事件。</p><p>多個 Context Provider 可以直接寫成巢狀，例如：</p><pre><code class="language-jsx">class App extends React.Component {
+  render() {
+    const { signedInUser, theme } = this.props;
+
+    // App component that provides initial context values
+    return (
+      &lt;ThemeContext.Provider value={theme}&gt;
+        &lt;UserContext.Provider value={signedInUser}&gt;
+          &lt;Layout /&gt;
+        &lt;/UserContext.Provider&gt;
+      &lt;/ThemeContext.Provider&gt;
+    );
+  }
+}
+</code></pre><h2>useMemo</h2><pre><code class="language-jsx">const memoizedValue = useMemo(() =&gt; computeExpensiveValue(a, b), [a, b]);
+</code></pre><p>Pass a “create” function and an array of dependencies</p><p>Returns a <a href="https://en.wikipedia.org/wiki/Memoization">memoized</a> value. 記住 callback function 回傳的運算結果，可以是任何值，包含 object、array、basic type，甚至是 React Component。</p><p>re-render 時只有在 dependencies 改變後才會重新執行 callback function 更新 memoizedValue，如果 dependencies 沒有改變會直接使用當前的 memoizedValue，不會重新執行 callback function。適合把<strong>執行速度慢的運算</strong>或是<strong>dependencies 沒變結果就不會變得運算</strong>使用 useMemo 將結果存起來，避免每次 render 都要重複執行不必要的運算以改善效能。</p><p>傳到  <code>useMemo</code>  的 function 會在 render 期間執行，因此<strong>不能執行有 side effect 的運算</strong>。</p><p>如果沒有提供 array，每次 render 時都會計算新的值，等於沒作用。</p><h2>useCallback</h2><pre><code class="language-jsx">const memoizedCallback = useCallback(() =&gt; {
+  doSomething(a, b);
+}, [a, b]);
+</code></pre><p>接收一個 callback function 跟一個 dependency array</p><p>回傳 memoized callback，這個 memoized callback 只會在 dependencies 改變時更新，如果 dependencies 沒有改變，memoized callback 會被保存在同一個記憶體位置(reference identity)，在下一次的 render 直接繼續使用。</p><p>一般的 callback function 即使內容或是結果沒有任何改變也會在每次 render 時存進新的記憶體位置，當這 callback 有傳給 child component 使用時，因為對 child 來說都是新的 prop，會造成 child component 每次都 re-render，但這其實是不必要的而且浪費效能的因為 re-render 之後還是一樣的結果，只需要在 callback function 真的有改變時才 re-render 就好，為了改善這個效能問題，可以改成用 memoizedCallback 傳遞給 child，如此一來只有在 callback function 真正有改變時才會讓 child component re-render。</p><blockquote><p><code>useCallback(fn, deps)</code>  相等於  <code>useMemo(() =&gt; fn, deps)</code>。</p></blockquote><h2>Memorized Hook</h2><p>useMemo, useCallback</p><p>不建議全部都用 Memorized Hook，因為可能會有 memory overhead，memory usage 太多也會有 performance issue ，適用的函式要符合：</p><ul><li>執行速度很慢  (Expensive function or expensive calculation)</li><li>不需要每次 render 都執行的運算</li></ul><h2>useReducer</h2><pre><code class="language-jsx">const [state, dispatch] = useReducer(reducer, initialArg, init);
+</code></pre><p>第一個參數是 reducer function，<strong>reducer 是一個不能有 side effect 的 pure function</strong>，負責的工作是接收前一個 state 以及 action 然後計算下一個 state 並回傳。</p><p>useReducer 會回傳當前的 state 以及 dispatch function，component 可以透過 dispatch action 來更新 state 觸發 re-render。</p><p>Example</p><pre><code class="language-jsx">const initialState = { count: 0 };
+
+function reducer(state, action) {
+  switch (action.type) {
+    case &#x27;increment&#x27;:
+      return { count: state.count + 1 };
+    case &#x27;decrement&#x27;:
+      return { count: state.count - 1 };
+    default:
+      throw new Error();
+  }
+}
+
+function Counter() {
+  const [state, dispatch] = useReducer(reducer, initialState);
+  return (
+    &lt;&gt;
+      Count: {state.count}
+      &lt;button onClick={() =&gt; dispatch({ type: &#x27;decrement&#x27; })}&gt;-&lt;/button&gt;
+      &lt;button onClick={() =&gt; dispatch({ type: &#x27;increment&#x27; })}&gt;+&lt;/button&gt;
+    &lt;/&gt;
+  );
+}
+</code></pre><p>使用上的流程主要會是這樣：</p><ol><li>定義 action object，下一個狀態要做什麼改變？</li><li>定義 reducer，接收到 action 之後下一個狀態該如何改變？</li><li>在元件中使用 state</li><li>在元件中的 event handler 透過 dispatch action 呼叫 reducer 來更新 state，re-render component</li></ol><p><img src="/img/2022-05-02-react-hooks/use-reducer.jpg" alt="[https://dmitripavlutin.com/react-usereducer/](https://dmitripavlutin.com/react-usereducer/)"/></p><p><a href="https://dmitripavlutin.com/react-usereducer/">https://dmitripavlutin.com/react-usereducer/</a></p><blockquote><p><strong>Note</strong><br/>
+<!-- -->React guarantees that <code>dispatch</code> function identity is stable and won’t change on re-renders. This is why it’s safe to omit from the <code>useEffect</code> or <code>useCallback</code> dependency list.</p><p>dispatch function 在 re-render 的時候不會被改變，因此不會造成子元件 re-render，適合拿來傳遞給子元件使用同時保持好的效能。</p></blockquote><h3>如何初始化</h3><p>有兩種方式可以初始化 useReducer state，第一種是透過第二個參數傳入初始狀態</p><pre><code class="language-jsx">const [state, dispatch] = useReducer(reducer, { count: initialCount });
+</code></pre><p>第二種方式是惰性初始化(Lazy initialization)，透過第三個參數傳入 init function，init function 可以接收 props，然後回傳要初始化的 state，這種方式可以讓你把初始化的邏輯寫在 reducer 之外，要在 reducer 中處理初始化的 action 也會比較方便。</p><pre><code class="language-jsx">function init(initialCount) {
+  return { count: initialCount };
+}
+
+function reducer(state, action) {
+  switch (action.type) {
+    case &#x27;increment&#x27;:
+      return { count: state.count + 1 };
+    case &#x27;decrement&#x27;:
+      return { count: state.count - 1 };
+    case &#x27;reset&#x27;:
+      return init(action.payload);
+    default:
+      throw new Error();
+  }
+}
+
+function Counter({ initialCount }) {
+  const [state, dispatch] = useReducer(reducer, initialCount, init);
+  return (
+    &lt;&gt;
+      Count: {state.count}
+      &lt;button
+        onClick={() =&gt; dispatch({ type: &#x27;reset&#x27;, payload: initialCount })}
+      &gt;
+        Reset
+      &lt;/button&gt;
+      &lt;button onClick={() =&gt; dispatch({ type: &#x27;decrement&#x27; })}&gt;-&lt;/button&gt;
+      &lt;button onClick={() =&gt; dispatch({ type: &#x27;increment&#x27; })}&gt;+&lt;/button&gt;
+    &lt;/&gt;
+  );
+}
+</code></pre><h3>useReducer 跟 Redux 不同之處</h3><ul><li><strong>userReducer 資料是存在 component state，而 Redux 是存在 global store</strong>，可以搭配 useContext 做到類似 global store 的效果。</li><li><strong>userReducer 沒有 middleware</strong>，不能像 Redux 用 thunk 或 saga 來處理 side effect。</li></ul><h2>useRef</h2><pre><code class="language-jsx">const refContainer = useRef(initialValue); // {current: initialValue}
+</code></pre><p>useRef 會回傳一個有  <code>current</code> 屬性的 object，<code>refContainer.current</code> 的值會被初始化為 initialValue。</p><p>refContainer 會在 component<strong>整個生命週期都保存一樣的 reference</strong>。如果是自己建立的<code>{current: ...}</code> object，每次 render 後 reference 就會改變。</p><p>更新 current 的值<strong>不會觸發 re-render</strong>。</p><p>更新  <code>useRef</code> object 的 current  是 side effect，所以要寫在  <code>useEffect</code>  或 event handler 裡面。</p><h3>常見的使用情境</h3><ul><li>直接存取 child 或 DOM 執行操作</li></ul><pre><code class="language-jsx">function TextInputWithFocusButton() {
+  const inputEl = useRef(null);
+  const onButtonClick = () =&gt; {
+    // `current` points to the mounted text input element
+    inputEl.current.focus();
+  };
+  return (
+    &lt;&gt;
+      &lt;input ref={inputEl} type=&quot;text&quot; /&gt;
+      &lt;button onClick={onButtonClick}&gt;Focus the input&lt;/button&gt;
+    &lt;/&gt;
+  );
+}
+</code></pre><ul><li>計算 render 次數</li></ul><pre><code class="language-jsx">const App = () =&gt; {
+  const renderCount = useRef(0); // { current: 0 }
+
+  useEffect(() =&gt; {
+    renderCount.current += 1;
+  });
+
+  return &lt;p&gt;{renderCount.current}&lt;/p&gt;;
+};
+</code></pre><h2>useLayoutEffect</h2><p>使用方式跟 useEffect 相同，差別在於 useLayoutEffect 的 effect function 是在瀏覽器 paint 渲染畫面<strong>之前</strong>同步(synchronously)執行，所以<strong>畫面會被 block 住直到 effect function 執行完才會出現</strong>，使用上必須小心可能影響效能，<strong>官方建議盡量以使用 useEffect 為主</strong>，避免畫面被 blocking。</p><p>詳細使用範例可以參考這篇寫得很好的文章：</p><p><a href="https://medium.com/hannah-lin/react-hook-%E7%AD%86%E8%A8%98-uselayouteffect-30c93301a618">https://medium.com/hannah-lin/react-hook-筆記-uselayouteffect-30c93301a618</a></p><h2>useDeferredValue</h2><pre><code class="language-jsx">const deferredValue = useDeferredValue(value);
+</code></pre><p>通常用來接收一個 state，回傳一個複製 state 的值，deferredValue，這個 deferredValue 會被認為是 non-urgent 的 state，會先保留原來的值，被延遲等到其他 urgent 的 state 更新完成，才會回來更新 deferredValue。</p><p>用途類似 debouncing 或 throttling，可以用在需要延遲一段時間再更新 state 的地方，差別在於不用指定固定的延遲時間，React 會在其他緊急的工作(例如 user input)完成之後自動回來更新 deferredValue。<strong>跟 useTransition 一樣是 React 18 的新功能，他們的目的都是用來告訴 React 哪些是非緊急的 state 更新，可以被 urgent state 中斷或是延遲晚一點再做 re-render 沒關係。</strong></p><p><strong>依賴 deferred value 的 child component 要記得使用 useMemo</strong>，不然容易造成不必要的 re-render。</p><p>Example:</p><p>defer user input 的 search query，React 會先把 user input 當成緊急狀態先處理，完成之後才會更新 deferredQuery，但是依賴 deferred value 的 child component 要記得使用 useMemo，只有當 deferred value 改變時才 re-render child component，否則就會造成不必要的 re-render。</p><pre><code class="language-jsx">function Typeahead() {
+  const query = useSearchQuery(&#x27;&#x27;);
+  const deferredQuery = useDeferredValue(query);
+
+  // Memoizing tells React to only re-render when deferredQuery changes,
+  // not when query changes.
+  const suggestions = useMemo(
+    () =&gt; &lt;SearchSuggestions query={deferredQuery} /&gt;,
+    [deferredQuery]
+  );
+
+  return (
+    &lt;&gt;
+      &lt;SearchInput query={query} /&gt;
+      &lt;Suspense fallback=&quot;Loading results...&quot;&gt;{suggestions}&lt;/Suspense&gt;
+    &lt;/&gt;
+  );
+}
+</code></pre><h2>useTransition</h2><pre><code class="language-jsx">const [isPending, startTransition] = useTransition();
+</code></pre><p>回傳的第一個變數代表是否正在更新狀態(transition)的 isPending 布林值，以及一個開始更新狀態(transition)的 startTransition function。</p><p>startTransition function 可以讓你傳入一個 callback function 在其中執行<strong>比較不緊急的狀態更新</strong>，並獲取 isPending 代表是否正在更新狀態，可以用 isPending 來顯示 loading spinner。</p><p>Example:</p><pre><code class="language-jsx">function App() {
+  const [isPending, startTransition] = useTransition();
+  const [count, setCount] = useState(0);
+
+  function handleClick() {
+    startTransition(() =&gt; {
+      setCount((c) =&gt; c + 1);
+    });
+  }
+
+  return (
+    &lt;div&gt;
+      {isPending &amp;&amp; &lt;Spinner /&gt;}
+      &lt;button onClick={handleClick}&gt;{count}&lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre><p>這是 React 18 的新功能，你可以在 startTransition 內處理非緊急的 state 更新，如果有緊急的 state 更新例如 clicks or key presses，startTransition 內的 state 更新會被中斷，等到緊急的工作處理完會在自動回來執行。</p><ul><li><strong>Urgent updates</strong> reflect direct interaction, like typing, clicking, pressing, and so on. startTransition 之外的 state 更新<strong>預設都是屬於緊急的</strong>。</li><li><strong>Transition updates</strong> transition the UI from one view to another. 一些使用者不容易察覺或是可預期的畫面轉換延遲</li></ul><pre><code class="language-jsx">import { startTransition } from &#x27;react&#x27;;
+
+// Urgent: Show what was typed
+setInputValue(input);
+
+// Mark any state updates inside as transitions
+startTransition(() =&gt; {
+  // Transition: Show the results
+  setSearchQuery(input);
+});
+</code></pre><blockquote><p><strong>useDeferredValue 跟 useTransition 都是 React 18 提供給我們標示出非緊急的 state updates 的方法，其他沒有標示的話 React 就會默認當作是緊急的 state updates。</strong></p></blockquote><h2>useId</h2><pre><code class="language-jsx">const id = useId();
+</code></pre><p>產生唯一的 ID</p><p>example，直接用在需要 id 的元素上。</p><pre><code class="language-jsx">function Checkbox() {
+  const id = useId();
+  return (
+    &lt;&gt;
+      &lt;label htmlFor={id}&gt;Do you like React?&lt;/label&gt;
+      &lt;input id={id} type=&quot;checkbox&quot; name=&quot;react&quot; /&gt;
+    &lt;/&gt;
+  );
+}
+</code></pre><h2>Reference</h2><p><a href="https://reactjs.org/docs/hooks-reference.html#usecallback">Hooks API Reference - React</a></p><p><a href="https://medium.com/hannah-lin/react-hook-%E7%AD%86%E8%A8%98-%E5%BE%9E%E6%9C%80%E5%9F%BA%E6%9C%AC%E7%9A%84-hook-%E9%96%8B%E5%A7%8B-usestate-useeffect-fee6582d8725">[React Hook 筆記] 從最基本的 Hook 開始 useState, useEffect</a></p><p><a href="https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e">React hooks: not magic, just arrays</a></p><p><a href="https://jason-memo.dev/posts/how-to-use-react-hooks-useCallback-wrongly-for-keeping-same-function-instance/">如何錯誤地使用 React hooks useCallback 來保存相同的 function instance</a></p><p><a href="https://react-hooks-cheatsheet.com/">React Hooks Cheatsheets</a></p><p><a href="https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/">React Hooks cheat sheet: Best practices with examples - LogRocket Blog</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[[前端優化系列]Web Vitals優化方法懶人包]]></title>
             <link>https://gcdeng.com/blog/a-guidebook-to-optimize-web-vitals</link>
