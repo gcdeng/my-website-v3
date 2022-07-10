@@ -12,18 +12,20 @@ import ericDengImgUrl from '@site/static/img/ericdeng.jpg';
 
 # Resume
 
-## About me
+## About me 🧑🏻‍💻
 
 **Eric 鄧國欽**  
 ericdenggc@gmail.com
 
-<AboutMe />
+Focusing on becoming a pro web frontend developer now. Love Javascript, React.js and willing to learn any technologies for solving problems. Building a user-friendly product that can help people and create values is my purpose.
 
-## Objective
+In my spare time, I like to workout, listen to podcast, write and share technical blog.
 
-- 參與有挑戰性的大型專案開發
-- 有機會接觸後端開發, Smart Contract Development, Web3 Dapp, JAMStack, PWA, Typescript 或研究各種有趣的新技術
-- 期待加入樂於分享，能互相學習一起成長的團隊
+## Objective of my next career
+
+- Have opportunity to develop backend services and blockchain smart contract.
+- Build interesting product with awesome partners.
+- Become a professional team leader with strong technical and communication skills.
 
 ## Technologies
 
@@ -32,15 +34,15 @@ ericdenggc@gmail.com
 - Vue.js Tech Stack: Vuex, Vue Router, Vue CLI, Vue-i18n, Nuxt.js, vue-devtools
 - CSS: SASS/SCSS, CSS Modules, Flexbox, Grid Layout
 - Component Library: Chakra UI, Element UI, Bootstrap
-- Responsive Web Design
-- Data Fetching: Axios, SWR, React Apollo GraphQL Client, WebSocket, Socket.io
-- Frontend Building Tools: Webpack, Storybook, Bit.dev, ESLint, Babel, Prettier, Gulp, PostCSS, cssnano, Autoprefixer, UglifyJS
+- Cross browser compatible & responsive web design
+- Data Fetching: [Axios](https://github.com/axios/axios), [SWR](https://swr.vercel.app/), [React Apollo GraphQL Client](https://www.apollographql.com/docs/react), [Socket.io](http://socket.io/)
+- Frontend Building Tools: Webpack, Storybook, [bit.dev](https://bit.dev/), ESLint, Babel, Prettier, Gulp, PostCSS, cssnano, Autoprefixer, UglifyJS
 - SEO Optimization
   - robots.txt, sitemap.xml
   - Google Search Console
   - Semantic HTML
-  - Metadata, Open Graph
-  - Pre-rendering: SSR, SSG, ISR, Prerender.io
+  - Metadata, Open Graph Tags
+  - Pre-rendering: SSR, SSG, ISR, [Prerender.io](http://prerender.io/)
 - Performance Optimization
   - Web Vitals
   - Chrome Developer Tools (Performance profiling, Lighthouse)
@@ -50,21 +52,23 @@ ericdenggc@gmail.com
   - Lazy loading
 - Blockchain: Web3.js, Metamask, WalletConnect, Infura, Moralis
 - Frontend Logging: Sentry
-- Build CI process with Docker, Azure Pipeline, AWS
-- Visualization: D3.js, ECharts, SVG, SVG.js, Canvas, Fabric.js
-- Animation: GSAP
+- Build CI with Docker, Azure Pipeline, AWS
+- Visualization: D3.js, ECharts, SVG, SVG.js, Canvas, Fabric.js, GSAP
 - Version control: Git
 - CMS: Magento
 - Backend Development: Node.js, Express.js, MongoDB
-- POC 開發經驗，獨立研究，快速建立 MVP
-- 與後端工程師合作，共同制定及串接 API Spec
-- 與 UI 設計師合作，溝通技術可行性，使用 Figma 依照設計規格完成 UI
-- 與 UX 設計師合作，討論使用者體驗，規劃互動流程
-- 與 PM 合作，討論產品需求，提供技術建議，評估開發時間及成本效益
 
 ### Learning recently
 
 - Ethereum Smart Contract Development: Solidity, Truffle
+
+## Soft Skills
+
+- Not just coding but work with ownership and self-motivated.
+- From business requirements to live product. planning, analysis side effect, task prioritization, effort estimation, implement, test, collaborate with team members.
+- Provide design suggestions and technology solutions to PM & UI/UX Designer for building a better production together.
+- Design and integrate API with backend engineer.
+- Write engineering spec, wiki, problem solving journey.
 
 ## Employment History
 
@@ -72,46 +76,54 @@ ericdenggc@gmail.com
 
 _2021/01 - Present_
 
-#### Products
+**Products**
 
-- [VIVE BYTES](https://bytes.vive.com/) - NFT marketplace focusing on Anime, Cartoon, and Games (ACG) themed NFTs.
+- [VIVERSE Market](https://market.viverse.com/) - NFT marketplace focusing on Anime, Cartoon, and Games (ACG) themed NFTs.
 - [VIVE Arts NFT](https://nft.vivearts.com/) - NFT marketplace focusing on Arts and Collectibles.
-- [VIVEPORT](https://www.viveport.com/) - VR app store. Revamp Frontend and maintain issues from related legacy microservices.
+- [VIVEPORT](https://www.viveport.com/) - VR app store. Revamp web frontend, maintain issues of related legacy microservices.
 
-#### Rewarding jobs
+**Rewarding jobs**
 
-1. Direct purchase NFT & Blind Box with credit card or cryptocurrency (Ethereum, Matic)
-2. Connect [MetaMask](https://metamask.io/) & [WalletConnect](https://walletconnect.com/) by using [Web3.js](https://web3js.readthedocs.io/en/v1.7.0/) to interact with smart contract
-3. Timed auction & reserved auction
-4. Withdraw NFT to specific wallet address
-5. Sharable user profile & asset page
-6. Redeem product with redeem code purchased from ibon
-7. Implement all pages and components common in E-commerce, like account settings, user activities, checkout, payment and so on
-8. Support multi-currency stores, include TWD, USD, JPY
-9. Support multilingual, include English, Japanese & Traditional Chinese
-10. API & GraphQL integration with [Magento](https://business.adobe.com/products/magento/magento-commerce.html) CMS backend service
-11. Build internal React component library with [storybook](https://storybook.js.org/) and [Bit.dev](https://bit.dev/)
-12. OAuth integration with [HTC account](https://account.htcvive.com/)
-13. Setup CI pipeline with Azure DevOps
-14. Optimize SEO
-    - Setup robots.txt, sitemap.xml and Google search console
-    - Integrate [Prerender.io](https://prerender.io/) for web crawlers
-    - Handle open graph metadata for social media
-15. Integrate Google 2FA
-16. Integrate [Sentry](https://sentry.io/welcome/) service for frontend logging, issue tracking
-17. Integrate [CookiePro](https://www.cookiepro.com/) for cookie consent
-18. Integrate GTM
-19. Integrate GA
+1. Buy NFT & Blind Box with credit card or cryptocurrency
+   - Support Ethereum and Matic (Polygon)
+   - Connect with [MetaMask](https://metamask.io/) & [WalletConnect](https://walletconnect.com/) protocol using [Web3.js](https://web3js.readthedocs.io/en/v1.7.0/) to interact with smart contract
+   - Integrate dApp browser in crypto wallet mobile app
+   - Support Pre-mint & Lazy mint NFT
+   - NFT Private sales (Whitelist) using Merkle Tree
+   - Timed auction & reserved auction
+   - Redeem NFT with redemption code that purchased from 7-11 ibon
+   - Withdraw NFT to a specific wallet address
+2. Implement all features common in E-commerce, including but not limited to:
+   - checkout
+   - payment
+   - account setting
+   - shareable profile & collectibles
+   - multi-currency stores, include TWD, USD, JPY
+   - multilingual, include English, Japanese & Traditional Chinese
+   - Google 2FA
+3. API & GraphQL integration with [Magento](https://business.adobe.com/products/magento/magento-commerce.html) CMS backend service
+4. OAuth integration with [HTC account](https://account.htcvive.com/), Google, Metamask
+5. Build internal React component library with [storybook](https://storybook.js.org/) and [Bit.dev](https://bit.dev/)
+6. Setup CI pipeline with Azure DevOps
+7. Optimize SEO
+   - Setup robots.txt, sitemap.xml and Google Search Console
+   - Integrate [Prerender.io](https://prerender.io/) for web crawlers
+   - Handle metadata and open graph tags
+8. Integrate 3rd-party services:
+   - [Sentry](https://sentry.io/welcome/) service for frontend logging, issue tracking
+   - [CookiePro](https://www.cookiepro.com/) for cookie consent
+   - GTM
+   - GA
 
-#### Frontend Tech Stack
+**Frontend Tech Stack**
 
 React.js, React Hook, React Context, React Router, Redux, [Magento PWA Studio](https://developer.adobe.com/commerce/pwa-studio/), Next.js, [ChakraUI](https://chakra-ui.com/), Webpack, ESLint, [Storybook](https://storybook.js.org/), [Bit.dev](https://bit.dev/), [Prerender.io](https://prerender.io/), [Sentry](https://sentry.io/welcome/), GA, GTM, [CookiePro](https://www.cookiepro.com/)
 
-#### Backend API Integration
+**Backend Rest API & GraphQL Integration**
 
-[Magento](https://business.adobe.com/products/magento/magento-commerce.html), Payment gateway service, Axios, [SWR](https://swr.vercel.app/), GraphQL, [React Apollo Client](https://www.apollographql.com/docs/react/)
+[Magento](https://business.adobe.com/products/magento/magento-commerce.html), Payment gateway service, Axios, [SWR](https://swr.vercel.app/), [React Apollo Client](https://www.apollographql.com/docs/react/)
 
-#### Blockchain Smart Contract Integration
+**Blockchain Smart Contract Integration**
 
 [Web3.js](https://web3js.readthedocs.io/en/v1.7.3/), [Metamask](https://metamask.io/), [WalletConnect](https://walletconnect.com/), [Infura](https://infura.io/), [Moralis](https://moralis.io/)
 
@@ -123,16 +135,16 @@ QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟�
 
 我所在的團隊負責開發影像分析應用，包含人臉辨識、人流偵測等，產品是執行於 NAS 上的容器化網站應用程式。我的主要工作是開發及維護網站前端功能，使用的技術是 Vue.js，需與 UI/UX 設計師、後端工程師、DevOps、QA、機器學習工程師及 PM 合作。
 
-#### Rewarding jobs
+**Rewarding jobs**
 
 - 規劃網站架構，包含路由、頁面、元件、UI 狀態管理
 - 建構元件庫及基本模板提供多個產品共同使用
 - 研究新技術、評估開源套件並應用於產品中
-- 大資料量頁面的效能優化，成功提高頁面速度 50％
+- 大資料量網頁的效能優化，成功提高頁面速度 50％
   - 降低 JS, CSS 檔案大小
   - lazy loading
   - 評估套件可否移除或更換
-  - 使用 devtool 分析渲染效能
+  - 使用 DevTool 分析渲染效能
 - 部署及開發環境建置
 - 動態切換多國語言
 - 串接即時的資料以及 UI 狀態更新(Long polling, Websocket)
@@ -145,40 +157,44 @@ QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟�
 - [QNAP Seminar - Introduction to React Native](https://docs.google.com/presentation/d/10lN6AFiTiYfh6v56BiuUtV3Y4icSARR6MQCgXFemtac/edit?usp=sharing)
 - [Web Frontend Framework Survey 2018](https://docs.google.com/presentation/d/1IuLVkctT1rceK7m3CB-_qN4SYNer4QSc9K32uuAsrOk/edit?usp=sharing) 評估 Vue, React, Angular，決定產品要使用的框架
 
-#### Products
+**Products**
 
-- _[QVR Human](https://www.qnap.com/zh-tw/software/qvr-human)_  
+- _[QVR Human](https://www.qnap.com/zh-tw/software/qvr-human)_
+
   使用 Vue.js 開發的 SPA，此產品的前端開發主要負責人，從零開始建置一直到完成專案， 評估框架及套件的選用，討論 UI/UX 設計規格制定，規劃所有要開發的元件後評估工時，分配工作給其他前端工程師一起合作開發，撰寫 API 文件提供後端工程師參考與討論，串接後端 API 完成需求功能。
 
   產品主要功能包含辨識即時影像串流中經過特定區域的人流，提供統計資料圖表，應用場景如百貨零售賣場，分析顧客行走路線、櫃位人流量。
 
   Vue.js, Vuex, Vue Router, Vue CLI, Vue-i18n, SCSS, Element UI, ECharts, Canvas, Fabric.js, Socket.io, Axios, Webpack, Babel, ESLint, Prettier
 
-- _[QVR Smart Search](https://www.qnap.com/zh-tw/software/qvr-pro)_  
+- _[QVR Smart Search](https://www.qnap.com/zh-tw/software/qvr-pro)_
+
   使用 Vue.js 開發的 SPA，單獨負責所有前端功能，參與規劃、設計、開發、串接 API，使用 Vuex 管理複雜且需要即時更新的 UI 元件狀態。
 
-  產品主要功能為串接多個監控產品，提供影像辨識功能。需顯示串接產品的狀態，包含安裝進度、產品資訊、認證授權、錯誤訊息等，使用 Vuex 管理複雜且需要即時更新的 UI 元件狀態。
+  產品主要功能為串接多個監控產品，提供影像辨識功能。需顯示串接產品的狀態，包含安裝進度、產品資訊、認證授權、錯誤訊息等。
 
   Vue.js, Vuex, Vue Router, Vue CLI, Vue-i18n, SCSS, Element UI, Axios, Webpack, Babel, ESLint, Prettier
 
-- _[QVR Face](https://www.qnap.com/solution/qvr-face/zh-tw/)_  
+- _[QVR Face](https://www.qnap.com/solution/qvr-face/zh-tw/)_
+
   初期使用 Ext.js 及原生的 JavaScript 為主，陸續導入 Vue.js, Gulp, Babel, ESLint, PostCSS 等構建工具，重構元件架構，改善頁面載入速度。
 
   產品主要功能包含分析即時影像串流中的人臉，辨識已註冊的個人檔案或陌生人以及人物特徵（性別、年齡、表情），自訂觸發條件發出事件通知，應用場景如門禁系統、會員識別系統、出勤管理等。
 
   Ext.js, jQuery, Vue.js, SVG, Canvas, D3.js, ECharts, Socket.io, i18n, Gulp, Babel, ESLint, PostCSS, autoprefixer, minifier
 
-- _三項 POC 專案_  
-  包含前端(Vue.js)及後端(Node.js)開發。
-  - QVR Face 用戶檔案統一管理系統
-  - Smart office 智慧辦公室影像分析應用
-  - Tagging tool (full stack)
+- POC projects, include frontend (Vue.js) and backend (Node.js) development
+  - QVR Face User Profile Management System
+  - Smart office
+  - Tagging tool
 
 ## Personal Projects
 
 ### [crypto-trading-bot-dca](https://github.com/gcdeng/crypto-trading-bot-dca)
 
 A cryptocurrency trading bot to help you implement dollar-cost averaging (DCA) investment strategy automatically in FTX Pro exchange.
+
+Node.js, Serverless Framework, AWS Lambda
 
 ### Muxic
 
@@ -201,6 +217,7 @@ Vue.js, Nuxt.js, SSR, PWA, RWD, BootstrapVue, KKBOX Open API, Spotify Web API, Y
 ### Aaron Ruby Wedding Website
 
 [Demo](https://aaron-ruby-wedding.gcdeng.com/)
+|
 [Github](https://github.com/gcdeng/aaron-ruby-wedding-website)
 
 <img
@@ -215,6 +232,7 @@ RWD, Vue.js, Vue CLI, GSAP, ScrollTrigger, v-viewer, vue-lazyload, compress-imag
 ### Random Eat
 
 [Demo](https://randomeat.gcdeng.com/)
+|
 [Github](https://github.com/gcdeng/randomeat)
 
 <img
@@ -229,6 +247,7 @@ React.js, create-react-app, Semantic UI, Google Maps JavaScript API, Google Plac
 ### Traffic Accident Map
 
 [Demo](https://docs.google.com/presentation/d/1eVJqLcW-VplJ9JBhuEs0hsDgzlfCs7IKaach2GyaZj0/edit?usp=sharing)
+|
 [Github](https://github.com/gcdeng/traffic-accident-map)
 
 <img
@@ -243,6 +262,7 @@ React.js, create-react-app, Semantic UI, Node.js, Koa, MongoDB, Mongoose, Nodemo
 ### RGB Color Game
 
 [Demo](https://gcdeng.github.io/rgb-color-game-component-based/)
+|
 [Github](https://github.com/gcdeng/rgb-color-game-component-based)
 
 <img
