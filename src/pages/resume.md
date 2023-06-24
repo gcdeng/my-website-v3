@@ -61,7 +61,7 @@ In my spare time, I actively engage in activities that contribute to my professi
 
 ### Learning recently
 
-- Learning to Use AI tools to boost work efficiency, e.g. ChatGPT
+- Use AI tools to boost work efficiency, e.g. ChatGPT
 
 ## Soft Skills
 
@@ -73,13 +73,9 @@ In my spare time, I actively engage in activities that contribute to my professi
 
 ## Employment History
 
-### Frontend Tech Lead of Consumer Product at AsiaYo
-
-_2023/01 - Present_
-
 ### Senior Frontend Engineer at AsiaYo
 
-_2022/09 - 2022/12_
+_2022/09 - Present_
 
 **Products**
 
