@@ -15,66 +15,100 @@ import ericDengImgUrl from '@site/static/img/ericdeng.jpg';
 ## About me 🧑🏻‍💻
 
 **Eric 鄧國欽**  
-ericdenggc@gmail.com
+<ericdenggc@gmail.com>
 
-Focusing on becoming a pro web frontend developer now. Love Javascript, React.js and willing to learn any technologies for solving problems. Building a user-friendly product that can help people and create values is my purpose.
+I am passionate about JavaScript and React.js, constantly learning new technologies to tackle complex challenges. Building a user-friendly product that can help people and make a positive impact is my purpose.
 
-In my spare time, I like to workout, listen to podcast, write and share technical blog.
+In my spare time, I actively engage in activities that contribute to my professional growth. I enjoy working out to maintain focus and discipline. Listening to podcasts helps me stay up-to-date with the latest industry trends. Additionally, I regularly write technical blogs to enhance my communication skills and deepen my understanding of intricate concepts.
 
 ## Objective of my next career
 
-- Have opportunity to develop backend services and blockchain smart contract.
-- Build interesting product with awesome partners.
+- Have opportunity to develop backend services.
 - Become a professional team leader with strong technical and communication skills.
 
-## Technologies
+## Technical Skills
 
-- HTML5, CSS3, JavaScript(ES6+)
+- HTML5, CSS3, JavaScript (ES6+)
 - React.js Tech stack: Hook, Context, Redux, React Router, CRA, Next.js, React Intl, next-i18next
-- Vue.js Tech Stack: Vuex, Vue Router, Vue CLI, Vue-i18n, Nuxt.js, vue-devtools
-- CSS: SASS/SCSS, CSS Modules, Flexbox, Grid Layout
-- Component Library: Chakra UI, Element UI, Bootstrap
+- React Native: Navigation, Notification, Webview, Deeplink, Code Push, Flipper
+- Vue.js 2 Tech Stack: Vuex, Vue Router, Vue CLI, Nuxt.js, Vue-i18n, vue-devtools
+- CSS: styled-components, SASS/SCSS, CSS Modules, Flexbox, Grid Layout
+- Component Library: [Chakra UI](https://chakra-ui.com/), [Element UI](https://element.eleme.io/#/en-US), Bootstrap
 - Cross browser compatible & responsive web design
-- Data Fetching: [Axios](https://github.com/axios/axios), [SWR](https://swr.vercel.app/), [React Apollo GraphQL Client](https://www.apollographql.com/docs/react), [Socket.io](http://socket.io/)
-- Frontend Building Tools: Webpack, Storybook, [bit.dev](https://bit.dev/), ESLint, Babel, Prettier, Gulp, PostCSS, cssnano, Autoprefixer, UglifyJS
+- Data Fetching: [Axios](https://github.com/axios/axios), [SWR](https://swr.vercel.app/), [React Apollo GraphQL Client](https://www.apollographql.com/docs/react), [Socket.io](http://socket.io/), [React Query](https://tanstack.com/query/v3/docs/react/overview)
+- Frontend Building Tools: Webpack, Storybook, [bit.dev](https://bit.dev/), ESLint, Babel, Prettier, Gulp, PostCSS, cssnano, Autoprefixer, UglifyJS, Loadable Components
 - SEO Optimization
   - robots.txt, sitemap.xml
   - Google Search Console
   - Semantic HTML
-  - Metadata, Open Graph Tags
+  - Metadata, Open Graph Tags, react-helmet
   - Pre-rendering: SSR, SSG, ISR, [Prerender.io](http://prerender.io/)
+  - JSON-LD schema
 - Performance Optimization
   - Web Vitals
-  - Chrome Developer Tools (Performance profiling, Lighthouse)
+  - Chrome Developer Tools (Performance profiling, Lighthouse, PageSpeed Insights)
   - React DevTools
   - Cache strategies
   - Dynamic import
   - Lazy loading
-- Blockchain: Web3.js, Metamask, WalletConnect, Infura, Moralis
 - Frontend Logging: Sentry
-- Build CI with Docker, Azure Pipeline, AWS
+- Build CI with Docker, Azure Pipeline, AWS, Drone
 - Visualization: D3.js, ECharts, SVG, SVG.js, Canvas, Fabric.js, GSAP
 - Version control: Git
-- CMS: Magento
+- CMS: Magento, Contentful
 - Backend Development: Node.js, Express.js, MongoDB
+- Blockchain: Solidity, Hardhat, Web3.js, Metamask, WalletConnect, Infura, Moralis
 
 ### Learning recently
 
-- Ethereum Smart Contract Development: Solidity, Truffle
+- Learning to Use AI tools to boost work efficiency, e.g. ChatGPT
 
 ## Soft Skills
 
-- Not just coding but work with ownership and self-motivated.
-- From business requirements to live product. planning, analysis side effect, task prioritization, effort estimation, implement, test, collaborate with team members.
-- Provide design suggestions and technology solutions to PM & UI/UX Designer for building a better production together.
-- Design and integrate API with backend engineer.
-- Write engineering spec, wiki, problem solving journey.
+- Not just coding but work with ownership and self-motivated
+- From business requirements to live product. planning, analysis side effect, task prioritization, effort estimation, implement, test, collaborate with team members
+- Provide design suggestions and technology solutions to PM & UI/UX Designer for building a better production together
+- Design and integrate API with backend engineer
+- Write engineering spec, wiki, problem solving journey
 
 ## Employment History
 
+### Frontend Tech Lead of Consumer Product at Asiayo
+
+_2023/01 - Present_
+
+### Senior Frontend Engineer at Asiayo
+
+_2022/09 - 2022/12_
+
+**Products**
+
+1. AsiaYo Web (<https://asiayo.com/>) made with React.js, Lerna, styled-components, Apollo, and Internal UI component library
+2. AsiaYo ios & Android App made with React Native, styled-components, React Query, Redux, Universal Link
+
+**Experience**
+
+- Led a team of 3 members as Tech Lead, overseeing task assignment, scheduling, and conducting code reviews to maintain codebase quality.
+- Conducted system analysis and designed system architecture to facilitate efficient development and maintenance processes.
+- Assumed the role of Scrum Master, facilitating agile development processes and fostering collaboration among cross-functional teams.
+- Collaborated with RD, PM, QA, Designers, and Operation teams to troubleshoot and resolve a wide range of technical issues.
+- Successfully upgraded React from version 17 to 18, leveraging the latest features and enhancing overall performance.
+- Implemented Server-Side Rendering (SSR) using Node.js, React 18 Client & Server rendering API, Apollo React Client, Helmet, and Loadable Components.
+- Optimized web vitals, focusing on Cumulative Layout Shift (CLS) and Largest Contentful Paint (LCP) to enhance website performance and user experience.
+- Implemented SEO strategies including metadata optimization, JSON-LD integration, FAQ schema, breadcrumb navigation, and resolution of Google Search Console issues.
+- Leveraged Contentful CMS to develop customizable SEO content, enabling efficient management and customization of SEO elements.
+- Developed an App Notification Center, enhancing user engagement and providing timely updates and alerts.
+- Integrated various payment gateways, including Braintree, Tappay, and Atome, supporting both TWD and USD currencies.
+- Implemented GA tracking in both web and app environments, enabling comprehensive analytics and insights into user behavior.
+- Successfully integrated third-party services such as GTM, Facebook Pixel, Firebase, Sentry, Emarsys CRM, and AppsFlyer, enriching tracking capabilities and improving marketing strategies.
+- Collaborated with Backend Engineers to design APIs, ensuring efficient communication between frontend and backend systems.
+- Maintained technical documentation to facilitate knowledge sharing and smooth onboarding of new team members.
+- Managed the maintenance and enhancement of the Channel Expansion Javascript SDK for Affiliate Marketing, enabling effective tracking and analysis of affiliate activities.
+- Successfully upgraded iOS SDK, leveraging the latest features and improvements for enhanced app performance and functionality.
+
 ### Senior Frontend Engineer at HTC VIVE
 
-_2021/01 - Present_
+_2021/01 - 2022/08_
 
 **Products**
 
@@ -82,7 +116,7 @@ _2021/01 - Present_
 - [VIVE Arts NFT](https://nft.vivearts.com/) - NFT marketplace focusing on Arts and Collectibles.
 - [VIVEPORT](https://www.viveport.com/) - VR app store. Revamp web frontend, maintain issues of related legacy microservices.
 
-**Rewarding jobs**
+**Experience**
 
 1. Buy NFT & Blind Box with credit card or cryptocurrency
    - Support Ethereum and Matic (Polygon)
@@ -188,7 +222,7 @@ QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟�
   - Smart office
   - Tagging tool
 
-## Personal Projects
+## Personal Side Projects
 
 ### [crypto-trading-bot-dca](https://github.com/gcdeng/crypto-trading-bot-dca)
 
