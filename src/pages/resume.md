@@ -73,11 +73,11 @@ In my spare time, I actively engage in activities that contribute to my professi
 
 ## Employment History
 
-### Frontend Tech Lead of Consumer Product at Asiayo
+### Frontend Tech Lead of Consumer Product at AsiaYo
 
 _2023/01 - Present_
 
-### Senior Frontend Engineer at Asiayo
+### Senior Frontend Engineer at AsiaYo
 
 _2022/09 - 2022/12_
 
