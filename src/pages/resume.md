@@ -61,7 +61,7 @@ In my spare time, I actively engage in activities that contribute to my professi
 
 ### Learning recently
 
-- Use AI tools to boost work efficiency, e.g. ChatGPT
+- Use AI tools to boost work efficiency, e.g. ChatGPT Prompt Engineering
 
 ## Soft Skills
 
