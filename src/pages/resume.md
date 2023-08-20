@@ -23,7 +23,7 @@ In my spare time, I actively engage in activities that contribute to my professi
 
 ## Objective of my next career
 
-- Have opportunity to develop backend services.
+- Have opportunity to develop backend and cloud services.
 - Become a professional team leader with strong technical and communication skills.
 
 ## Technical Skills
@@ -222,9 +222,11 @@ QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟�
 
 ## Personal Side Projects
 
+### [ETH Price Prediction Dapp](https://github.com/gcdeng/eth-price-prediction-dapp)
+
 ### [crypto-trading-bot-dca](https://github.com/gcdeng/crypto-trading-bot-dca)
 
-A cryptocurrency trading bot to help you implement dollar-cost averaging (DCA) investment strategy automatically in FTX Pro exchange.
+A cryptocurrency trading bot to help you implement dollar-cost averaging (DCA) investment strategy automatically.
 
 Node.js, Serverless Framework, AWS Lambda
 
