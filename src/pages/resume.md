@@ -79,8 +79,8 @@ _2022/09 - Present_
 
 **Products**
 
-1. AsiaYo Web (<https://asiayo.com/>) made with React.js, Lerna, styled-components, Apollo, and Internal UI component library
-2. AsiaYo ios & Android App made with React Native, styled-components, React Query, Redux, Universal Link
+1. AsiaYo Web (<https://asiayo.com/>) made with React.js, Lerna (Monorepo), styled-components, Apollo, and Internal UI component library
+2. AsiaYo iOS & Android App made with React Native, styled-components, Redux, React Query, React Navigation , Universal Link
 
 **Experience**
 
@@ -96,11 +96,13 @@ _2022/09 - Present_
 - Developed an App Notification Center, enhancing user engagement and providing timely updates and alerts.
 - Integrated various payment gateways, including Braintree, Tappay, and Atome, supporting both TWD and USD currencies.
 - Implemented GA tracking in both web and app environments, enabling comprehensive analytics and insights into user behavior.
-- Successfully integrated third-party services such as GTM, Facebook Pixel, Firebase, Sentry, Emarsys CRM, and AppsFlyer, enriching tracking capabilities and improving marketing strategies.
+- Successfully integrated third-party services such as GTM, Facebook Pixel, Firebase, Sentry, [Emarsys CRM](https://github.com/emartech/react-native-emarsys-sdk), and [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-react-native-plugin), enriching tracking capabilities and improving marketing strategies.
 - Collaborated with Backend Engineers to design APIs, ensuring efficient communication between frontend and backend systems.
 - Maintained technical documentation to facilitate knowledge sharing and smooth onboarding of new team members.
 - Managed the maintenance and enhancement of the Channel Expansion Javascript SDK for Affiliate Marketing, enabling effective tracking and analysis of affiliate activities.
 - Successfully upgraded iOS SDK, leveraging the latest features and improvements for enhanced app performance and functionality.
+- Planned and implemented promotion page in web & app for package products with members, example: <https://asiayo.com/zh-tw/package/cruise/>. Also write a document for the operation team to teach them how to manage the promotion content.
+- Optimized image by [sharp](https://www.npmjs.com/package/sharp) library: converted format from jpg to webp, responsive size, compression.
 
 ### Senior Frontend Engineer at HTC VIVE
 
