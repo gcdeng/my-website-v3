@@ -55,7 +55,7 @@ In my spare time, I actively engage in activities that contribute to my professi
 - Build CI with Docker, Azure Pipeline, AWS, Drone
 - Visualization: D3.js, ECharts, SVG, SVG.js, Canvas, Fabric.js, GSAP
 - Version control: Git
-- CMS: Magento, Contentful
+- CMS: Magento, [Contentful](https://www.contentful.com/)
 - Backend Development: Node.js, Express.js, MongoDB
 - Blockchain: Solidity, Hardhat, Web3.js, Metamask, WalletConnect, Infura, Moralis
 
@@ -88,16 +88,16 @@ _2022/09 - Present_
 - Conducted system analysis and designed system architecture to facilitate efficient development and maintenance processes.
 - Assumed the role of Scrum Master, facilitating agile development processes and fostering collaboration among cross-functional teams.
 - Collaborated with RD, PM, QA, Designers, and Operation teams to troubleshoot and resolve a wide range of technical issues.
+- Collaborated with Backend Engineers to design APIs, ensuring efficient communication between frontend and backend systems.
 - Successfully upgraded React from version 17 to 18, leveraging the latest features and enhancing overall performance.
 - Implemented Server-Side Rendering (SSR) using Node.js, React 18 Client & Server rendering API, Apollo React Client, Helmet, and Loadable Components.
 - Optimized web vitals, focusing on Cumulative Layout Shift (CLS) and Largest Contentful Paint (LCP) to enhance website performance and user experience.
 - Implemented SEO strategies including metadata optimization, JSON-LD integration, FAQ schema, breadcrumb navigation, and resolution of Google Search Console issues.
-- Leveraged Contentful CMS to develop customizable SEO content, enabling efficient management and customization of SEO elements.
+- Leveraged [Contentful](https://www.contentful.com/) CMS to develop customizable SEO content, enabling efficient management and customization of SEO elements.
 - Developed an App Notification Center, enhancing user engagement and providing timely updates and alerts.
 - Integrated various payment gateways, including Braintree, Tappay, and Atome, supporting both TWD and USD currencies.
 - Implemented GA tracking in both web and app environments, enabling comprehensive analytics and insights into user behavior.
 - Successfully integrated third-party services such as GTM, Facebook Pixel, Firebase, Sentry, [Emarsys CRM](https://github.com/emartech/react-native-emarsys-sdk), and [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-react-native-plugin), enriching tracking capabilities and improving marketing strategies.
-- Collaborated with Backend Engineers to design APIs, ensuring efficient communication between frontend and backend systems.
 - Maintained technical documentation to facilitate knowledge sharing and smooth onboarding of new team members.
 - Managed the maintenance and enhancement of the Channel Expansion Javascript SDK for Affiliate Marketing, enabling effective tracking and analysis of affiliate activities.
 - Successfully upgraded iOS SDK, leveraging the latest features and improvements for enhanced app performance and functionality.
