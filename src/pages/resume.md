@@ -100,7 +100,7 @@ _2022/09 - Present_
 - Successfully integrated third-party services such as GTM, Facebook Pixel, Firebase, Sentry, [Emarsys CRM](https://github.com/emartech/react-native-emarsys-sdk), and [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-react-native-plugin), enriching tracking capabilities and improving marketing strategies.
 - Maintained technical documentation to facilitate knowledge sharing and smooth onboarding of new team members.
 - Managed the maintenance and enhancement of the Channel Expansion Javascript SDK for Affiliate Marketing, enabling effective tracking and analysis of affiliate activities.
-- Successfully upgraded iOS SDK, leveraging the latest features and improvements for enhanced app performance and functionality.
+- Successfully upgraded iOS SDK & Android SDK, leveraging the latest features and improvements for enhanced app performance and functionality.
 - Planned and implemented promotion page in web & app for package products with members, example: <https://asiayo.com/zh-tw/package/cruise/>. Also write a document for the operation team to teach them how to manage the promotion content.
 - Optimized image by [sharp](https://www.npmjs.com/package/sharp) library: converted format from jpg to webp, responsive size, compression.
 
