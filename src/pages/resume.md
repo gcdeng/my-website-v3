@@ -224,6 +224,8 @@ QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟�
 
 ### [ETH Price Prediction Dapp](https://github.com/gcdeng/eth-price-prediction-dapp)
 
+A dapp for guessing the rise and fall of ETH prices. Players who guess correctly can win bonuses according to the betting ratio.
+
 ### [crypto-trading-bot-dca](https://github.com/gcdeng/crypto-trading-bot-dca)
 
 A cryptocurrency trading bot to help you implement dollar-cost averaging (DCA) investment strategy automatically.
