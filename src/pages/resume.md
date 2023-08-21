@@ -17,7 +17,7 @@ import ericDengImgUrl from '@site/static/img/ericdeng.jpg';
 **Eric 鄧國欽**  
 <ericdenggc@gmail.com>
 
-I am passionate about JavaScript and React.js, constantly learning new technologies to tackle complex challenges. Building a user-friendly product that can help people and make a positive impact is my purpose.
+I am passionate about Frontend Development (JavaScript and React.js), constantly learning new technologies to tackle complex challenges. Building a user-friendly product that can help people and make a positive impact is my purpose.
 
 In my spare time, I actively engage in activities that contribute to my professional growth. I enjoy working out to maintain focus and discipline. Listening to podcasts helps me stay up-to-date with the latest industry trends. Additionally, I regularly write technical blogs to enhance my communication skills and deepen my understanding of intricate concepts.
 
