@@ -56,7 +56,6 @@ In my spare time, I actively engage in activities that contribute to my professi
 - Frontend Logging: Sentry
 - Build CI with Docker, Azure Pipeline, AWS, Drone
 - Visualization: D3.js, ECharts, SVG, SVG.js, Canvas, Fabric.js, GSAP
-- Version control: Git
 - CMS: Magento, [Contentful](https://www.contentful.com/)
 - Backend Development: Node.js, Express.js, MongoDB
 - Blockchain: Solidity, Hardhat, Web3.js, Metamask, WalletConnect, Infura, Moralis
@@ -68,7 +67,7 @@ In my spare time, I actively engage in activities that contribute to my professi
 ## Soft Skills
 
 - Not just coding but work with ownership and self-motivated
-- From business requirements to live product. planning, analysis side effect, task prioritization, effort estimation, implement, test, collaborate with team members
+- From business requirements to live product. planning, analysis side effect, task prioritization, effort estimation, implement, testing, collaborate with team members
 - Provide design suggestions and technology solutions to PM & UI/UX Designer for building a better production together
 - Design and integrate API with backend engineer
 - Write engineering spec, wiki, problem solving journey
@@ -115,7 +114,7 @@ _2021/01 - 2022/08_
 
 - [VIVERSE Market](https://market.viverse.com/) - NFT marketplace focusing on Anime, Cartoon, and Games (ACG) themed NFTs.
 - [VIVE Arts NFT](https://nft.vivearts.com/) - NFT marketplace focusing on Arts and Collectibles.
-- [VIVEPORT](https://www.viveport.com/) - VR app store. Revamp web frontend, maintain issues of related legacy microservices.
+- [VIVEPORT](https://www.viveport.com/) - VR app store. Revamp web frontend and maintain issues of related legacy microservices.
 
 **Experience**
 
