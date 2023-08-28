@@ -5,6 +5,8 @@ description: Eric Deng's Resume
 
 import AboutMe from './\_about-me.mdx';
 import ericDengImgUrl from '@site/static/img/ericdeng.jpg';
+import appWorksBlockchainCertificateImgUrl from '@site/static/img/certificate/AppWorks-School-Certificate-of-Completion-Blockchain-Program.jpeg'
+import udemyBlockchainCertificateImgUrl from '@site/static/img/certificate/UC-84d3335f-4f71-400e-854e-7328e1582446.jpg'
 
 <head>
   <meta property="og:image" content={ericDengImgUrl} />
@@ -89,6 +91,7 @@ _2022/09 - Present_
 - Assumed the role of Scrum Master, facilitating agile development processes and fostering collaboration among cross-functional teams.
 - Collaborated with RD, PM, QA, Designers, and Operation teams to troubleshoot and resolve a wide range of technical issues.
 - Collaborated with Backend Engineers to design APIs, ensuring efficient communication between frontend and backend systems.
+- Mid-level Frontend Engineer acquisition, responsible for resume checking, assignment code review and first round technical interview.
 - Successfully upgraded React from version 17 to 18, leveraging the latest features and enhancing overall performance.
 - Implemented Server-Side Rendering (SSR) using Node.js, React 18 Client & Server rendering API, Apollo React Client, Helmet, and Loadable Components.
 - Optimized web vitals, focusing on Cumulative Layout Shift (CLS) and Largest Contentful Paint (LCP) to enhance website performance and user experience.
@@ -220,6 +223,30 @@ QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟�
   - Smart office
   - Tagging tool
 
+## Certificates
+
+### AppWorks School Blockchain Program Batch #1
+
+_2022/08/08 - 2022/12/15_
+
+<img
+src={appWorksBlockchainCertificateImgUrl}
+width="100%"
+/>
+
+https://school.appworks.tw/blockchain-program/
+
+### Ethereum Blockchain Developer Bootcamp With Solidity
+
+_2022/02/06_
+
+<img
+src={udemyBlockchainCertificateImgUrl}
+width="100%"
+/>
+
+https://www.udemy.com/certificate/UC-84d3335f-4f71-400e-854e-7328e1582446/
+
 ## Personal Side Projects
 
 ### [ETH Price Prediction Dapp](https://github.com/gcdeng/eth-price-prediction-dapp)
@@ -250,7 +277,7 @@ Node.js, Serverless Framework, AWS Lambda
 
 Vue.js, Nuxt.js, SSR, PWA, RWD, BootstrapVue, KKBOX Open API, Spotify Web API, Youtube API, OAuth
 
-### Aaron Ruby Wedding Website
+<!-- ### Aaron Ruby Wedding Website
 
 [Demo](https://aaron-ruby-wedding.gcdeng.com/)
 |
@@ -263,7 +290,7 @@ height="600"
 
 為朋友做的婚禮邀請網站，討論網站風格跟內容後獨立設計及開發，包含桌面版及手機版，第一次玩 GSAP 嘗試了許多有趣的動畫特效，因為圖片較多，託管於 netlify 上有靜態檔案 TTFB 過長的問題，做了惰性載入跟特效來改善使用體驗。
 
-RWD, Vue.js, Vue CLI, GSAP, ScrollTrigger, v-viewer, vue-lazyload, compress-images
+RWD, Vue.js, Vue CLI, GSAP, ScrollTrigger, v-viewer, vue-lazyload, compress-images -->
 
 ### Random Eat
 
