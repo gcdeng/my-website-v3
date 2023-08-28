@@ -253,7 +253,7 @@ https://www.udemy.com/certificate/UC-84d3335f-4f71-400e-854e-7328e1582446/
 
 A dapp for guessing the rise and fall of ETH prices. Players who guess correctly can win bonuses according to the betting ratio.
 
-### [crypto-trading-bot-dca](https://github.com/gcdeng/crypto-trading-bot-dca)
+### [Crypto Trading Bot](https://github.com/gcdeng/crypto-trading-bot-dca)
 
 A cryptocurrency trading bot to help you implement dollar-cost averaging (DCA) investment strategy automatically.
 
