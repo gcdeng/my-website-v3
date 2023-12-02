@@ -74,7 +74,7 @@ In my spare time, I actively engage in activities that contribute to my professi
 
 ## Employment History
 
-### Senior Frontend Engineer at AsiaYo
+### Senior Frontend Engineer (Tech Lead) at AsiaYo
 
 _2022/09 - Present_
 
@@ -85,26 +85,27 @@ _2022/09 - Present_
 
 **Experience**
 
-- Led a team of 3 members as Tech Lead, overseeing task assignment, scheduling, and conducting code reviews to maintain codebase quality.
-- Conducted system analysis and designed system architecture to facilitate efficient development and maintenance processes.
+- Led a team of 3 Frontend developers to collaborate with Backend team, PM team, QA team, Design team to deliver projects.
+- Discussing business requirements, analyzing technical feasibility, system analysis and design, evaluating development time, resource allocation.
+- Overseeing task assignment, scheduling, and conducting code reviews to maintain codebase quality.
 - Assumed the role of Scrum Master, facilitating agile development processes and fostering collaboration among cross-functional teams.
-- Collaborated with RD, PM, QA, Designers, and Operation teams to troubleshoot and resolve a wide range of technical issues.
-- Collaborated with Backend Engineers to design APIs, ensuring efficient communication between frontend and backend systems.
+- Collaborated with Backend Engineers to design APIs, draw API flow sequence diagram, ensuring efficient communication between frontend and backend systems.
+- Maintained technical documentation to facilitate knowledge sharing and smooth onboarding of new team members.
 - Mid-level Frontend Engineer acquisition, responsible for resume checking, assignment code review and first round technical interview.
+- Continuously researching new technologies, assessing the cost-effectiveness of adopting them in existing projects.
 - Successfully upgraded React from version 17 to 18, leveraging the latest features and enhancing overall performance.
-- Implemented Server-Side Rendering (SSR) using Node.js, React 18 Client & Server rendering API, Apollo React Client, Helmet, and Loadable Components.
+- Implemented Server-Side Rendering (SSR) using React 18 Client & Server rendering API, Apollo React Client, Helmet, and Loadable Components.
 - Optimized web vitals, focusing on Cumulative Layout Shift (CLS) and Largest Contentful Paint (LCP) to enhance website performance and user experience.
 - Implemented SEO strategies including metadata optimization, JSON-LD integration, FAQ schema, breadcrumb navigation, and resolution of Google Search Console issues.
 - Leveraged [Contentful](https://www.contentful.com/) CMS to develop customizable SEO content, enabling efficient management and customization of SEO elements.
 - Developed an App Notification Center, enhancing user engagement and providing timely updates and alerts.
 - Integrated various payment gateways, including Braintree, Tappay, and Atome, supporting both TWD and USD currencies.
 - Implemented GA tracking in both web and app environments, enabling comprehensive analytics and insights into user behavior.
-- Successfully integrated third-party services such as GTM, Facebook Pixel, Firebase, Sentry, [Emarsys CRM](https://github.com/emartech/react-native-emarsys-sdk), and [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-react-native-plugin), enriching tracking capabilities and improving marketing strategies.
-- Maintained technical documentation to facilitate knowledge sharing and smooth onboarding of new team members.
+- Integrated third-party services such as GTM, Facebook Pixel, Firebase, Sentry, [Emarsys CRM](https://github.com/emartech/react-native-emarsys-sdk), and [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-react-native-plugin), enriching tracking capabilities and improving marketing strategies.
 - Managed the maintenance and enhancement of the Channel Expansion Javascript SDK for Affiliate Marketing, enabling effective tracking and analysis of affiliate activities.
 - Successfully upgraded iOS SDK & Android SDK, leveraging the latest features and improvements for enhanced app performance and functionality.
-- Planned and implemented promotion page in web & app for package products with members, example: <https://asiayo.com/zh-tw/package/cruise/>. Also write a document for the operation team to teach them how to manage the promotion content.
-- Optimized image by [sharp](https://www.npmjs.com/package/sharp) library: converted format from jpg to webp, responsive size, compression.
+- Planned and implemented promotion page in web & app webview, example: <https://asiayo.com/zh-tw/package/cruise/>. Also write a document for the operation team to teach them how to manage the promotion content.
+- Built a new product line for selling packaged travel goods. Participating in the design and implementation of functionalities for both Consumer front-stage and Internal CMS back-stage.
 
 ### Senior Frontend Engineer at HTC VIVE
 
