@@ -26,7 +26,6 @@ In my spare time, I actively engage in activities that contribute to my professi
 ## Objective of my next career
 
 - Have opportunity to develop backend and cloud services.
-- Become a professional team leader with strong technical and communication skills.
 
 ## Technical Skills
 
@@ -34,7 +33,7 @@ In my spare time, I actively engage in activities that contribute to my professi
 - React.js Tech stack: Hook, Context, Redux, React Router, CRA, Next.js, React Intl, next-i18next
 - React Native: Navigation, Notification, Webview, Deeplink, Code Push, Flipper
 - Vue.js 2 Tech Stack: Vuex, Vue Router, Vue CLI, Nuxt.js, Vue-i18n, vue-devtools
-- CSS: styled-components, SASS/SCSS, CSS Modules, Flexbox, Grid Layout
+- CSS: SASS/SCSS, styled-components, CSS Modules, Flexbox, Grid Layout
 - Component Library: [Chakra UI](https://chakra-ui.com/), [Element UI](https://element.eleme.io/#/en-US), Bootstrap
 - Cross browser compatible & responsive web design
 - Data Fetching: [Axios](https://github.com/axios/axios), [SWR](https://swr.vercel.app/), [React Apollo GraphQL Client](https://www.apollographql.com/docs/react), [Socket.io](http://socket.io/), [React Query](https://tanstack.com/query/v3/docs/react/overview)
@@ -45,7 +44,7 @@ In my spare time, I actively engage in activities that contribute to my professi
   - Semantic HTML
   - Metadata, Open Graph Tags, react-helmet
   - Pre-rendering: SSR, SSG, ISR, [Prerender.io](http://prerender.io/)
-  - JSON-LD schema
+  - JSON-LD structured data
 - Performance Optimization
   - Web Vitals
   - Chrome Developer Tools (Performance profiling, Lighthouse, PageSpeed Insights)
@@ -62,7 +61,7 @@ In my spare time, I actively engage in activities that contribute to my professi
 
 ### Learning recently
 
-- Use AI tools to boost work efficiency, e.g. ChatGPT Prompt Engineering
+- Use AI tools to enhance work efficiency, e.g. ChatGPT, Github Copilot
 
 ## Soft Skills
 
@@ -80,32 +79,34 @@ _2022/09 - Present_
 
 **Products**
 
-1. AsiaYo Web (<https://asiayo.com/>) made with React.js, Lerna (Monorepo), styled-components, Apollo, and Internal UI component library
-2. AsiaYo iOS & Android App made with React Native, styled-components, Redux, React Query, React Navigation , Universal Link
+1. AsiaYo Web (<https://asiayo.com/>) - React.js, Lerna (Monorepo), styled-components, Apollo, GraphQL, Webpack and Internal UI component library
+2. AsiaYo iOS & Android App - React Native, styled-components, Redux, React Query, React Navigation , Universal Deep Linking (AppsFlyer), Code Push, Flipper, Visual Studio App Center
 
 **Experience**
 
 - Led a team of 3 Frontend developers to collaborate with Backend team, PM team, QA team, Design team to deliver projects.
-- Discussing business requirements, analyzing technical feasibility, system analysis and design, evaluating development time, resource allocation.
+- Discussing business requirements, analyzing technical feasibility, system analysis and design, evaluating development time to help PM assess resource cost.
 - Overseeing task assignment, scheduling, and conducting code reviews to maintain codebase quality.
-- Assumed the role of Scrum Master, facilitating agile development processes and fostering collaboration among cross-functional teams.
 - Collaborated with Backend Engineers to design APIs, draw API flow sequence diagram, ensuring efficient communication between frontend and backend systems.
 - Maintained technical documentation to facilitate knowledge sharing and smooth onboarding of new team members.
 - Mid-level Frontend Engineer acquisition, responsible for resume checking, assignment code review and first round technical interview.
 - Continuously researching new technologies, assessing the cost-effectiveness of adopting them in existing projects.
-- Successfully upgraded React from version 17 to 18, leveraging the latest features and enhancing overall performance.
+- Troubleshooting urgent production issues.
+- Upgraded React from version 17 to 18, leveraging the latest features and enhancing overall performance.
+- Upgraded React Native from version 0.67 to 0.72.4 and target SDK version (iOS SDK 16, Android SDK 13).
 - Implemented Server-Side Rendering (SSR) using React 18 Client & Server rendering API, Apollo React Client, Helmet, and Loadable Components.
-- Optimized web vitals, focusing on Cumulative Layout Shift (CLS) and Largest Contentful Paint (LCP) to enhance website performance and user experience.
-- Implemented SEO strategies including metadata optimization, JSON-LD integration, FAQ schema, breadcrumb navigation, and resolution of Google Search Console issues.
+- Optimized Web Vitals, focusing on Largest Contentful Paint (LCP) and Cumulative Layout Shift (CLS) to enhance website performance and user experience.
+- Implemented SEO strategies including metadata optimization, JSON-LD structured data, canonical, alternate link and resolve Google Search Console issues.
 - Leveraged [Contentful](https://www.contentful.com/) CMS to develop customizable SEO content, enabling efficient management and customization of SEO elements.
 - Developed an App Notification Center, enhancing user engagement and providing timely updates and alerts.
 - Integrated various payment gateways, including Braintree, Tappay, and Atome, supporting both TWD and USD currencies.
 - Implemented GA tracking in both web and app environments, enabling comprehensive analytics and insights into user behavior.
 - Integrated third-party services such as GTM, Facebook Pixel, Firebase, Sentry, [Emarsys CRM](https://github.com/emartech/react-native-emarsys-sdk), and [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-react-native-plugin), enriching tracking capabilities and improving marketing strategies.
-- Managed the maintenance and enhancement of the Channel Expansion Javascript SDK for Affiliate Marketing, enabling effective tracking and analysis of affiliate activities.
-- Successfully upgraded iOS SDK & Android SDK, leveraging the latest features and improvements for enhanced app performance and functionality.
-- Planned and implemented promotion page in web & app webview, example: <https://asiayo.com/zh-tw/package/cruise/>. Also write a document for the operation team to teach them how to manage the promotion content.
-- Built a new product line for selling packaged travel goods. Participating in the design and implementation of functionalities for both Consumer front-stage and Internal CMS back-stage.
+- Maintain Javascript SDK for Affiliate Marketing, enabling effective tracking and analysis of affiliate activities in web & app.
+- Planned and implemented Promotion page in web & mobile app webview. Also write a document for the operation team to teach them how to manage the promotion content.
+  - <https://asiayo.com/zh-tw/package/cruise/>
+  - <https://asiayo.com/zh-tw/journey/Diamond-Princess/>.
+- Planned and implemented new product line for selling packaged travel goods in web & mobile app.
 
 ### Senior Frontend Engineer at HTC VIVE
 
@@ -168,7 +169,7 @@ _2017/12 - 2021/01_
 
 QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟體研發、硬體設計及自有生產線，目前專注於提供儲存、網通及智慧視訊監控解決方案。
 
-我所在的團隊負責開發影像分析應用，包含人臉辨識、人流偵測等，產品是執行於 NAS 上的容器化網站應用程式。我的主要工作是開發及維護網站前端功能，使用的技術是 Vue.js，需與 UI/UX 設計師、後端工程師、DevOps、QA、機器學習工程師及 PM 合作。
+我所在的團隊負責開發影像分析應用，包含人臉辨識、人流偵測等，產品是執行於 NAS 上的容器化網站應用程式。我的主要工作是開發及維護網站前端功能，使用的技術是 Vue.js 2，需與 UI/UX 設計師、後端工程師、DevOps、QA、機器學習工程師及 PM 合作。
 
 **Rewarding jobs**
 
@@ -188,7 +189,7 @@ QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟�
 - 開發表單設定介面，各種表單元件、欄位驗證、照片上傳功能(從本地、NAS、Webcam、影像串流畫面截圖)
 - 開發精靈視窗元件，以分步驟的方式進行表單設定，每個步驟之間需做資料傳遞及驗證
 - 將統計資料或系統資訊透過資料視覺化套件 D3.js, ECharts 繪製成互動式圖表
-- 使用 Node.js/Express/MongoDB 開發 RESTful API Server
+- 使用 Node.js/Express/MongoDB 開發 RESTful API
 - [QNAP Seminar - Introduction to React Native](https://docs.google.com/presentation/d/10lN6AFiTiYfh6v56BiuUtV3Y4icSARR6MQCgXFemtac/edit?usp=sharing)
 - [Web Frontend Framework Survey 2018](https://docs.google.com/presentation/d/1IuLVkctT1rceK7m3CB-_qN4SYNer4QSc9K32uuAsrOk/edit?usp=sharing) 評估 Vue, React, Angular，決定產品要使用的框架
 
@@ -212,16 +213,16 @@ QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟�
 
 - _[QVR Face](https://www.qnap.com/solution/qvr-face/zh-tw/)_
 
-  初期使用 Ext.js 及原生的 JavaScript 為主，陸續導入 Vue.js, Gulp, Babel, ESLint, PostCSS 等構建工具，重構元件架構，改善頁面載入速度。
+  初期使用 Ext.js 及原生的 JavaScript，陸續導入 Vue.js, Gulp, Babel, ESLint, PostCSS 等構建工具，重構元件架構，改善頁面載入速度。
 
   產品主要功能包含分析即時影像串流中的人臉，辨識已註冊的個人檔案或陌生人以及人物特徵（性別、年齡、表情），自訂觸發條件發出事件通知，應用場景如門禁系統、會員識別系統、出勤管理等。
 
   Ext.js, jQuery, Vue.js, SVG, Canvas, D3.js, ECharts, Socket.io, i18n, Gulp, Babel, ESLint, PostCSS, autoprefixer, minifier
 
 - POC projects, include frontend (Vue.js) and backend (Node.js) development
-  - QVR Face User Profile Management System
-  - Smart office
-  - Tagging tool
+  - QVR Face (User Profile Management System)
+  - Smart Office
+  - Tagging tool for training machine learning model
 
 ## Certificates
 
