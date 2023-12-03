@@ -25,7 +25,9 @@ In my spare time, I actively engage in activities that contribute to my professi
 
 ## Objective of my next career
 
-- Have opportunity to develop backend and cloud services.
+- Large-scale system and architecture design
+- Performance optimization
+- Backend development
 
 ## Technical Skills
 
