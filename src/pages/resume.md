@@ -19,9 +19,9 @@ import udemyBlockchainCertificateImgUrl from '@site/static/img/certificate/UC-84
 **Eric 鄧國欽**  
 <ericdenggc@gmail.com>
 
-I am passionate about Frontend Development (JavaScript and React.js), constantly learning new technologies to tackle complex challenges. Building a user-friendly product that can help people and make a positive impact is my purpose.
+I am passionate about Frontend Development, constantly learning new technologies to tackle complex challenges. Building a user-friendly product that can help people and make a positive impact is my purpose.
 
-In my spare time, I actively engage in activities that contribute to my professional growth. I enjoy working out to maintain focus and discipline. Listening to podcasts helps me stay up-to-date with the latest industry trends. Additionally, I regularly write technical blogs to enhance my communication skills and deepen my understanding of intricate concepts.
+In my spare time, I actively engage in activities that contribute to my professional growth. I enjoy working out to maintain focus and discipline. Listening to podcasts helps me stay up-to-date with the latest industry trends.
 
 ## Objective of my next career
 
@@ -31,28 +31,33 @@ In my spare time, I actively engage in activities that contribute to my professi
 
 - HTML5, CSS3, JavaScript (ES6+)
 - React.js Tech stack: Hook, Context, Redux, React Router, CRA, Next.js, React Intl, next-i18next
-- React Native: Navigation, Notification, Webview, Deeplink, Code Push, Flipper
+- React Native: Navigation, Notification, Webview, Deep Linking, Code Push, Flipper
 - Vue.js 2 Tech Stack: Vuex, Vue Router, Vue CLI, Nuxt.js, Vue-i18n, vue-devtools
 - CSS: SASS/SCSS, styled-components, CSS Modules, Flexbox, Grid Layout
 - Component Library: [Chakra UI](https://chakra-ui.com/), [Element UI](https://element.eleme.io/#/en-US), Bootstrap
 - Cross browser compatible & responsive web design
 - Data Fetching: [Axios](https://github.com/axios/axios), [SWR](https://swr.vercel.app/), [React Apollo GraphQL Client](https://www.apollographql.com/docs/react), [Socket.io](http://socket.io/), [React Query](https://tanstack.com/query/v3/docs/react/overview)
-- Frontend Building Tools: Webpack, Storybook, [bit.dev](https://bit.dev/), ESLint, Babel, Prettier, Gulp, PostCSS, cssnano, Autoprefixer, UglifyJS, Loadable Components
+- Build Tools: Webpack, ESLint, Babel, Prettier, Gulp, PostCSS, cssnano, Autoprefixer, UglifyJS, Storybook
 - SEO Optimization
-  - robots.txt, sitemap.xml
-  - Google Search Console
-  - Semantic HTML
-  - Metadata, Open Graph Tags, react-helmet
   - Pre-rendering: SSR, SSG, ISR, [Prerender.io](http://prerender.io/)
+  - Google Search Console
   - JSON-LD structured data
+  - Metadata, Open Graph Tags, react-helmet, canonical
+  - robots.txt, sitemap.xml
+  - Semantic HTML
+  - Internal Links
 - Performance Optimization
   - Web Vitals
   - Chrome Developer Tools (Performance profiling, Lighthouse, PageSpeed Insights)
   - React DevTools
   - Cache strategies
   - Dynamic import
+  - Code splitting
   - Lazy loading
+  - Loadable Components
+  - Images Optimization
 - Frontend Logging: Sentry
+- Monorepo tool: [Lerna](https://github.com/lerna/lerna)
 - Build CI with Docker, Azure Pipeline, AWS, Drone
 - Visualization: D3.js, ECharts, SVG, SVG.js, Canvas, Fabric.js, GSAP
 - CMS: Magento, [Contentful](https://www.contentful.com/)
@@ -79,8 +84,15 @@ _2022/09 - Present_
 
 **Products**
 
-1. AsiaYo Web (<https://asiayo.com/>) - React.js, Lerna (Monorepo), styled-components, Apollo, GraphQL, Webpack and Internal UI component library
-2. AsiaYo iOS & Android App - React Native, styled-components, Redux, React Query, React Navigation , Universal Deep Linking (AppsFlyer), Code Push, Flipper, Visual Studio App Center
+[AsiaYo Web](https://asiayo.com/), iOS and Android App
+
+AsiaYo is an online travel agent platform for booking accommodations, offering quality recommendations in popular Asian travel destinations such as Taiwan, Korea, Thailand, and Japan
+
+**Tech Stack**
+
+- Web: React.js, Lerna, styled-components, Apollo, GraphQL, Webpack and Internal UI component library
+
+- iOS and Android App: React Native, styled-components, Redux, React Query, React Navigation , Universal Deep Linking (AppsFlyer), Code Push, Flipper, Visual Studio App Center
 
 **Experience**
 
@@ -103,7 +115,7 @@ _2022/09 - Present_
 - Implemented GA tracking in both web and app environments, enabling comprehensive analytics and insights into user behavior.
 - Integrated third-party services such as GTM, Facebook Pixel, Firebase, Sentry, [Emarsys CRM](https://github.com/emartech/react-native-emarsys-sdk), and [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-react-native-plugin), enriching tracking capabilities and improving marketing strategies.
 - Maintain Javascript SDK for Affiliate Marketing, enabling effective tracking and analysis of affiliate activities in web & app.
-- Planned and implemented Promotion page in web & mobile app webview. Also write a document for the operation team to teach them how to manage the promotion content.
+- Planned and implemented Promotion page in web & mobile app webview. Also write a document to teach operation team how to manage the promotion content.
   - <https://asiayo.com/zh-tw/package/cruise/>
   - <https://asiayo.com/zh-tw/journey/Diamond-Princess/>.
 - Planned and implemented new product line for selling packaged travel goods in web & mobile app.
@@ -117,6 +129,18 @@ _2021/01 - 2022/08_
 - [VIVERSE Market](https://market.viverse.com/) - NFT marketplace focusing on Anime, Cartoon, and Games (ACG) themed NFTs.
 - [VIVE Arts NFT](https://nft.vivearts.com/) - NFT marketplace focusing on Arts and Collectibles.
 - [VIVEPORT](https://www.viveport.com/) - VR app store. Revamp web frontend and maintain issues of related legacy microservices.
+
+**Tech Stack**
+
+React.js, React Hook, React Context, React Router, Redux, [Magento PWA Studio](https://developer.adobe.com/commerce/pwa-studio/), Next.js, [ChakraUI](https://chakra-ui.com/), Webpack, ESLint, [Storybook](https://storybook.js.org/), [Bit.dev](https://bit.dev/), [Prerender.io](https://prerender.io/), [Sentry](https://sentry.io/welcome/), GA, GTM, [CookiePro](https://www.cookiepro.com/)
+
+**Backend Rest API & GraphQL Integration**
+
+[Magento](https://business.adobe.com/products/magento/magento-commerce.html), Payment gateway service, Axios, [SWR](https://swr.vercel.app/), [React Apollo Client](https://www.apollographql.com/docs/react/)
+
+**Blockchain Smart Contract Integration**
+
+[Web3.js](https://web3js.readthedocs.io/en/v1.7.3/), [Metamask](https://metamask.io/), [WalletConnect](https://walletconnect.com/), [Infura](https://infura.io/), [Moralis](https://moralis.io/)
 
 **Experience**
 
@@ -132,7 +156,7 @@ _2021/01 - 2022/08_
 2. Implement all features common in E-commerce, including but not limited to:
    - checkout
    - payment
-   - account setting
+   - member account setting
    - shareable profile & collectibles
    - multi-currency stores, include TWD, USD, JPY
    - multilingual, include English, Japanese & Traditional Chinese
@@ -151,29 +175,43 @@ _2021/01 - 2022/08_
    - GTM
    - GA
 
-**Frontend Tech Stack**
-
-React.js, React Hook, React Context, React Router, Redux, [Magento PWA Studio](https://developer.adobe.com/commerce/pwa-studio/), Next.js, [ChakraUI](https://chakra-ui.com/), Webpack, ESLint, [Storybook](https://storybook.js.org/), [Bit.dev](https://bit.dev/), [Prerender.io](https://prerender.io/), [Sentry](https://sentry.io/welcome/), GA, GTM, [CookiePro](https://www.cookiepro.com/)
-
-**Backend Rest API & GraphQL Integration**
-
-[Magento](https://business.adobe.com/products/magento/magento-commerce.html), Payment gateway service, Axios, [SWR](https://swr.vercel.app/), [React Apollo Client](https://www.apollographql.com/docs/react/)
-
-**Blockchain Smart Contract Integration**
-
-[Web3.js](https://web3js.readthedocs.io/en/v1.7.3/), [Metamask](https://metamask.io/), [WalletConnect](https://walletconnect.com/), [Infura](https://infura.io/), [Moralis](https://moralis.io/)
-
 ### Frontend Engineer at QNAP
 
 _2017/12 - 2021/01_
 
-QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟體研發、硬體設計及自有生產線，目前專注於提供儲存、網通及智慧視訊監控解決方案。
+QNAP is a Taiwan-based NAS device manufacturer with expertise spanning software development, hardware design, and in-house production lines. The company is currently focused on delivering comprehensive solutions in storage, networking, and intelligent video surveillance.
 
-我所在的團隊負責開發影像分析應用，包含人臉辨識、人流偵測等，產品是執行於 NAS 上的容器化網站應用程式。我的主要工作是開發及維護網站前端功能，使用的技術是 Vue.js 2，需與 UI/UX 設計師、後端工程師、DevOps、QA、機器學習工程師及 PM 合作。
+Within my team, we specialize in developing video analysis applications, encompassing features such as facial recognition and people flow detection. Our products are Docker containerized web applications executed on QNAP's NAS.
 
-**Rewarding jobs**
+My primary responsibilities include refactor legacy websites and develop new products. I utilize Vue.js 2 as the primary technology and collaborate closely with UI/UX designers, backend engineers, DevOps, QA, machine learning engineers, and project managers.
 
-- 規劃網站架構，包含路由、頁面、元件、UI 狀態管理
+<!-- QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟體研發、硬體設計及自有生產線，目前專注於提供儲存、網通及智慧視訊監控解決方案。
+
+我所在的團隊負責開發影像分析應用，包含人臉辨識、人流偵測等，產品是執行於 NAS 上的容器化網站應用程式。我的主要工作是開發及維護網站前端功能，使用的技術是 Vue.js 2，需與 UI/UX 設計師、後端工程師、DevOps、QA、機器學習工程師及 PM 合作。 -->
+
+**Experience**
+
+- Planned website architecture, including routes, pages, components, and UI state management.
+- Established a component library and page templates for shared use across multiple products.
+- Researched new technologies, evaluated open-source packages, and applied them to product development.
+- Optimized performance, successfully improving page speed by 50%.
+  - Reduced JS and CSS file sizes.
+  - Implemented lazy loading.
+  - Evaluated the possibility of removing or replacing packages.
+  - Utilized DevTools to analyze rendering performance.
+- Deployed and configured development environments.
+- Implemented i18n multiple languages.
+- Integrated real-time data and UI state updates (Long polling, Websocket).
+- Integrated image streaming, concurrently drawing specific shapes, text, and images on the video feed.
+- Developed a drawing tool allowing users to draw lines, rectangles, polygons, etc., on image thumbnails, with coordinates sent to the backend via API for analysis area configuration.
+- Developed a form configuration interface with various form components, field validation, and photo upload functionalities (from local, NAS, webcam, screenshot of image stream).
+- Created a wizard window component for step-by-step form configuration, including data transfer and validation between each step.
+- Visualized statistical data or system information into interactive charts using data visualization libraries such as D3.js and ECharts.
+- Developed RESTful APIs using Node.js, Express, and MongoDB.
+- [QNAP Seminar - Introduction to React Native](https://docs.google.com/presentation/d/10lN6AFiTiYfh6v56BiuUtV3Y4icSARR6MQCgXFemtac/edit?usp=sharing)
+- [Web Frontend Framework Survey 2018](https://docs.google.com/presentation/d/1IuLVkctT1rceK7m3CB-_qN4SYNer4QSc9K32uuAsrOk/edit?usp=sharing) Evaluated Vue, React, and Angular frameworks to determine the most suitable framework for the new product.
+
+<!-- - 規劃網站架構，包含路由、頁面、元件、UI 狀態管理
 - 建構元件庫及基本模板提供多個產品共同使用
 - 研究新技術、評估開源套件並應用於產品中
 - 大資料量網頁的效能優化，成功提高頁面速度 50％
@@ -191,7 +229,7 @@ QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟�
 - 將統計資料或系統資訊透過資料視覺化套件 D3.js, ECharts 繪製成互動式圖表
 - 使用 Node.js/Express/MongoDB 開發 RESTful API
 - [QNAP Seminar - Introduction to React Native](https://docs.google.com/presentation/d/10lN6AFiTiYfh6v56BiuUtV3Y4icSARR6MQCgXFemtac/edit?usp=sharing)
-- [Web Frontend Framework Survey 2018](https://docs.google.com/presentation/d/1IuLVkctT1rceK7m3CB-_qN4SYNer4QSc9K32uuAsrOk/edit?usp=sharing) 評估 Vue, React, Angular，決定產品要使用的框架
+- [Web Frontend Framework Survey 2018](https://docs.google.com/presentation/d/1IuLVkctT1rceK7m3CB-_qN4SYNer4QSc9K32uuAsrOk/edit?usp=sharing) 評估 Vue, React, Angular，決定產品要使用的框架 -->
 
 **Products**
 
@@ -346,10 +384,10 @@ A facebook chatbot for search and regular notice weather information, the data a
 
 ## Education
 
-- **國立交通大學 National Chiao Tung University (NCTU)**  
+- **國立交通大學 National Chiao Tung University**  
   _2015/09 - 2017/09_  
   Master of Computer Science and Engineering
 
-- **國立臺灣科技大學 National Taiwan University of Science and Technology (NTUST)**  
+- **國立臺灣科技大學 National Taiwan University of Science and Technology**  
   _2011/09 - 2015/07_  
   Bachelor of Electronic and Computer Engineering
