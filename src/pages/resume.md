@@ -27,7 +27,7 @@ In my spare time, I engage in activities that contribute to my professional grow
 
 - Large-scale system and architecture design
 - Performance optimization
-- Backend development, DevOps
+- Full stack Development
 
 ## Technical Skills
 
