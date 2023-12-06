@@ -116,7 +116,7 @@ AsiaYo is an online travel agent platform for booking accommodations, offering q
 - Integrated various payment gateways, including Braintree, Tappay, and Atome, supporting both TWD and USD currencies.
 - Implemented GA tracking in both web and app environments, enabling comprehensive analytics and insights into user behavior.
 - Integrated third-party services such as GTM, Facebook Pixel, Firebase, Sentry, [Emarsys CRM](https://github.com/emartech/react-native-emarsys-sdk), and [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-react-native-plugin), enriching tracking capabilities and improving marketing strategies.
-- Maintain Javascript SDK for Affiliate Marketing, enabling effective tracking and analysis of affiliate activities in web & app.
+- Maintained Javascript SDK for Affiliate Marketing, enabling effective tracking and analysis of affiliate activities in web & app.
 - Planned and implemented Promotion page in web & mobile app webview. Also write a document to teach operation team how to manage the promotion content.
   - <https://asiayo.com/zh-tw/package/cruise/>
   - <https://asiayo.com/zh-tw/journey/Diamond-Princess/>.
