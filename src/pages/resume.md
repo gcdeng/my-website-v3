@@ -19,7 +19,7 @@ import udemyBlockchainCertificateImgUrl from '@site/static/img/certificate/UC-84
 **Eric 鄧國欽**  
 <ericdenggc@gmail.com>
 
-I am passionate about Frontend Development, familiar with React.js, experience in e-commerce system, and constantly learning new technologies to tackle complex challenges. Building a user-friendly product that can help people and make a positive impact is my purpose.
+I am passionate about Frontend Development, familiar with React.js, experience in E-commerce system, and constantly learning new technologies to tackle complex challenges. Building a user-friendly product that can help people and make a positive impact is my purpose.
 
 In my spare time, I engage in activities that contribute to my professional growth. I enjoy working out to maintain focus and discipline. Listening to podcasts helps me stay up-to-date with the latest industry trends.
 
