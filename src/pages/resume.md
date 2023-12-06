@@ -88,7 +88,7 @@ _2022/09 - Present_
 
 [AsiaYo Web](https://asiayo.com/), iOS and Android App
 
-AsiaYo is an online travel agent platform for booking accommodations, offering quality recommendations in popular Asian travel destinations such as Taiwan, Korea, Thailand, and Japan
+AsiaYo is an online travel agent platform for booking accommodations, offering quality recommendations in popular Asian travel destinations such as Taiwan, Japan, Korea and Thailand.
 
 **Tech Stack**
 
