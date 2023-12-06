@@ -40,6 +40,7 @@ In my spare time, I engage in activities that contribute to my professional grow
 - Cross browser compatible & responsive web design
 - Data Fetching: [Axios](https://github.com/axios/axios), [SWR](https://swr.vercel.app/), [React Apollo GraphQL Client](https://www.apollographql.com/docs/react), [Socket.io](http://socket.io/), [React Query](https://tanstack.com/query/v3/docs/react/overview)
 - Build Tools: Webpack, ESLint, Babel, Prettier, Gulp, PostCSS, cssnano, Autoprefixer, UglifyJS, Storybook
+- Monorepo tool: [Lerna](https://github.com/lerna/lerna)
 - SEO Optimization
   - Pre-rendering: SSR, SSG, ISR, [Prerender.io](http://prerender.io/)
   - Google Search Console
@@ -59,8 +60,7 @@ In my spare time, I engage in activities that contribute to my professional grow
   - Loadable Components
   - Images Optimization
 - Frontend Logging: Sentry
-- Monorepo tool: [Lerna](https://github.com/lerna/lerna)
-- Build CI with Docker, Azure Pipeline, AWS, Drone
+- CI/CD: Docker, Azure Pipeline, AWS, Drone
 - Visualization: D3.js, ECharts, SVG, SVG.js, Canvas, Fabric.js, GSAP
 - CMS: Magento, [Contentful](https://www.contentful.com/)
 - Backend Development: Node.js, Express.js, MongoDB
