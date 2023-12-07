@@ -119,7 +119,7 @@ AsiaYo is an online travel agent platform for booking accommodations, offering q
 - Maintained Javascript SDK for Affiliate Marketing, enabling effective tracking and analysis of affiliate activities in web & app.
 - Planned and implemented Promotion page in web & mobile app webview. Also write a document to teach operation team how to manage the promotion content.
   - <https://asiayo.com/zh-tw/package/cruise/>
-  - <https://asiayo.com/zh-tw/journey/Diamond-Princess/>.
+  - <https://asiayo.com/zh-tw/journey/Diamond-Princess/>
 - Planned and implemented new product line for selling packaged travel goods in web & mobile app.
 
 ### Senior Frontend Engineer at HTC VIVE
