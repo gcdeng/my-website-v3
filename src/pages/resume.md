@@ -39,7 +39,7 @@ In my spare time, I engage in activities that contribute to my professional grow
 - Component Library: [Chakra UI](https://chakra-ui.com/), [Element UI](https://element.eleme.io/#/en-US), Bootstrap
 - Cross browser compatible & responsive web design
 - Data Fetching: [Axios](https://github.com/axios/axios), [SWR](https://swr.vercel.app/), [React Apollo GraphQL Client](https://www.apollographql.com/docs/react), [Socket.io](http://socket.io/), [React Query](https://tanstack.com/query/v3/docs/react/overview)
-- Build Tools: Webpack, ESLint, Babel, Prettier, Gulp, PostCSS, cssnano, Autoprefixer, UglifyJS, Storybook
+- Build Tools: Webpack, Babel, ESLint, Prettier, Storybook, Gulp
 - Monorepo tool: [Lerna](https://github.com/lerna/lerna)
 - SEO Optimization
   - Pre-rendering: SSR, SSG, ISR, [Prerender.io](http://prerender.io/)
