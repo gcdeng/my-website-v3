@@ -19,14 +19,13 @@ import udemyBlockchainCertificateImgUrl from '@site/static/img/certificate/UC-84
 **Eric 鄧國欽**  
 <ericdenggc@gmail.com>
 
-I am passionate about Frontend Development, 3 years in React.js, 3 years in Vue.js, experience in web, mobile app, E-commerce system development, and constantly learning new technologies to tackle complex challenges. Building a user-friendly product that can help people and make a positive impact is my purpose.
+I am passionate about Frontend Development, 3 years in React.js, 3 years in Vue.js. Experience in web, mobile app, SEO, Performance Optimization and constantly learning new technologies to tackle complex challenges. Building a user-friendly product that can help people and make a positive impact is my purpose.
 
 In my spare time, I engage in activities that contribute to my professional growth. I enjoy working out to maintain focus and discipline. Listening to podcasts helps me stay up-to-date with the latest industry trends.
 
 ## Objective of my next career
 
 - Large-scale system and architecture design
-- Performance optimization
 - Full stack Development
 
 ## Technical Skills
@@ -41,7 +40,7 @@ In my spare time, I engage in activities that contribute to my professional grow
 - Data Fetching: [Axios](https://github.com/axios/axios), [SWR](https://swr.vercel.app/), [React Apollo GraphQL Client](https://www.apollographql.com/docs/react), [Socket.io](http://socket.io/), [React Query](https://tanstack.com/query/v3/docs/react/overview)
 - Build Tools: Webpack, Babel, ESLint, Prettier, Storybook, Gulp
 - Monorepo tool: [Lerna](https://github.com/lerna/lerna)
-- SEO Optimization
+- SEO
   - Pre-rendering: SSR, SSG, ISR, [Prerender.io](http://prerender.io/)
   - Google Search Console
   - JSON-LD structured data
