@@ -199,12 +199,11 @@ My primary responsibilities include refactor legacy websites and develop new pro
   - Implemented lazy loading.
   - Evaluated the possibility of removing or replacing packages.
   - Utilized DevTools to analyze rendering performance.
-- Deployed and configured development environments.
 - Implemented i18n multiple languages.
 - Integrated real-time data and UI state updates (Long polling, Websocket).
 - Integrated image streaming, concurrently drawing specific shapes, text, and images on the video feed.
 - Developed a drawing tool allowing users to draw lines, rectangles, polygons, etc., on image thumbnails, with coordinates sent to the backend via API for analysis area configuration.
-- Developed a form configuration interface with various form components, field validation, and photo upload functionalities (from local, NAS, webcam, screenshot of image stream).
+- Developed various form components with field validation, and photo upload functionalities (from local, NAS, webcam, screenshot of image stream).
 - Created a wizard window component for step-by-step form configuration, including data transfer and validation between each step.
 - Visualized statistical data or system information into interactive charts using data visualization libraries such as D3.js and ECharts.
 - Developed RESTful APIs using Node.js, Express, and MongoDB.
@@ -243,7 +242,7 @@ My primary responsibilities include refactor legacy websites and develop new pro
 
 - _[QVR Smart Search](https://www.qnap.com/zh-tw/software/qvr-pro)_
 
-  使用 Vue.js 開發的 SPA，單獨負責所有前端功能，參與規劃、設計、開發、串接 API，使用 Vuex 管理複雜且需要即時更新的 UI 元件狀態。
+  使用 Vue.js 開發的 SPA，單獨負責所有前端功能，參與規劃、設計、開發、API 串接整合，使用 Vuex 管理複雜且需要即時更新的 UI 元件狀態。
 
   產品主要功能為串接多個監控產品，提供影像辨識功能。需顯示串接產品的狀態，包含安裝進度、產品資訊、認證授權、錯誤訊息等。
 
