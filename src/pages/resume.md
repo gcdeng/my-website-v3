@@ -21,9 +21,9 @@ import udemyBlockchainCertificateImgUrl from '@site/static/img/certificate/UC-84
 
 I am passionate about Frontend Development, 3 years in React.js, 3 years in Vue.js. Experience in web, mobile app, SEO, performance optimization and constantly learning new technologies to tackle complex challenges. Building a user-friendly product that can help people and make a positive impact is my purpose.
 
-In my spare time, I engage in activities that contribute to my professional growth. I enjoy working out to maintain focus and discipline. Listening to podcasts helps me stay up-to-date with the latest industry trends.
+<!-- In my spare time, I engage in activities that contribute to my professional growth. I enjoy working out to maintain focus and discipline. Listening to podcasts helps me stay up-to-date with the latest industry trends. -->
 
-## Objective of my next career
+## Objective of next career
 
 - Large-scale system and architecture design
 - Full stack Development
@@ -31,25 +31,22 @@ In my spare time, I engage in activities that contribute to my professional grow
 ## Technical Skills
 
 - HTML5, CSS3, JavaScript (ES6+)
-- React.js Tech stack: Hook, Context, Redux, React Router, CRA, Next.js, React Intl, next-i18next
+- React.js Tech stack: Next.js, React Router, Hook, Context, Redux
 - React Native: Navigation, Notification, Webview, Deep Linking, Code Push, Flipper
 - Vue.js 2 Tech Stack: Vuex, Vue Router, Vue CLI, Nuxt.js, Vue-i18n, vue-devtools
 - CSS: SASS/SCSS, styled-components, CSS Modules, Flexbox, Grid Layout
-- Component Library: [Chakra UI](https://chakra-ui.com/), [Element UI](https://element.eleme.io/#/en-US), Bootstrap
-- Cross browser compatible & responsive web design
+- UI Component Library: [Chakra UI](https://chakra-ui.com/), [Element UI](https://element.eleme.io/#/en-US), Bootstrap
 - Data Fetching: [Axios](https://github.com/axios/axios), [SWR](https://swr.vercel.app/), [React Apollo GraphQL Client](https://www.apollographql.com/docs/react), [Socket.io](http://socket.io/), [React Query](https://tanstack.com/query/v3/docs/react/overview)
-- Build Tools: Webpack, Babel, ESLint, Prettier, Storybook, Gulp
-- Monorepo tool: [Lerna](https://github.com/lerna/lerna)
 - SEO
-  - Pre-rendering: SSR, SSG, ISR, [Prerender.io](http://prerender.io/)
+  <!-- - Pre-rendering: SSR, SSG, ISR, [Prerender.io](http://prerender.io/)
   - Google Search Console
   - JSON-LD structured data
   - Metadata, Open Graph Tags, react-helmet, canonical
   - robots.txt, sitemap.xml
   - Semantic HTML
-  - Internal Links
+  - Internal Links -->
 - Performance Optimization
-  - Web Vitals
+  <!-- - Web Vitals
   - Chrome Developer Tools (Performance profiling, Lighthouse, PageSpeed Insights)
   - React DevTools
   - Cache strategies
@@ -57,23 +54,21 @@ In my spare time, I engage in activities that contribute to my professional grow
   - Code splitting
   - Lazy loading
   - Loadable Components
-  - Images Optimization
-- Frontend Logging: Sentry
+  - Images Optimization -->
+- Cross browser compatible & responsive web design
+- Build Tools: Webpack, Babel, ESLint, Prettier, Storybook, Gulp
+- Monorepo: [Lerna](https://github.com/lerna/lerna)
+- Monitoring: Sentry, Firebase
 - CI/CD: Docker, Azure Pipeline, AWS, Drone
 - Visualization: D3.js, ECharts, SVG, SVG.js, Canvas, Fabric.js, GSAP
 - CMS: Magento, [Contentful](https://www.contentful.com/)
 - Backend Development: Node.js, Express.js, MongoDB
 - Blockchain: Solidity, Hardhat, Web3.js, Metamask, WalletConnect, Infura, Moralis
 
-### Learning recently
-
-- Use AI tools to enhance work efficiency, e.g. ChatGPT, Github Copilot
-
 ## Soft Skills
 
-- Not just coding but work with ownership and self-motivated
-- From business requirements to live product. planning, analysis side effect, task prioritization, effort estimation, implement, testing, collaborate with team members
-- Provide design suggestions and technology solutions to PM & UI/UX Designer for building a better production together
+- From zero to live product. Planning, requirements analysis, task prioritization, time estimation, implementation, testing, deployment, collaborate with team member
+- Provide technology solutions to members for building a better production together
 - Design and integrate API with backend engineer
 - Write engineering spec, wiki, problem solving journey
 
@@ -83,54 +78,51 @@ In my spare time, I engage in activities that contribute to my professional grow
 
 _2022/09 - Present_
 
-**Products**
+#### Products
 
 [AsiaYo Web](https://asiayo.com/), iOS and Android App
 
 AsiaYo is an online travel agent platform for booking accommodations, offering quality recommendations in popular Asian travel destinations such as Taiwan, Japan, Korea and Thailand.
 
-**Tech Stack**
+#### Tech Stack
 
 - Web: React.js, Lerna, styled-components, Apollo, GraphQL, Webpack and Internal UI component library
-
 - iOS and Android App: React Native, styled-components, Redux, React Query, React Navigation , Universal Deep Linking (AppsFlyer), Code Push, Flipper, Visual Studio App Center
 
-**Experience**
+#### Experience
 
 - Led a team of 3 Frontend developers to collaborate with Backend team, PM team, QA team, Design team to deliver projects.
-- Discussing business requirements, analyzing technical feasibility, system analysis and design, evaluating development time to help PM assess resource cost.
-- Overseeing task assignment, scheduling, and conducting code reviews to maintain codebase quality.
+  - Discuss business requirements, system analysis and design, evaluate development time to assess resource cost, oversee task assignment, arrange project schedule, and conduct code reviews to maintain codebase quality.
 - Collaborated with Backend Engineers to design APIs, draw API flow sequence diagram, ensuring efficient communication between frontend and backend systems.
-- Maintained technical documentation to facilitate knowledge sharing and smooth onboarding of new team members.
-- Mid-level Frontend Engineer acquisition, responsible for resume checking, assignment code review and first round technical interview.
-- Continuously researching new technologies, assessing the cost-effectiveness of adopting them in existing projects.
-- Troubleshooting urgent production issues.
 - Upgraded React from version 17 to 18, leveraging the latest features and enhancing overall performance.
+- Refactor existing web project from React + webpack to Next.js 14 App Router.
 - Upgraded React Native from version 0.67 to 0.72.4 and target SDK version (iOS SDK 16, Android SDK 13).
 - Implemented Server-Side Rendering (SSR) using React 18 Client & Server rendering API, Apollo React Client, Helmet, and Loadable Components.
 - Optimized Web Vitals, focusing on Largest Contentful Paint (LCP) and Cumulative Layout Shift (CLS) to enhance website performance and user experience.
 - Implemented SEO strategies including metadata optimization, JSON-LD structured data, canonical, alternate link and resolve Google Search Console issues.
-- Leveraged [Contentful](https://www.contentful.com/) CMS to develop customizable SEO content, enabling efficient management and customization of SEO elements.
+- Leveraged [Contentful](https://www.contentful.com/) CMS to enable efficient management and customization of SEO content.
 - Developed an App Notification Center, enhancing user engagement and providing timely updates and alerts.
 - Integrated various payment gateways, including Braintree, Tappay, and Atome, supporting both TWD and USD currencies.
 - Integrated third-party services such as GTM, GA, Facebook Pixel, Firebase, Sentry, [Emarsys CRM](https://github.com/emartech/react-native-emarsys-sdk), and [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-react-native-plugin), enriching tracking capabilities and improving marketing strategies.
+- Planned and implemented static promotion page in web & mobile app webview.
+- Built new product line for selling packaged travel goods in web & mobile app, ex: cruise, group tour.
 - Maintained Javascript SDK for Affiliate Marketing, enabling effective tracking and analysis of affiliate activities in web & app.
-- Planned and implemented Promotion page in web & mobile app webview. Also write a document to teach operation team how to manage the promotion content.
-  - <https://asiayo.com/zh-tw/package/cruise/>
-  - <https://asiayo.com/zh-tw/journey/Diamond-Princess/>
-- Planned and implemented new product line for selling packaged travel goods in web & mobile app.
+- Mid-level Frontend Engineer acquisition, responsible for resume checking, assignment code review and first round technical interview.
+- Continuously researching new technologies, assessing the cost-effectiveness of adopting them in existing projects.
+- Troubleshooting urgent production issues.
+- Maintained technical documentation to facilitate knowledge sharing and smooth onboarding of new team members.
 
 ### Senior Frontend Engineer at HTC VIVE
 
 _2021/01 - 2022/08_
 
-**Products**
+#### Products
 
 - [VIVERSE Market](https://market.viverse.com/) - NFT marketplace focusing on Anime, Cartoon, and Games (ACG) themed NFTs.
 - [VIVE Arts NFT](https://nft.vivearts.com/) - NFT marketplace focusing on Arts and Collectibles.
 - [VIVEPORT](https://www.viveport.com/) - VR app store. Revamp web frontend and maintain issues of related legacy microservices.
 
-**Tech Stack**
+#### Tech Stack
 
 React.js, React Hook, React Context, React Router, Redux, [Magento PWA Studio](https://developer.adobe.com/commerce/pwa-studio/), Next.js, [ChakraUI](https://chakra-ui.com/), Webpack, ESLint, [Storybook](https://storybook.js.org/), [Bit.dev](https://bit.dev/), [Prerender.io](https://prerender.io/), [Sentry](https://sentry.io/welcome/), GA, GTM, [CookiePro](https://www.cookiepro.com/)
 
@@ -142,38 +134,43 @@ React.js, React Hook, React Context, React Router, Redux, [Magento PWA Studio](h
 
 [Web3.js](https://web3js.readthedocs.io/en/v1.7.3/), [Metamask](https://metamask.io/), [WalletConnect](https://walletconnect.com/), [Infura](https://infura.io/), [Moralis](https://moralis.io/)
 
-**Experience**
+<details>
+<summary>Details</summary>
 
-1. Buy NFT & Blind Box with credit card or cryptocurrency
-   - Support Ethereum and Matic (Polygon)
-   - Connect with [MetaMask](https://metamask.io/) & [WalletConnect](https://walletconnect.com/) protocol using [Web3.js](https://web3js.readthedocs.io/en/v1.7.0/) to interact with smart contract
-   - Integrate dApp browser in crypto wallet mobile app
-   - Support Pre-mint & Lazy mint NFT
-   - NFT Private sales (Whitelist) using Merkle Tree
-   - Timed auction & reserved auction
-   - Redeem NFT with redemption code that purchased from 7-11 ibon
-   - Withdraw NFT to a specific wallet address
-2. Implement all features common in E-commerce, including but not limited to:
-   - checkout
-   - payment
-   - member account setting
-   - shareable profile & collectibles
-   - multi-currency stores, include TWD, USD, JPY
-   - multilingual, include English, Japanese & Traditional Chinese
-   - Google 2FA
-3. API & GraphQL integration with [Magento](https://business.adobe.com/products/magento/magento-commerce.html) CMS backend service
-4. OAuth integration with [HTC account](https://account.htcvive.com/), Google, Metamask
-5. Build internal React component library with [storybook](https://storybook.js.org/) and [Bit.dev](https://bit.dev/)
-6. Setup CI pipeline with Azure DevOps
-7. Optimize SEO
-   - Setup robots.txt, sitemap.xml and Google Search Console
-   - Integrate [Prerender.io](https://prerender.io/) for web crawlers
-   - Handle metadata and open graph tags
-8. Integrate 3rd-party services:
-   - [Sentry](https://sentry.io/welcome/) service for frontend logging, issue tracking
-   - [CookiePro](https://www.cookiepro.com/) for cookie consent
-   - GTM
-   - GA
+#### Experience
+
+- Buy NFT & Blind Box with credit card or cryptocurrency
+  - Support Ethereum and Matic (Polygon)
+  - Connect with [MetaMask](https://metamask.io/) & [WalletConnect](https://walletconnect.com/) protocol using [Web3.js](https://web3js.readthedocs.io/en/v1.7.0/) to interact with smart contract
+  - Integrate dApp browser in crypto wallet mobile app
+  - Support Pre-mint & Lazy mint NFT
+  - NFT Private sales (Whitelist) using Merkle Tree
+  - Timed auction & reserved auction
+  - Redeem NFT with redemption code that purchased from 7-11 ibon
+  - Withdraw NFT to a specific wallet address
+- Implement all features common in E-commerce, including but not limited to:
+  - checkout
+  - payment
+  - member account setting
+  - shareable profile & collectibles
+  - multi-currency stores, include TWD, USD, JPY
+  - multilingual, include English, Japanese & Traditional Chinese
+  - Google 2FA
+- API & GraphQL integration with [Magento](https://business.adobe.com/products/magento/magento-commerce.html) CMS backend service
+- OAuth integration with [HTC account](https://account.htcvive.com/), Google, Metamask
+- Build internal React component library with [storybook](https://storybook.js.org/) and [Bit.dev](https://bit.dev/)
+- Setup CI pipeline with Azure DevOps
+- Optimize SEO
+  - Setup robots.txt, sitemap.xml and Google Search Console
+  - Integrate [Prerender.io](https://prerender.io/) for web crawlers
+  - Handle metadata and open graph tags
+- Integrate 3rd-party services:
+  - [Sentry](https://sentry.io/welcome/) service for frontend logging, issue tracking
+  - [CookiePro](https://www.cookiepro.com/) for cookie consent
+  - GTM
+  - GA
+
+</details>
 
 ### Frontend Engineer at QNAP
 
@@ -189,7 +186,10 @@ My primary responsibilities include refactor legacy websites and develop new pro
 
 我所在的團隊負責開發影像分析應用，包含人臉辨識、人流偵測等，產品是執行於 NAS 上的容器化網站應用程式。我的主要工作是開發及維護網站前端功能，使用的技術是 Vue.js 2，需與 UI/UX 設計師、後端工程師、DevOps、QA、機器學習工程師及 PM 合作。 -->
 
-**Experience**
+<details>
+<summary>Details</summary>
+
+#### Experience
 
 - Planned website architecture, including routes, pages, components, and UI state management.
 - Established a component library and page templates for shared use across multiple products.
@@ -230,7 +230,7 @@ My primary responsibilities include refactor legacy websites and develop new pro
 - [QNAP Seminar - Introduction to React Native](https://docs.google.com/presentation/d/10lN6AFiTiYfh6v56BiuUtV3Y4icSARR6MQCgXFemtac/edit?usp=sharing)
 - [Web Frontend Framework Survey 2018](https://docs.google.com/presentation/d/1IuLVkctT1rceK7m3CB-_qN4SYNer4QSc9K32uuAsrOk/edit?usp=sharing) 評估 Vue, React, Angular，決定產品要使用的框架 -->
 
-**Products**
+#### Products
 
 - _[QVR Human](https://www.qnap.com/zh-tw/software/qvr-human)_
 
@@ -260,6 +260,8 @@ My primary responsibilities include refactor legacy websites and develop new pro
   - QVR Face (User Profile Management System)
   - Smart Office
   - Tagging tool for training machine learning model
+
+</details>
 
 ## Certificates
 
