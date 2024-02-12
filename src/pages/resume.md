@@ -265,6 +265,9 @@ My primary responsibilities include refactor legacy websites and develop new pro
 
 ## Certificates
 
+<details>
+<summary>Details</summary>
+
 ### AppWorks School Blockchain Program Batch #1
 
 _2022/08/08 - 2022/12/15_
@@ -287,7 +290,12 @@ width="100%"
 
 https://www.udemy.com/certificate/UC-84d3335f-4f71-400e-854e-7328e1582446/
 
+</details>
+
 ## Personal Side Projects
+
+<details>
+<summary>Details</summary>
 
 ### [ETH Price Prediction Dapp](https://github.com/gcdeng/eth-price-prediction-dapp)
 
@@ -382,6 +390,8 @@ JavaScript, Webpack, Babel, css-loader, style-loader, bootstrap
 [Github](https://github.com/gcdeng/TenkiBot)
 
 A facebook chatbot for search and regular notice weather information, the data are crawled from CWB.
+
+</details>
 
 ## Education
 
