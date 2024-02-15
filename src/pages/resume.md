@@ -19,7 +19,7 @@ import udemyBlockchainCertificateImgUrl from '@site/static/img/certificate/UC-84
 **Eric 鄧國欽**  
 <ericdenggc@gmail.com>
 
-I am passionate about Frontend Development, 3 years in React.js, 3 years in Vue.js. Experience in web, mobile app, SEO, performance optimization and constantly learning new technologies to tackle complex challenges. Building a user-friendly product that can help people and make a positive impact is my purpose.
+I am a experienced Front-End Engineer with 3 years of React.js and 3 years of Vue.js experience. I have been responsible for the development and maintenance of a variety of web and app applications, particularly familiar with e-commerce products. I have extensive experience in SEO, performance optimization and constantly learning new technologies to tackle complex challenges. My purpose is to build user-friendly products that help people and create value.
 
 <!-- In my spare time, I engage in activities that contribute to my professional growth. I enjoy working out to maintain focus and discipline. Listening to podcasts helps me stay up-to-date with the latest industry trends. -->
 
