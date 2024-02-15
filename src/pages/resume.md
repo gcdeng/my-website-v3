@@ -91,8 +91,8 @@ AsiaYo is an online travel agent platform for booking accommodations, offering q
 
 #### Experience
 
-- Led a team of 3 Frontend developers to collaborate with Backend team, PM team, QA team, Design team to deliver projects.
-  - Discuss business requirements, system analysis and design, evaluate development time to assess resource cost, oversee task assignment, arrange project schedule, and conduct code reviews to maintain codebase quality.
+- Develop AsiaYo Web and App products and led a team of 3 Frontend developers to collaborate with Backend team, PM team, QA team, Design team.
+  - Project planning, discuss business requirements, system analysis and design, resource arrangement, break down tasks to other developers, arrange project schedule, conduct code reviews to maintain codebase quality, training newcomers.
 - Collaborated with Backend Engineers to design APIs, draw API flow sequence diagram, ensuring efficient communication between frontend and backend systems.
 - Upgraded React from version 17 to 18, leveraging the latest features and enhancing overall performance.
 - Refactor existing web project from React + webpack to Next.js 14 App Router.
