@@ -86,13 +86,13 @@ AsiaYo is an online travel agent platform for booking accommodations, offering q
 
 #### Tech Stack
 
-- Web: React.js, Lerna, styled-components, Apollo, GraphQL, Webpack and Internal UI component library
+- Web: React.js, Next.js, Lerna, Zustand, Apollo, GraphQL, Webpack, styled-components and Internal UI component library
 - iOS and Android App: React Native, styled-components, Redux, React Query, React Navigation , Universal Deep Linking (AppsFlyer), Code Push, Flipper, Visual Studio App Center
 
 #### Experience
 
 - Develop AsiaYo Web and App products and led a team of 3 Frontend developers to collaborate with Backend team, PM team, QA team, Design team.
-  - Project planning, discuss business requirements, system analysis and design, resource arrangement, break down tasks to other developers, arrange project schedule, conduct code reviews to maintain codebase quality, training newcomers.
+  - Project planning, system analysis and design, resource arrangement, arrange project schedule, conduct code reviews to maintain codebase quality, training newcomers.
 - Collaborated with Backend Engineers to design APIs, draw API flow sequence diagram, ensuring efficient communication between frontend and backend systems.
 - Upgraded React from version 17 to 18, leveraging the latest features and enhancing overall performance.
 - Refactor existing web project from React + webpack to Next.js 14 App Router.
