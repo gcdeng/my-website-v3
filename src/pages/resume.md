@@ -19,14 +19,22 @@ import udemyBlockchainCertificateImgUrl from '@site/static/img/certificate/UC-84
 **Eric 鄧國欽**  
 <ericdenggc@gmail.com>
 
-I am a experienced Front-End Engineer with 3 years of React.js and 3 years of Vue.js experience. I have been responsible for the development and maintenance of a variety of web and app applications, particularly familiar with e-commerce products. I have extensive experience in SEO, performance optimization and constantly learning new technologies to tackle complex challenges. My purpose is to build user-friendly products that help people and create value.
+I am a Senior Frontend Engineer with 6+ years of experience, and a Frontend Tech Lead at AsiaYo currently.
 
-<!-- In my spare time, I engage in activities that contribute to my professional growth. I enjoy working out to maintain focus and discipline. Listening to podcasts helps me stay up-to-date with the latest industry trends. -->
+I specialize in React.js and Vue.js for web development, React Native for mobile apps. Throughout my career, I have led the development of various e-commerce products and backend systems, focusing on performance optimization, user experience, and SEO.
 
-## Objective of next career
+I am passionate about continuously learning technologies to foster personal growth and aim to create user-friendly products.
 
-- Large-scale system and architecture design
-- Full stack Development
+### Work Experience Summary
+
+- [**Frontend Tech Lead at AsiaYo**](/resume#frontend-tech-lead-at-asiayo) 2022/09 - Present
+- [**Senior Frontend Engineer at HTC VIVE**](/resume#senior-frontend-engineer-at-htc-vive) 2021/01 - 2022/08
+- [**Frontend Engineer at QNAP**](/resume#frontend-engineer-at-qnap) 2017/12 - 2021/01
+
+### Objective of next career
+
+- Large-scale system design
+- Full stack development
 
 ## Technical Skills
 
@@ -69,12 +77,11 @@ I am a experienced Front-End Engineer with 3 years of React.js and 3 years of Vu
 
 - From zero to live product. Planning, requirements analysis, task prioritization, time estimation, implementation, testing, deployment, collaborate with team member
 - Provide technology solutions to members for building a better production together
-- Design and integrate API with backend engineer
 - Write engineering spec, wiki, problem solving journey
 
-## Employment History
+## Work Experience
 
-### Senior Frontend Engineer (Tech Lead) at AsiaYo
+### Frontend Tech Lead at AsiaYo
 
 _2022/09 - Present_
 
@@ -91,25 +98,25 @@ AsiaYo is an online travel agent platform for booking accommodations, offering q
 
 #### Experience
 
-- Develop AsiaYo Web and App products and led a team of 3 Frontend developers to collaborate with Backend team, PM team, QA team, Design team.
-  - Project planning, system analysis and design, resource arrangement, arrange project schedule, conduct code reviews to maintain codebase quality, training newcomers.
+- Develop AsiaYo Web and App products and led a team of Frontend developers to collaborate with Backend team, PM team, QA team, Design team.
+  - Project planning, system analysis and design, resource arrangement, arrange project schedule, code reviews, training newcomers.
 - Collaborated with Backend Engineers to design APIs, draw API flow sequence diagram, ensuring efficient communication between frontend and backend systems.
 - Upgraded React from version 17 to 18, leveraging the latest features and enhancing overall performance.
 - Refactor existing web project from React + webpack to Next.js 14 App Router.
 - Upgraded React Native from version 0.67 to 0.72.4 and target SDK version (iOS SDK 16, Android SDK 13).
 - Implemented Server-Side Rendering (SSR) using React 18 Client & Server rendering API, Apollo React Client, Helmet, and Loadable Components.
-- Optimized Web Vitals, focusing on Largest Contentful Paint (LCP) and Cumulative Layout Shift (CLS) to enhance website performance and user experience.
+- Optimized Web Vitals, focusing on [Largest Contentful Paint (LCP)](https://web.dev/articles/lcp) and [Cumulative Layout Shift (CLS)](https://web.dev/articles/cls) to enhance website performance and user experience.
 - Implemented SEO strategies including metadata optimization, JSON-LD structured data, canonical, alternate link and resolve Google Search Console issues.
 - Leveraged [Contentful](https://www.contentful.com/) CMS to enable efficient management and customization of SEO content.
 - Developed an App Notification Center, enhancing user engagement and providing timely updates and alerts.
 - Integrated various payment gateways, including Braintree, Tappay, and Atome, supporting both TWD and USD currencies.
-- Integrated third-party services such as GTM, GA, Facebook Pixel, Firebase, Sentry, [Emarsys CRM](https://github.com/emartech/react-native-emarsys-sdk), and [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-react-native-plugin), enriching tracking capabilities and improving marketing strategies.
+- Integrated third-party services such as GTM, GA, Facebook Pixel, Firebase, Sentry, CRM, and [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-react-native-plugin), enriching tracking capabilities and improving marketing strategies.
 - Planned and implemented static promotion page in web & mobile app webview.
-- Built new product line for selling packaged travel goods in web & mobile app, ex: cruise, group tour.
+- Built new product line for selling packaged travel goods in web & mobile app, including cruise, group tour.
 - Maintained Javascript SDK for Affiliate Marketing, enabling effective tracking and analysis of affiliate activities in web & app.
+- Troubleshooting urgent production issues.
 - Mid-level Frontend Engineer acquisition, responsible for resume checking, assignment code review and first round technical interview.
 - Continuously researching new technologies, assessing the cost-effectiveness of adopting them in existing projects.
-- Troubleshooting urgent production issues.
 - Maintained technical documentation to facilitate knowledge sharing and smooth onboarding of new team members.
 
 ### Senior Frontend Engineer at HTC VIVE
@@ -133,9 +140,6 @@ React.js, React Hook, React Context, React Router, Redux, [Magento PWA Studio](h
 **Blockchain Smart Contract Integration**
 
 [Web3.js](https://web3js.readthedocs.io/en/v1.7.3/), [Metamask](https://metamask.io/), [WalletConnect](https://walletconnect.com/), [Infura](https://infura.io/), [Moralis](https://moralis.io/)
-
-<details>
-<summary>Details</summary>
 
 #### Experience
 
@@ -170,8 +174,6 @@ React.js, React Hook, React Context, React Router, Redux, [Magento PWA Studio](h
   - GTM
   - GA
 
-</details>
-
 ### Frontend Engineer at QNAP
 
 _2017/12 - 2021/01_
@@ -185,9 +187,6 @@ My primary responsibilities include refactor legacy websites and develop new pro
 <!-- QNAP 是一家總部位於台灣的 NAS 設備製造商，業務範圍涵蓋軟體研發、硬體設計及自有生產線，目前專注於提供儲存、網通及智慧視訊監控解決方案。
 
 我所在的團隊負責開發影像分析應用，包含人臉辨識、人流偵測等，產品是執行於 NAS 上的容器化網站應用程式。我的主要工作是開發及維護網站前端功能，使用的技術是 Vue.js 2，需與 UI/UX 設計師、後端工程師、DevOps、QA、機器學習工程師及 PM 合作。 -->
-
-<details>
-<summary>Details</summary>
 
 #### Experience
 
@@ -230,7 +229,8 @@ My primary responsibilities include refactor legacy websites and develop new pro
 - [QNAP Seminar - Introduction to React Native](https://docs.google.com/presentation/d/10lN6AFiTiYfh6v56BiuUtV3Y4icSARR6MQCgXFemtac/edit?usp=sharing)
 - [Web Frontend Framework Survey 2018](https://docs.google.com/presentation/d/1IuLVkctT1rceK7m3CB-_qN4SYNer4QSc9K32uuAsrOk/edit?usp=sharing) 評估 Vue, React, Angular，決定產品要使用的框架 -->
 
-#### Products
+<details>
+<summary>Products</summary>
 
 - _[QVR Human](https://www.qnap.com/zh-tw/software/qvr-human)_
 
@@ -265,16 +265,13 @@ My primary responsibilities include refactor legacy websites and develop new pro
 
 ## Certificates
 
-<details>
-<summary>Details</summary>
-
 ### AppWorks School Blockchain Program Batch #1
 
 _2022/08/08 - 2022/12/15_
 
 <img
 src={appWorksBlockchainCertificateImgUrl}
-width="100%"
+width="80%"
 />
 
 https://school.appworks.tw/blockchain-program/
@@ -285,12 +282,10 @@ _2022/02/06_
 
 <img
 src={udemyBlockchainCertificateImgUrl}
-width="100%"
+width="80%"
 />
 
 https://www.udemy.com/certificate/UC-84d3335f-4f71-400e-854e-7328e1582446/
-
-</details>
 
 ## Personal Side Projects
 
