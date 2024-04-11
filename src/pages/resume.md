@@ -21,7 +21,7 @@ import udemyBlockchainCertificateImgUrl from '@site/static/img/certificate/UC-84
 
 I am a Senior Frontend Engineer with 6+ years of experience, and a Frontend Tech Lead at AsiaYo currently.
 
-I specialize in React.js and Vue.js for web development, React Native for mobile apps. Throughout my career, I have led the development of various e-commerce products and backend systems, focusing on performance optimization, user experience, and SEO.
+I specialize in React.js and Vue.js for web development, React Native for mobile apps. Throughout my career, I have led the development of various e-commerce products and admin backstage systems, focusing on performance optimization, user experience, and SEO.
 
 I am passionate about continuously learning technologies to foster personal growth and aim to create user-friendly products.
 
